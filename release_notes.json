@@ -3,6 +3,15 @@
   "version": "next",
   "released": null,
   "title": "Coming in the next release",
+  "added": [],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.25",
+  "released": "2026-10-06T17:30:32",
+  "title": "Planefence, off-site backups, live release notes and roadmap",
   "added": [
    "Planefence and Plane-Alert: which aircraft flew over Arkansas, with photos, airlines and routes, and a list of interesting aircraft (military, government, rare); in the Tools menu, with notifications (Discord, Mastodon and others) set up on an administrator-only configuration page. It arrives with Update Now, with no files to edit by hand",
    "Off-site backups: Admin > Backups > Off-Site Copy sends encrypted copies of everything (the portal database with all flights and history, the hub's secret keys and settings, Grafana, statistics history and the hub's traffic history) to an SFTP server, S3 bucket, NAS share or WebDAV, with a small daily copy and a big weekly copy as separate files, connection test, copy-now buttons and a history of runs",

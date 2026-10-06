@@ -1,52 +1,52 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-06",
  "items": [
   {
    "title": "Planefence and Plane-Alert",
    "summary": "Which aircraft flew over Arkansas, with photos, airlines and routes, plus a list of interesting aircraft (military, government, rare). Notifications to Discord and others are set up by an administrator.",
-   "status": "next",
+   "status": "done",
    "area": "Data"
   },
   {
    "title": "Off-site backups",
    "summary": "Encrypted copies of everything (database, settings, statistics, traffic history) sent to a server, bucket or NAS elsewhere, a small daily copy and a big weekly copy.",
-   "status": "next",
+   "status": "done",
    "area": "Hub"
   },
   {
    "title": "Restore part of a backup",
    "summary": "Bring back one area (accounts, stations, flight history...) or a single person, station or alert rule instead of everything.",
-   "status": "next",
+   "status": "done",
    "area": "Hub"
   },
   {
    "title": "Aircraft type filter",
    "summary": "Show only helicopters, jets, turboprops, piston props, large and heavy aircraft, gliders, drones or ground vehicles.",
-   "status": "next",
+   "status": "done",
    "area": "Map"
   },
   {
    "title": "Collapsible filter sections",
    "summary": "Every group of map filters folds up like the aircraft details, remembers how you left it, and shows how many filters are active.",
-   "status": "next",
+   "status": "done",
    "area": "Map"
   },
   {
    "title": "Keyboard shortcuts popup",
    "summary": "The shortcuts help opens in the middle of the screen, on top of everything.",
-   "status": "next",
+   "status": "done",
    "area": "Map"
   },
   {
    "title": "Sign-up checklist",
    "summary": "Registration and password forms list the requirements and tick them as you type, including whether the two passwords match.",
-   "status": "next",
+   "status": "done",
    "area": "Accounts"
   },
   {
    "title": "Live Release Notes and Roadmap",
    "summary": "These two pages update themselves from the project's repository, so they stay current while work is under way.",
-   "status": "next",
+   "status": "done",
    "area": "Hub"
   },
   {
@@ -75,7 +75,7 @@
   },
   {
    "title": "Repeater directory",
-   "summary": "An Arkansas directory of ham FM and DMR repeaters laid out like the airports, built from entries by local hams and sysops, with links out to RepeaterBook and RadioID.",
+   "summary": "An Arkansas directory of repeaters in every mode (FM, DMR, D-STAR, Fusion, P25 and more) laid out like the airports, started from open data and local lists and kept right by the community. Anyone signed in can submit one or report a correction.",
    "status": "planned",
    "area": "Data"
   },
@@ -100,7 +100,7 @@
   {
    "title": "Support the project",
    "summary": "A page for donations toward running costs (Ko-fi and PayPal) and an equipment fund for antennas, receivers and mesh nodes the project installs at host sites. The page appears once the project's donation links are set up.",
-   "status": "next",
+   "status": "done",
    "area": "Community"
   },
   {
@@ -234,6 +234,66 @@
    "summary": "What was added, improved and fixed in every release, back to the first.",
    "status": "done",
    "area": "Hub"
+  },
+  {
+   "title": "Easier navigation on every page",
+   "summary": "The top menu and a bottom bar stay in view while you scroll long pages, on phones too.",
+   "status": "progress",
+   "area": "Hub"
+  },
+  {
+   "title": "A tidier Settings area",
+   "summary": "Admin settings regrouped into a sub-menu of shorter pages, with a search for any setting.",
+   "status": "progress",
+   "area": "Hub"
+  },
+  {
+   "title": "Search on the admin lists",
+   "summary": "Find a person, station, MLAT connection or map layer by typing.",
+   "status": "progress",
+   "area": "Accounts"
+  },
+  {
+   "title": "Search and sort on public lists",
+   "summary": "Search and sort the public Feeders list, and sort Flights, Flight History and Airports by any column.",
+   "status": "progress",
+   "area": "Stations"
+  },
+  {
+   "title": "How to Feed split by feed type",
+   "summary": "Separate pages for ADS-B, MLAT, UAT and Am I Feeding, with room for weather stations, ACARS and more.",
+   "status": "progress",
+   "area": "Stations"
+  },
+  {
+   "title": "Network coverage map",
+   "summary": "What the network covers, filterable by type: ADS-B, MLAT, UAT and later repeaters, radiosondes, weather and mesh.",
+   "status": "progress",
+   "area": "Map"
+  },
+  {
+   "title": "Choose your landing page",
+   "summary": "Each person picks which page they land on after signing in.",
+   "status": "progress",
+   "area": "Accounts"
+  },
+  {
+   "title": "ArkSignal: a new name",
+   "summary": "The network now covers far more than ADS-B (weather, radio, mesh and more), so it becomes ArkSignal, at arksignal.allisononline.org. The old addresses keep working for everyone already feeding.",
+   "status": "planned",
+   "area": "Community"
+  },
+  {
+   "title": "A new home page with a page for each service",
+   "summary": "A broad ArkSignal overview with live numbers and a card for each service (aircraft, weather, radio, mesh and more). Aircraft tracking becomes its own landing page, and every other service gets one tailored to it.",
+   "status": "planned",
+   "area": "Hub"
+  },
+  {
+   "title": "Report and correct repeaters",
+   "summary": "Submit a new repeater, flag a wrong frequency or tone or one that is off the air, and let sysops keep their own current, with a review queue and credit to contributors.",
+   "status": "planned",
+   "area": "Community"
   }
  ]
 }
