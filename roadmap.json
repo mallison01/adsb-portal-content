@@ -1,0 +1,239 @@
+{
+ "updated": "2026-10-07",
+ "items": [
+  {
+   "title": "Planefence and Plane-Alert",
+   "summary": "Which aircraft flew over Arkansas, with photos, airlines and routes, plus a list of interesting aircraft (military, government, rare). Notifications to Discord and others are set up by an administrator.",
+   "status": "next",
+   "area": "Data"
+  },
+  {
+   "title": "Off-site backups",
+   "summary": "Encrypted copies of everything (database, settings, statistics, traffic history) sent to a server, bucket or NAS elsewhere, a small daily copy and a big weekly copy.",
+   "status": "next",
+   "area": "Hub"
+  },
+  {
+   "title": "Restore part of a backup",
+   "summary": "Bring back one area (accounts, stations, flight history...) or a single person, station or alert rule instead of everything.",
+   "status": "next",
+   "area": "Hub"
+  },
+  {
+   "title": "Aircraft type filter",
+   "summary": "Show only helicopters, jets, turboprops, piston props, large and heavy aircraft, gliders, drones or ground vehicles.",
+   "status": "next",
+   "area": "Map"
+  },
+  {
+   "title": "Collapsible filter sections",
+   "summary": "Every group of map filters folds up like the aircraft details, remembers how you left it, and shows how many filters are active.",
+   "status": "next",
+   "area": "Map"
+  },
+  {
+   "title": "Keyboard shortcuts popup",
+   "summary": "The shortcuts help opens in the middle of the screen, on top of everything.",
+   "status": "next",
+   "area": "Map"
+  },
+  {
+   "title": "Sign-up checklist",
+   "summary": "Registration and password forms list the requirements and tick them as you type, including whether the two passwords match.",
+   "status": "next",
+   "area": "Accounts"
+  },
+  {
+   "title": "Live Release Notes and Roadmap",
+   "summary": "These two pages update themselves from the project's repository, so they stay current while work is under way.",
+   "status": "next",
+   "area": "Hub"
+  },
+  {
+   "title": "Map revamp: one map for every kind of data",
+   "summary": "Preset views (Aircraft, Weather, Radio, Mesh, Everything), one search box for everything, active-filter chips and per-layer filter sections.",
+   "status": "progress",
+   "area": "Map"
+  },
+  {
+   "title": "Places, roads, counties and hospitals",
+   "summary": "County and city boundaries, major roads, ZIP codes and hospitals with their trauma level and services, tied to their heliports, searchable by city or ZIP, with a drill-down panel showing everything nearby.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "Weather stations",
+   "summary": "Members' own weather stations (Ecowitt, Tempest, Weather Underground and more) with their own pages, current conditions, rain, wind, lightning and history, and a weather layer on the map, in the style of Weather Underground.",
+   "status": "planned",
+   "area": "Stations"
+  },
+  {
+   "title": "Radiosondes",
+   "summary": "Weather balloons launched near Arkansas: live tracks, predicted landing places and which of our stations heard them, using the public SondeHub data.",
+   "status": "planned",
+   "area": "Data"
+  },
+  {
+   "title": "Repeater directory",
+   "summary": "An Arkansas directory of ham FM and DMR repeaters laid out like the airports, built from entries by local hams and sysops, with links out to RepeaterBook and RadioID.",
+   "status": "planned",
+   "area": "Data"
+  },
+  {
+   "title": "Meshtastic and MeshCore nodes",
+   "summary": "Where the mesh nodes are, how far they reach, and what keeps the network healthy, with a guide for joining the Arkansas mesh.",
+   "status": "planned",
+   "area": "Stations"
+  },
+  {
+   "title": "ACARS messages",
+   "summary": "Aircraft datalink messages received by member stations, shown on the aircraft details and on a live messages page.",
+   "status": "planned",
+   "area": "Data"
+  },
+  {
+   "title": "Satellite-relayed aircraft",
+   "summary": "Positions of aircraft reported over Inmarsat, Iridium and HF radio by members with the right receivers.",
+   "status": "planned",
+   "area": "Data"
+  },
+  {
+   "title": "Support the project",
+   "summary": "A page for donations toward running costs (Ko-fi and PayPal) and an equipment fund for antennas, receivers and mesh nodes the project installs at host sites. The page appears once the project's donation links are set up.",
+   "status": "next",
+   "area": "Community"
+  },
+  {
+   "title": "Native replay and heatmap",
+   "summary": "Replay a past day and see where traffic flies, built into the map instead of the embedded classic tools.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "More of the classic map's features",
+   "summary": "Multi-select, persistence mode, QNH-corrected altitude and the remaining options of the classic tar1090 map.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "Phone polish",
+   "summary": "A second pass on phones, driven by real-world feedback.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "Email",
+   "summary": "Account verification, password reset by email and alert emails, once a sending service is chosen.",
+   "status": "planned",
+   "area": "Accounts"
+  },
+  {
+   "title": "Admin area allow-list",
+   "summary": "Limit the Admin area to chosen addresses.",
+   "status": "planned",
+   "area": "Accounts"
+  },
+  {
+   "title": "API keys",
+   "summary": "Request a key for a documented public API with fair limits.",
+   "status": "planned",
+   "area": "Accounts"
+  },
+  {
+   "title": "Built to scale and survive a failure",
+   "summary": "Designed so the hub, the MLAT server and the portal can run on more than one machine and share the load.",
+   "status": "planned",
+   "area": "Hub"
+  },
+  {
+   "title": "Weather alerts on the map",
+   "summary": "National Weather Service warnings (tornado, severe storm, flood) drawn as areas, with alerts to subscribers.",
+   "status": "idea",
+   "area": "Data"
+  },
+  {
+   "title": "Earthquakes and river gauges",
+   "summary": "USGS earthquake activity (New Madrid zone) and river and lake levels across Arkansas.",
+   "status": "idea",
+   "area": "Data"
+  },
+  {
+   "title": "River traffic (AIS)",
+   "summary": "Barges and boats on the Arkansas, White and Mississippi rivers from member AIS receivers.",
+   "status": "idea",
+   "area": "Stations"
+  },
+  {
+   "title": "Amateur radio extras",
+   "summary": "APRS stations, space weather and HF propagation, net schedules and Winlink gateways.",
+   "status": "idea",
+   "area": "Data"
+  },
+  {
+   "title": "Drone Remote ID",
+   "summary": "Drones that broadcast their identity and position, from member receivers.",
+   "status": "idea",
+   "area": "Stations"
+  },
+  {
+   "title": "Satellite imagery and passes",
+   "summary": "GOES satellite and lightning layers, and pass predictions for satellites over each station.",
+   "status": "idea",
+   "area": "Data"
+  },
+  {
+   "title": "Discord bot, phone app and kiosk mode",
+   "summary": "Alerts in Discord, an installable phone app, and a wall-display mode for clubs and emergency operations centers.",
+   "status": "idea",
+   "area": "Community"
+  },
+  {
+   "title": "Station achievements and leaderboards",
+   "summary": "Friendly recognition for range, uptime and contribution.",
+   "status": "idea",
+   "area": "Community"
+  },
+  {
+   "title": "One-click updates for the whole stack",
+   "summary": "New services appear on the hub with the Update button and no commands: the stack updater, MLAT and the hub itself.",
+   "status": "done",
+   "area": "Hub"
+  },
+  {
+   "title": "MLAT",
+   "summary": "A network MLAT server, MLAT status for every station, an MLAT network page showing who is synchronised with whom, and recognition by MLAT user name.",
+   "status": "done",
+   "area": "Stations"
+  },
+  {
+   "title": "How an aircraft is tracked",
+   "summary": "The aircraft card says whether a position came from ADS-B, MLAT, UAT/ADS-R, TIS-B or none, and how many stations hear it.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Service Status pages",
+   "summary": "A plain-words status page for everyone and an in-depth one for administrators.",
+   "status": "done",
+   "area": "Hub"
+  },
+  {
+   "title": "A complete How to Feed guide",
+   "summary": "How ADS-B, MLAT and UAT work, setup for new and existing stations, ports, troubleshooting and privacy.",
+   "status": "done",
+   "area": "Stations"
+  },
+  {
+   "title": "Classic map features: units, shortcuts, search, filters",
+   "summary": "Units (aeronautical, metric, imperial), keyboard shortcuts, search with lists and wildcards, data source and flags filters, jump to a place, shareable links, altitude chart and KML export.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Release Notes",
+   "summary": "What was added, improved and fixed in every release, back to the first.",
+   "status": "done",
+   "area": "Hub"
+  }
+ ]
+}

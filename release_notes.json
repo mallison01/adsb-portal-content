@@ -1,0 +1,342 @@
+[
+ {
+  "version": "next",
+  "released": null,
+  "title": "Coming in the next release",
+  "added": [
+   "Planefence and Plane-Alert: which aircraft flew over Arkansas, with photos, airlines and routes, and a list of interesting aircraft (military, government, rare); in the Tools menu, with notifications (Discord, Mastodon and others) set up on an administrator-only configuration page. It arrives with Update Now, with no files to edit by hand",
+   "Off-site backups: Admin > Backups > Off-Site Copy sends encrypted copies of everything (the portal database with all flights and history, the hub's secret keys and settings, Grafana, statistics history and the hub's traffic history) to an SFTP server, S3 bucket, NAS share or WebDAV, with a small daily copy and a big weekly copy as separate files, connection test, copy-now buttons and a history of runs",
+   "Restore Part: restore only some areas of a backup (accounts, stations, flight history, alerts, settings...), or bring back one person, station, role or alert rule with what belongs to it, in merge or replace mode, with a safety backup first. The off-site restore helper can also unpack only chosen parts",
+   "Aircraft Type filter on the live map: helicopters, jets, turboprops, piston props, large and heavy, light aircraft, gliders and balloons, drones, ground vehicles and unknown type, with counts",
+   "A public Roadmap page (/roadmap): what is coming next, in progress, planned and just released, filterable by area",
+   "Live Release Notes and Roadmap: both pages read their lists from the project's repository, so they update as soon as work is pushed instead of staying frozen at the last release (Admin > Updates > Live Content)",
+   "A Support page (hidden until an administrator sets it up in Admin > Support): why donations help, what the network costs to run with a monthly progress bar, links to Ko-fi and PayPal, and an Equipment Fund wish list for antennas, receivers and mesh nodes the project installs at host sites. The portal only links out and never handles payment details"
+  ],
+  "improved": [
+   "The keyboard shortcuts help opens as a popup in the middle of the screen, on top of everything",
+   "Registration, change password, reset and forgot-password forms list their requirements and tick them as you type, including user name rules, email format and whether the two passwords match",
+   "Every section of the live map's filters (Stations, Show, Data Source, Aircraft Flags, Aircraft Type, Altitude, Display and View, Layers) folds up like the sections of the aircraft details card, remembers whether you left it open, and shows a small count of the filters active in it"
+  ],
+  "fixed": [
+   "Am I Feeding said MLAT was not connected for a claimed station even when it was working"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.24",
+  "released": "2026-10-06T14:00:05",
+  "title": "Live map upgrades, MLAT user names, release notes",
+  "added": [
+   "MLAT User Name on the station page: stations that already use a different MLAT_USER are recognised by it (the Station ID is used when it is empty)",
+   "Units on the live map: aeronautical (ft, kt, nm), metric or imperial, chosen per visitor with a site default in Settings",
+   "Keyboard shortcuts on the live map with the same keys as tar1090 (F, I, U, V, L, O, K, B, R, H, Q, E, arrows, / and ?), plus a help panel",
+   "Search on the live map takes several terms with commas, * wildcards and ! to leave terms out, and also matches squawk and model",
+   "Aircraft Flags filter (military, interesting, PIA, LADD) in the live map's filter card",
+   "Jump to a place: type coordinates, an aircraft hex or an airport code in the search box and press Enter",
+   "Links to a view: the live map reads position, zoom, filters, units and the selected aircraft from the address, and Copy Link to This View builds one",
+   "Altitude chart and Export KML on the aircraft details card",
+   "Wide / Narrow button for the details card, a hover block on aircraft, a geometric-altitude label field and Reset My Map Settings",
+   "This Release Notes page"
+  ],
+  "improved": [
+   "Admin > Status says why a service failed, and its overall banner counts every row",
+   "The How to Feed page now says plainly that ultrafeeder users need nothing extra for MLAT, and explains UAT correctly: a station's 978 MHz aircraft travel through its normal feed, so no extra line, port or setting is needed",
+   "Data Source filter and the aircraft card treat UAT and ADS-R as one source, as the hub reports them"
+  ],
+  "fixed": [
+   "The stack updater clears a leftover parked container and retries, which fixes the 'portal FAILED' row on Admin > Status",
+   "A test that used a fixed date stopped working when the date arrived"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.23",
+  "released": "2026-10-06T02:03:39",
+  "title": "MLAT everywhere, service status, new feed page",
+  "added": [
+   "MLAT Network page: stations on a map, click one to see the stations it is synchronised with, coloured by how well their clocks agree",
+   "How an aircraft is tracked: the details card says whether the position came from ADS-B, MLAT, UAT/ADS-R, TIS-B or Mode S only, explains it, and for MLAT shows how many stations hear it",
+   "MLAT status in plain words on My Station (with what to fix), the public Feeders list and station pages, the public API, the feed check and the admin pages",
+   "Service Status pages: a plain-words page for everyone (/status) and an in-depth one for administrators with the reason behind each state",
+   "Data Source filter on the live map (ADS-B, MLAT, UAT/ADS-R, TIS-B, Mode S, other) with live counts",
+   "The hub itself is now managed by the stack updater, with the MLAT results input connected"
+  ],
+  "improved": [
+   "The How to Feed page was rewritten: how ADS-B, MLAT and UAT work, setup for new and existing stations, ports, troubleshooting and privacy",
+   "Nginx Proxy Manager is told to reload after any service is replaced, so a replaced container is never answered with a stale address"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.22",
+  "released": "2026-10-06T00:34:47",
+  "title": "Stack updater and MLAT server",
+  "added": [
+   "Stack updater (adsb-stack): one service that keeps every hub service in step with the compose files carried in its image, so new services appear on the hub with Update Now and no commands",
+   "MLAT server (adsb-mlat) running the upstream mlat-server, with Admin > MLAT showing connected stations and their health (never their locations)"
+  ],
+  "improved": [
+   "Update Now asks the stack updater to apply new services before Watchtower replaces images",
+   "Flight Progress draws the right aircraft shape for each type instead of one generic icon"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.21",
+  "released": "2026-10-05T22:48:19",
+  "title": "Secrets and privacy hardening",
+  "added": [],
+  "improved": [],
+  "fixed": [],
+  "security": [
+   "Two-factor secrets and webhook addresses are stored sealed, recovery codes are keyed, backups are encrypted",
+   "Unknown user names at sign-in are masked, an emergency command-line tool exists for administrators, and a privacy crawl test checks that exact locations are never published"
+  ]
+ },
+ {
+  "version": "1.0.20",
+  "released": "2026-10-05T22:03:32",
+  "title": "Two-factor sign-in",
+  "added": [
+   "Two-factor sign-in with an authenticator app, ten one-time recovery codes, administrator reset and a setting to require it for administrators"
+  ],
+  "improved": [],
+  "fixed": [
+   "Sky View no longer steps backward between position reports"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.19",
+  "released": "2026-10-05T21:47:02",
+  "title": "Alert webhooks and sign-in security",
+  "added": [
+   "Alert webhooks for Discord, Slack, ntfy or any JSON receiver, with limits and protection against unsafe addresses, so alerts work without email"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": [
+   "A list of your sign-ins with Sign Out per device, a per-address sign-in throttle, browser security headers, and an audit entry when an administrator signs in from a new address"
+  ]
+ },
+ {
+  "version": "1.0.18",
+  "released": "2026-10-05T21:18:36",
+  "title": "Flight History",
+  "added": [
+   "Flight History: the portal keeps its own log of every flight it hears, with a History page, period pickers and earlier-flight tracks; the live map's search suggests earlier flights",
+   "Station statistics links with a Station selector, and the Network Feeders dashboard in the Tools menu"
+  ],
+  "improved": [
+   "Highlight for aircraft matching your alert rules, a Watch This Aircraft button, a station coverage layer and airport weather (METAR) on airport markers",
+   "More reliable release script"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.16",
+  "released": "2026-10-05T20:16:33",
+  "title": "Sky View and weather updates",
+  "added": [
+   "Sky View: a live 3D view from an aircraft with terrain, drag to look around, click another aircraft to jump to it, aircraft drawn at their true altitude, and a heading tape",
+   "Weather layers update automatically, with an Update Now button and an updated time per layer"
+  ],
+  "improved": [],
+  "fixed": [
+   "Sky View no longer rewinds between reports"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.14",
+  "released": "2026-10-05T18:56:10",
+  "title": "Weather panel",
+  "added": [
+   "Weather panel with a tile for each layer, live preview, opacity slider, a 50-minute NEXRAD radar loop and winds aloft worked out from aircraft readings"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.13",
+  "released": "2026-10-05T18:19:36",
+  "title": "Airline logos and military emblems",
+  "added": [
+   "Real airline logos and real military service emblems on the live map, in the list (Airline column), on Flight Search and on Flight Progress"
+  ],
+  "improved": [
+   "Grafana dashboards"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.12",
+  "released": "2026-10-05T17:49:52",
+  "title": "Grafana sign-in message",
+  "added": [],
+  "improved": [],
+  "fixed": [
+   "A refused Grafana login now gets a clear hint about the password"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.11",
+  "released": "2026-10-05T17:42:21",
+  "title": "Map labels",
+  "added": [
+   "Labels on aircraft icons with airline logos, choose-your-own fields, size and background, the route, a selected-aircraft beacon, and the planned route on the map with progress"
+  ],
+  "improved": [
+   "Details card with folded sections; the All trails option honours the filters"
+  ],
+  "fixed": [
+   "Grafana setup now logs every step and says why it was refused"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.10",
+  "released": "2026-10-05T16:57:04",
+  "title": "About page and updates page",
+  "added": [
+   "Public About page"
+  ],
+  "improved": [
+   "The version, update check and Update Now moved to Admin > Updates"
+  ],
+  "fixed": [
+   "The switch command could use a cached older image"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.9",
+  "released": "2026-10-05T16:29:29",
+  "title": "One-command hub switch",
+  "added": [
+   "One command on the hub switches it to automatic updates; the hub's compose files now travel inside the portal image"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.8",
+  "released": "2026-10-05T16:06:26",
+  "title": "Automatic updates",
+  "added": [
+   "Automatic updates (Watchtower) every night at 4 a.m. and an Update Now button for administrators",
+   "Grafana and Prometheus images that carry their own configuration and dashboards"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.7",
+  "released": "2026-10-05T15:51:12",
+  "title": "Phone-friendly pages",
+  "added": [
+   "Mobile pass 1: a drawer menu, phone layouts for every page, and a live map with bottom sheets and a slide-up list"
+  ],
+  "improved": [],
+  "fixed": [
+   "Forms with a field named 'action' posted to the wrong address, which made Assign role fail with a 404"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.6",
+  "released": "2026-10-05T15:14:10",
+  "title": "Security settings",
+  "added": [],
+  "improved": [],
+  "fixed": [],
+  "security": [
+   "Session length limits, inactivity sign-out with a warning, administrator limits, password rules and age, and Sign Everyone Out"
+  ]
+ },
+ {
+  "version": "1.0.5",
+  "released": "2026-10-05T14:51:51",
+  "title": "Expired form tokens",
+  "added": [],
+  "improved": [],
+  "fixed": [
+   "Admin pages left open for an hour failed on the next action with 'The request could not be completed'; form tokens now last as long as the session, and refused actions explain why"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.4",
+  "released": "2026-10-05T14:15:36",
+  "title": "Quieter map",
+  "added": [],
+  "improved": [
+   "Aircraft labels are off by default"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.3",
+  "released": "2026-10-05T13:38:44",
+  "title": "Range, recovery and search",
+  "added": [
+   "Per-station range, account recovery by email or by a claimed station's UUID, delete your own account, a Contacts page, an alert notice, Hide Others on the live map, flight search, and sign-in by user name or email"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.2",
+  "released": "2026-10-05T04:08:35",
+  "title": "Email change and trail gaps",
+  "added": [
+   "Change your email address in your profile (password required)"
+  ],
+  "improved": [
+   "Trails break at gaps and draw short gaps dashed, like the classic map"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.1",
+  "released": "2026-10-05T03:38:00",
+  "title": "Trails and Grafana fixes",
+  "added": [],
+  "improved": [
+   "Trail labels are off by default"
+  ],
+  "fixed": [
+   "The Grafana heatmap opened mid-ocean instead of over the network's area, and its maps row opened collapsed",
+   "The trail now reaches the aircraft (recent and full traces merged with a live tail)"
+  ],
+  "security": []
+ },
+ {
+  "version": "1.0.0",
+  "released": "2026-10-05T02:40:16",
+  "title": "First release",
+  "added": [
+   "Accounts, sign-in, roles and permissions, an audit log, sign-in history and an administrator area",
+   "Feeder tracking, claiming a station, station IDs, station pages, and a public Feeders list with map, rankings and JSON API that applies each owner's privacy choice",
+   "How to Feed guide with an Am I Feeding check",
+   "The live map built in: classic aircraft icons, columns, filters, a full details card with photo, make and model and route, trails, layers from tar1090's sources, radar, an Arkansas chart background and per-station views",
+   "Heatmap and Replay tools, embedded tools in the menu, Flight Progress page, Statistics Dashboard and Grafana with the Ultrafeeder dashboard",
+   "Aircraft alert rules, airport data and pages, backups with restore, SMTP settings, and display preferences",
+   "The release process: a build on every change, a Promote to stable step and an update check"
+  ],
+  "improved": [],
+  "fixed": [],
+  "security": []
+ }
+]
