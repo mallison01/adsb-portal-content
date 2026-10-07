@@ -5,9 +5,23 @@
   "title": "Coming in the next release",
   "added": [],
   "improved": [
-   "In progress: fixed-wing air ambulances"
+   "In progress: weather stations and the repeater directory"
   ],
   "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.28",
+  "released": "2026-10-07T17:12:47",
+  "title": "Fixed-wing air ambulances, a site icon and fixes",
+  "added": [
+   "A site icon: a signal-arc badge in the browser tab, on bookmarks, as a phone home-screen icon and in the web app manifest",
+   "Fixed-wing air ambulances and medical transports (Pilatus PC-12, King Air, small jets) beside the helicopters: found from the aircraft database by owner names set in Settings, plus tail numbers you add as fixed wing; a second Aircraft Flags entry, Air ambulance (fixed wing), and the aircraft card says which kind it is"
+  ],
+  "improved": [],
+  "fixed": [
+   "The Admin > Updates page title no longer shows page code in the browser tab, and its Live Content settings section (the source of the live Release Notes and Roadmap) is back on the page; it had slipped into the title"
+  ],
   "security": []
  },
  {

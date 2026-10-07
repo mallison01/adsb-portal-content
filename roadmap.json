@@ -2,6 +2,12 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "title": "Site icon",
+   "summary": "A signal-arc icon for the browser tab, bookmarks and phone home screens.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
    "title": "Complete How to Feed pages",
    "summary": "ADS-B, MLAT and UAT each have their settings, hardware and setup, in the same layout.",
    "status": "done",
@@ -22,7 +28,7 @@
   {
    "title": "Fixed-wing air ambulances",
    "summary": "Medical transport aircraft as a second filter beside the helicopters.",
-   "status": "planned",
+   "status": "done",
    "area": "Map"
   },
   {
