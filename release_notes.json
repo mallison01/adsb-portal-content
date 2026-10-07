@@ -4,8 +4,51 @@
   "released": null,
   "title": "Coming in the next release",
   "added": [],
-  "improved": [],
+  "improved": [
+   "In progress: Admin > Data Updates (a schedule for every outside data set) and fixed-wing air ambulances"
+  ],
   "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.26",
+  "released": "2026-10-07T05:19:58",
+  "title": "ArkSignal: new name, home page, menus, hospitals, air ambulances and more",
+  "added": [
+   "Coverage Map (/coverage): one map with a layer for each kind of service: ADS-B coverage around every station, MLAT stations, and UAT / ADS-R traffic right now. More layers join it as the network grows",
+   "Choose the page you land on after signing in (Profile > After I sign in, take me to), with a site default set by an administrator in Settings > Accounts. A page you were heading to still wins",
+   "The How to Feed section is split into pages with a sub-menu: ADS-B, MLAT, UAT (978 MHz) and Am I Feeding?. Old links keep working",
+   "Settings are grouped into tabs (General, Accounts and Security, Map and Data, Feeders and Alerts, Updates and Backups) with a search box that finds a setting by name",
+   "The network is now called ArkSignal. The header wordmark, page titles (Page | ArkSignal), About, emails and the Feed and Support wording follow it; the name, accent part and tagline are settings (Admin > Settings > General), and adsb.allisononline.org keeps working",
+   "A rewritten About page: what the network is, who runs it (a hobby project run by two volunteers), what you can do here today, where it is going, and credits for the MLAT server, Planefence and rclone",
+   "A new home page: ArkSignal at a glance, with a live strip (aircraft overhead, stations online, MLAT, service status), a map preview, one search box for a callsign, tail number, airport, city or station, a card for each service and the latest release. The previous home page is now Aircraft Tracking (/aircraft, also in the menu)",
+   "Moving to arksignal.allisononline.org: an administrator can set a Main Address and a list of Old Addresses (Settings > General) so page requests on the old address are sent to the new one with a permanent redirect; it stays off until it is filled in",
+   "Search the live map by place: type a city, ZIP code or county in the map search box and pick it from the list (or press Enter) to jump there. The places come from the US Census Bureau and are loaded by an administrator under Admin > Places",
+   "Hospitals: a public Hospitals list and a page for each hospital (address, emergency care, trauma level and services where known, and the heliport it uses), a Hospitals layer on the live map coloured by trauma level, and an Admin > Hospitals page that loads the list from the Centers for Medicare & Medicaid Services and finds each hospital with the Census Bureau geocoder. Trauma levels, services and heliport links are entered by an administrator and kept by every update",
+   "Air ambulance helicopters: an Air ambulance entry in the live map's Aircraft Type filter (count, chip, and a line on the aircraft card naming the operator). They are found from the aircraft database tar1090 uses (helicopters owned by Air Evac, Air Methods, Med-Trans, Life Flight Network, REACH, hospitals and similar) plus a tail number list an administrator keeps in Admin > Air Ambulance",
+   "Import trauma levels: Admin > Hospitals takes a CSV list of trauma-designated hospitals (with a preview), matches it to the hospitals by position and name, adds the ones the public list lacks, and shows the level, designation date and source on each hospital page",
+   "A map legend on the live map: a collapsible panel that explains the colours of whatever layers are switched on",
+   "Administrators can open any account (Admin > Users, click a name) and change what the person can change themselves: email address, display name, callsign, display choices and landing page, alert webhook and alert rules, and sign-ins, with two-factor reset, a temporary password and unlock. The current password is never shown to anyone, only replaced; every change is written to the audit log, and only a Super Admin can change a Super Admin",
+   "Hospital filters: choose which kinds of facility are loaded (acute care, critical access, children's, rural emergency, Veterans Administration, Department of Defense, psychiatric, long-term), leave out names containing words such as BEHAVIORAL or SURGICAL, and optionally keep only hospitals with an emergency department. Behavioral health centres are out by default, and an update removes loaded facilities that no longer match (anything edited by hand is kept)",
+   "Hospital services: stroke, neurosurgery, cardiac, obstetrics, NICU, children's, burn, orthopedics, cancer and psychiatric tags on hospitals, a Service filter on the Hospitals list, and a CSV import that can carry them (with the CMS number for exact matching). The hospital import now keeps only hospitals with an emergency department by default"
+  ],
+  "improved": [
+   "The top menu and a slim bottom bar (About, Status, Release Notes, Roadmap, Contact) stay in view while you scroll long pages, on phones too",
+   "Search boxes on the admin Users, Feeders, MLAT and Map Layers lists, and on the public Feeders page; click a column heading to sort",
+   "Flights, Flight History and Airports can be sorted by any column",
+   "New stations are shown feed.arksignal.allisononline.org on the How to Feed page; stations already using feed.adsb.allisononline.org keep working and the page says so",
+   "The top menu is grouped by service: Aircraft (map, flights, history, airports, MLAT, tools), Network (coverage, stations, statistics, status) and Feed, with the part of the site you are in highlighted; new services get their own group as they arrive",
+   "Inside Aircraft, Network or Feed a second bar under the top menu lists that service's pages with the current one marked; clicking a group name goes to that section, and resting the mouse on it opens its menu",
+   "Live map: every filter that is on shows as a small chip you can click to switch it off, with a Clear All button",
+   "The top menu and the section bar now run the full width of the window and fold into a menu button on narrow screens instead of being cut off",
+   "Hospitals on the live map are square badges instead of dots: the trauma level number on a colour for trauma centres, a red plus for an emergency department, grey for none, and a blue H where a heliport is linked, so they stand apart from airports",
+   "Airport weather on the live map now refreshes by itself every few minutes (the weather refresh setting) instead of only when the map is moved",
+   "adsb.allisononline.org now sends visitors to arksignal.allisononline.org (page requests only; the feed and MLAT addresses are untouched). The Main Address and the list of old addresses are in Settings > General"
+  ],
+  "fixed": [
+   "Hospital markers on the live map can be clicked, like the airports",
+   "The admin user page uses one consistent width and shows the user name as plain text"
+  ],
   "security": []
  },
  {

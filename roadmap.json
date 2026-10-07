@@ -1,6 +1,126 @@
 {
- "updated": "2026-10-06",
+ "updated": "2026-10-07",
  "items": [
+  {
+   "title": "Automatic data updates",
+   "summary": "One schedule page for every outside data set (airports, places, hospitals, trauma levels, air ambulances), with run now, last result and retries.",
+   "status": "progress",
+   "area": "Hub"
+  },
+  {
+   "title": "Fixed-wing air ambulances",
+   "summary": "Medical transport aircraft as a second filter beside the helicopters.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "County map features",
+   "summary": "County outlines, counties without a hospital shaded, drive-time rings around a hospital, interstates and highways.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "APRS",
+   "summary": "Amateur radio position reports on the map: stations, digipeaters, IGates and weather, with an APRS coverage map.",
+   "status": "planned",
+   "area": "Radio"
+  },
+  {
+   "title": "Sign in with Google",
+   "summary": "Link a Google account to sign in without a password.",
+   "status": "idea",
+   "area": "Accounts"
+  },
+  {
+   "title": "Passkeys",
+   "summary": "Sign in with a passkey on a phone, laptop or security key.",
+   "status": "idea",
+   "area": "Accounts"
+  },
+  {
+   "title": "Administrators can edit a user's account",
+   "summary": "Open any account to change its profile, email, display choices, alerts and sign-ins; the password is never shown.",
+   "status": "done",
+   "area": "Admin"
+  },
+  {
+   "title": "Map legend",
+   "summary": "A collapsible legend that explains whatever the map is showing.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Trauma level import",
+   "summary": "Load trauma-centre designations from a list and show them on each hospital.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Air ambulance filter",
+   "summary": "See air ambulance helicopters on the live map and filter to them.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Hospitals and heliports",
+   "summary": "A hospital list and map layer with emergency care, trauma level and the heliport each one uses.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Search the map by place",
+   "summary": "Jump to a city, ZIP code or county from the live map's search box; the start of places, hospitals and heliports with drill-down.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "New home page and Aircraft Tracking",
+   "summary": "An ArkSignal overview with a live strip, map preview, one search box and a card per service; the old home page becomes Aircraft Tracking.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "ArkSignal",
+   "summary": "The project has a new name, wordmark and tagline; the same network, now with room for weather, radio and mesh.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Choose your landing page",
+   "summary": "Pick where you land after signing in, with a site default.",
+   "status": "done",
+   "area": "Accounts"
+  },
+  {
+   "title": "Coverage Map",
+   "summary": "A map of what the network covers, with layers by type; repeaters, weather stations, radiosondes and mesh nodes join later.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "How to Feed split into pages",
+   "summary": "ADS-B, MLAT, UAT and Am I Feeding each get their own page with a sub-menu.",
+   "status": "done",
+   "area": "Feeding"
+  },
+  {
+   "title": "Search and sort on lists",
+   "summary": "Search the admin and public station lists; sort Flights, Flight History and Airports by any column.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Settings tabs and search",
+   "summary": "Admin settings are grouped into tabs, with a search that finds a setting by name.",
+   "status": "done",
+   "area": "Admin"
+  },
+  {
+   "title": "Navigation always in view",
+   "summary": "The top menu and a slim bottom bar stay on screen while you scroll long pages.",
+   "status": "done",
+   "area": "Site"
+  },
   {
    "title": "Planefence and Plane-Alert",
    "summary": "Which aircraft flew over Arkansas, with photos, airlines and routes, plus a list of interesting aircraft (military, government, rare). Notifications to Discord and others are set up by an administrator.",
