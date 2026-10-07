@@ -5,7 +5,24 @@
   "title": "Coming in the next release",
   "added": [],
   "improved": [
-   "In progress: Admin > Data Updates (a schedule for every outside data set) and fixed-wing air ambulances"
+   "In progress: fixed-wing air ambulances"
+  ],
+  "fixed": [],
+  "security": []
+ },
+ {
+  "version": "1.0.27",
+  "released": "2026-10-07T14:56:46",
+  "title": "Complete feed pages, hospital filters and positions, Data Updates and consistent names",
+  "added": [
+   "Admin > Hospitals can ask OpenStreetMap where a hospital with only an approximate position is, one at a time or twelve at a time, and keeps the answer",
+   "Admin > Data Updates: one page with a schedule for every outside data set (places, airports, hospitals, trauma levels and services, air ambulances), a Run Now button, the last result and the next run, one time of day for all, and failures shown on Status. A source that fails keeps its last good data and tries again later. Trauma levels and services can be read automatically from the address of a CSV file kept by the trauma system"
+  ],
+  "improved": [
+   "The How to Feed pages are complete and consistent: ADS-B, MLAT and UAT each have How It Works, What You Need, Hardware, Hardware Setup, Software Setup, After You Are Feeding, Ports, Troubleshooting, Your Data and More Help, and point to each other (ADS-B and MLAT usually run together)",
+   "Air ambulance moved to Aircraft Flags (it is a property of an aircraft, not a type), and Military is offered once, under Aircraft Flags, instead of twice",
+   "Hospital positions are better: a second try with the street written other ways, then the hospital's own helipad from the airport data, then the trauma list's coordinates; hospitals guessed at the same place are spread out so none hides another; hospital names keep CHI, VA and LLC in capitals",
+   "In progress: fixed-wing air ambulances"
   ],
   "fixed": [],
   "security": []

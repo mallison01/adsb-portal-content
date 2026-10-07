@@ -2,9 +2,21 @@
  "updated": "2026-10-07",
  "items": [
   {
+   "title": "Complete How to Feed pages",
+   "summary": "ADS-B, MLAT and UAT each have their settings, hardware and setup, in the same layout.",
+   "status": "done",
+   "area": "Feeding"
+  },
+  {
+   "title": "Better hospital positions",
+   "summary": "Hospitals are placed more exactly, with a locate button and the trauma list's own coordinates.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
    "title": "Automatic data updates",
-   "summary": "One schedule page for every outside data set (airports, places, hospitals, trauma levels, air ambulances), with run now, last result and retries.",
-   "status": "progress",
+   "summary": "One schedule page for every outside data set (places, airports, hospitals, trauma levels, air ambulances), with run now, last result and failures on Status.",
+   "status": "done",
    "area": "Hub"
   },
   {
