@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-07",
+ "updated": "2026-10-08",
  "items": [
+  {
+   "title": "Arkansas trauma list and hospital capabilities",
+   "summary": "Load the state's designated trauma centres and what each hospital can do from the state's own files, with their source shown.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Interesting aircraft list",
+   "summary": "Keep your own list of interesting aircraft (military, government, rare, news) that feeds the Interesting filter on the map.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Collapse the map panels from the bottom",
+   "summary": "A small arrow at the bottom of the Filters and Weather panels folds them away.",
+   "status": "planned",
+   "area": "Map"
+  },
+  {
+   "title": "Tidier admin area",
+   "summary": "One consistent width for every admin section, the admin area using the full screen width, and shorter, better grouped settings.",
+   "status": "planned",
+   "area": "Admin"
+  },
   {
    "title": "Site icon",
    "summary": "A signal-arc icon for the browser tab, bookmarks and phone home screens.",
@@ -432,6 +456,102 @@
    "summary": "Submit a new repeater, flag a wrong frequency or tone or one that is off the air, and let sysops keep their own current, with a review queue and credit to contributors.",
    "status": "planned",
    "area": "Community"
+  },
+  {
+   "title": "Address lookup for hospitals and our own address search",
+   "summary": "Look up a hospital's address with the Census, our own Photon and OpenStreetMap, see the answers on a small map and keep the one you choose.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Check all hospital positions at once",
+   "summary": "One button checks every hospital's address with two address finders, confirms the ones that agree and lists the rest for review.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Hospital data issues flag and filter",
+   "summary": "Flags hospitals with missing information, doubtful positions or a heliport that is not close to the hospital.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Collapsible Filters and Weather panels on the live map",
+   "summary": "A small arrow on the bottom edge folds the open panel up so the map shows.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Altitude bar always visible on the live map",
+   "summary": "Keep the altitude colour bar at the bottom of the map so it can be read at all times.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Places menu group",
+   "summary": "Move Hospitals and Airports out of the Aircraft menu into their own group for places and facilities.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Settings regrouped",
+   "summary": "The long Maps and Data Sources settings are split into groups that match what they control.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "One width for every admin section",
+   "summary": "Admin pages use the whole window and every section is the same width.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Full service status with outside data sources",
+   "summary": "The status page shows every service and every outside data source we depend on, and how fresh our copy of each is.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "A real admin overview",
+   "summary": "What needs attention, the network, the data and the system at a glance, with recent activity.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Organised admin menu",
+   "summary": "Admin pages are grouped by purpose and kept in a fixed order, enforced by a test.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Feet and miles by default",
+   "summary": "Distance settings default to imperial units with metric available.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Map button in the top bar",
+   "summary": "A simple Map button beside Display so the live map is one click from anywhere.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Full-width pages with one section width",
+   "summary": "The whole site, not only admin, uses the full window width with every section the same width.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Home page station map and Right Now panel",
+   "summary": "The home map shows every kind of station across Arkansas, and the panel beside it shows what is worth a look right now.",
+   "status": "done",
+   "area": "Site"
+  },
+  {
+   "title": "Page width choice for ultra-wide monitors",
+   "summary": "Page content is limited to a comfortable width by default, with full width one click away, saved on your profile.",
+   "status": "done",
+   "area": "Site"
   }
  ]
 }

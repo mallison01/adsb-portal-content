@@ -1,425 +1,463 @@
 [
- {
-  "version": "next",
-  "released": null,
-  "title": "Coming in the next release",
-  "added": [],
-  "improved": [
-   "In progress: weather stations and the repeater directory"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.28",
-  "released": "2026-10-07T17:12:47",
-  "title": "Fixed-wing air ambulances, a site icon and fixes",
-  "added": [
-   "A site icon: a signal-arc badge in the browser tab, on bookmarks, as a phone home-screen icon and in the web app manifest",
-   "Fixed-wing air ambulances and medical transports (Pilatus PC-12, King Air, small jets) beside the helicopters: found from the aircraft database by owner names set in Settings, plus tail numbers you add as fixed wing; a second Aircraft Flags entry, Air ambulance (fixed wing), and the aircraft card says which kind it is"
-  ],
-  "improved": [],
-  "fixed": [
-   "The Admin > Updates page title no longer shows page code in the browser tab, and its Live Content settings section (the source of the live Release Notes and Roadmap) is back on the page; it had slipped into the title"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.27",
-  "released": "2026-10-07T14:56:46",
-  "title": "Complete feed pages, hospital filters and positions, Data Updates and consistent names",
-  "added": [
-   "Admin > Hospitals can ask OpenStreetMap where a hospital with only an approximate position is, one at a time or twelve at a time, and keeps the answer",
-   "Admin > Data Updates: one page with a schedule for every outside data set (places, airports, hospitals, trauma levels and services, air ambulances), a Run Now button, the last result and the next run, one time of day for all, and failures shown on Status. A source that fails keeps its last good data and tries again later. Trauma levels and services can be read automatically from the address of a CSV file kept by the trauma system"
-  ],
-  "improved": [
-   "The How to Feed pages are complete and consistent: ADS-B, MLAT and UAT each have How It Works, What You Need, Hardware, Hardware Setup, Software Setup, After You Are Feeding, Ports, Troubleshooting, Your Data and More Help, and point to each other (ADS-B and MLAT usually run together)",
-   "Air ambulance moved to Aircraft Flags (it is a property of an aircraft, not a type), and Military is offered once, under Aircraft Flags, instead of twice",
-   "Hospital positions are better: a second try with the street written other ways, then the hospital's own helipad from the airport data, then the trauma list's coordinates; hospitals guessed at the same place are spread out so none hides another; hospital names keep CHI, VA and LLC in capitals",
-   "In progress: fixed-wing air ambulances"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.26",
-  "released": "2026-10-07T05:19:58",
-  "title": "ArkSignal: new name, home page, menus, hospitals, air ambulances and more",
-  "added": [
-   "Coverage Map (/coverage): one map with a layer for each kind of service: ADS-B coverage around every station, MLAT stations, and UAT / ADS-R traffic right now. More layers join it as the network grows",
-   "Choose the page you land on after signing in (Profile > After I sign in, take me to), with a site default set by an administrator in Settings > Accounts. A page you were heading to still wins",
-   "The How to Feed section is split into pages with a sub-menu: ADS-B, MLAT, UAT (978 MHz) and Am I Feeding?. Old links keep working",
-   "Settings are grouped into tabs (General, Accounts and Security, Map and Data, Feeders and Alerts, Updates and Backups) with a search box that finds a setting by name",
-   "The network is now called ArkSignal. The header wordmark, page titles (Page | ArkSignal), About, emails and the Feed and Support wording follow it; the name, accent part and tagline are settings (Admin > Settings > General), and adsb.allisononline.org keeps working",
-   "A rewritten About page: what the network is, who runs it (a hobby project run by two volunteers), what you can do here today, where it is going, and credits for the MLAT server, Planefence and rclone",
-   "A new home page: ArkSignal at a glance, with a live strip (aircraft overhead, stations online, MLAT, service status), a map preview, one search box for a callsign, tail number, airport, city or station, a card for each service and the latest release. The previous home page is now Aircraft Tracking (/aircraft, also in the menu)",
-   "Moving to arksignal.allisononline.org: an administrator can set a Main Address and a list of Old Addresses (Settings > General) so page requests on the old address are sent to the new one with a permanent redirect; it stays off until it is filled in",
-   "Search the live map by place: type a city, ZIP code or county in the map search box and pick it from the list (or press Enter) to jump there. The places come from the US Census Bureau and are loaded by an administrator under Admin > Places",
-   "Hospitals: a public Hospitals list and a page for each hospital (address, emergency care, trauma level and services where known, and the heliport it uses), a Hospitals layer on the live map coloured by trauma level, and an Admin > Hospitals page that loads the list from the Centers for Medicare & Medicaid Services and finds each hospital with the Census Bureau geocoder. Trauma levels, services and heliport links are entered by an administrator and kept by every update",
-   "Air ambulance helicopters: an Air ambulance entry in the live map's Aircraft Type filter (count, chip, and a line on the aircraft card naming the operator). They are found from the aircraft database tar1090 uses (helicopters owned by Air Evac, Air Methods, Med-Trans, Life Flight Network, REACH, hospitals and similar) plus a tail number list an administrator keeps in Admin > Air Ambulance",
-   "Import trauma levels: Admin > Hospitals takes a CSV list of trauma-designated hospitals (with a preview), matches it to the hospitals by position and name, adds the ones the public list lacks, and shows the level, designation date and source on each hospital page",
-   "A map legend on the live map: a collapsible panel that explains the colours of whatever layers are switched on",
-   "Administrators can open any account (Admin > Users, click a name) and change what the person can change themselves: email address, display name, callsign, display choices and landing page, alert webhook and alert rules, and sign-ins, with two-factor reset, a temporary password and unlock. The current password is never shown to anyone, only replaced; every change is written to the audit log, and only a Super Admin can change a Super Admin",
-   "Hospital filters: choose which kinds of facility are loaded (acute care, critical access, children's, rural emergency, Veterans Administration, Department of Defense, psychiatric, long-term), leave out names containing words such as BEHAVIORAL or SURGICAL, and optionally keep only hospitals with an emergency department. Behavioral health centres are out by default, and an update removes loaded facilities that no longer match (anything edited by hand is kept)",
-   "Hospital services: stroke, neurosurgery, cardiac, obstetrics, NICU, children's, burn, orthopedics, cancer and psychiatric tags on hospitals, a Service filter on the Hospitals list, and a CSV import that can carry them (with the CMS number for exact matching). The hospital import now keeps only hospitals with an emergency department by default"
-  ],
-  "improved": [
-   "The top menu and a slim bottom bar (About, Status, Release Notes, Roadmap, Contact) stay in view while you scroll long pages, on phones too",
-   "Search boxes on the admin Users, Feeders, MLAT and Map Layers lists, and on the public Feeders page; click a column heading to sort",
-   "Flights, Flight History and Airports can be sorted by any column",
-   "New stations are shown feed.arksignal.allisononline.org on the How to Feed page; stations already using feed.adsb.allisononline.org keep working and the page says so",
-   "The top menu is grouped by service: Aircraft (map, flights, history, airports, MLAT, tools), Network (coverage, stations, statistics, status) and Feed, with the part of the site you are in highlighted; new services get their own group as they arrive",
-   "Inside Aircraft, Network or Feed a second bar under the top menu lists that service's pages with the current one marked; clicking a group name goes to that section, and resting the mouse on it opens its menu",
-   "Live map: every filter that is on shows as a small chip you can click to switch it off, with a Clear All button",
-   "The top menu and the section bar now run the full width of the window and fold into a menu button on narrow screens instead of being cut off",
-   "Hospitals on the live map are square badges instead of dots: the trauma level number on a colour for trauma centres, a red plus for an emergency department, grey for none, and a blue H where a heliport is linked, so they stand apart from airports",
-   "Airport weather on the live map now refreshes by itself every few minutes (the weather refresh setting) instead of only when the map is moved",
-   "adsb.allisononline.org now sends visitors to arksignal.allisononline.org (page requests only; the feed and MLAT addresses are untouched). The Main Address and the list of old addresses are in Settings > General"
-  ],
-  "fixed": [
-   "Hospital markers on the live map can be clicked, like the airports",
-   "The admin user page uses one consistent width and shows the user name as plain text"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.25",
-  "released": "2026-10-06T17:30:32",
-  "title": "Planefence, off-site backups, live release notes and roadmap",
-  "added": [
-   "Planefence and Plane-Alert: which aircraft flew over Arkansas, with photos, airlines and routes, and a list of interesting aircraft (military, government, rare); in the Tools menu, with notifications (Discord, Mastodon and others) set up on an administrator-only configuration page. It arrives with Update Now, with no files to edit by hand",
-   "Off-site backups: Admin > Backups > Off-Site Copy sends encrypted copies of everything (the portal database with all flights and history, the hub's secret keys and settings, Grafana, statistics history and the hub's traffic history) to an SFTP server, S3 bucket, NAS share or WebDAV, with a small daily copy and a big weekly copy as separate files, connection test, copy-now buttons and a history of runs",
-   "Restore Part: restore only some areas of a backup (accounts, stations, flight history, alerts, settings...), or bring back one person, station, role or alert rule with what belongs to it, in merge or replace mode, with a safety backup first. The off-site restore helper can also unpack only chosen parts",
-   "Aircraft Type filter on the live map: helicopters, jets, turboprops, piston props, large and heavy, light aircraft, gliders and balloons, drones, ground vehicles and unknown type, with counts",
-   "A public Roadmap page (/roadmap): what is coming next, in progress, planned and just released, filterable by area",
-   "Live Release Notes and Roadmap: both pages read their lists from the project's repository, so they update as soon as work is pushed instead of staying frozen at the last release (Admin > Updates > Live Content)",
-   "A Support page (hidden until an administrator sets it up in Admin > Support): why donations help, what the network costs to run with a monthly progress bar, links to Ko-fi and PayPal, and an Equipment Fund wish list for antennas, receivers and mesh nodes the project installs at host sites. The portal only links out and never handles payment details"
-  ],
-  "improved": [
-   "The keyboard shortcuts help opens as a popup in the middle of the screen, on top of everything",
-   "Registration, change password, reset and forgot-password forms list their requirements and tick them as you type, including user name rules, email format and whether the two passwords match",
-   "Every section of the live map's filters (Stations, Show, Data Source, Aircraft Flags, Aircraft Type, Altitude, Display and View, Layers) folds up like the sections of the aircraft details card, remembers whether you left it open, and shows a small count of the filters active in it"
-  ],
-  "fixed": [
-   "Am I Feeding said MLAT was not connected for a claimed station even when it was working"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.24",
-  "released": "2026-10-06T14:00:05",
-  "title": "Live map upgrades, MLAT user names, release notes",
-  "added": [
-   "MLAT User Name on the station page: stations that already use a different MLAT_USER are recognised by it (the Station ID is used when it is empty)",
-   "Units on the live map: aeronautical (ft, kt, nm), metric or imperial, chosen per visitor with a site default in Settings",
-   "Keyboard shortcuts on the live map with the same keys as tar1090 (F, I, U, V, L, O, K, B, R, H, Q, E, arrows, / and ?), plus a help panel",
-   "Search on the live map takes several terms with commas, * wildcards and ! to leave terms out, and also matches squawk and model",
-   "Aircraft Flags filter (military, interesting, PIA, LADD) in the live map's filter card",
-   "Jump to a place: type coordinates, an aircraft hex or an airport code in the search box and press Enter",
-   "Links to a view: the live map reads position, zoom, filters, units and the selected aircraft from the address, and Copy Link to This View builds one",
-   "Altitude chart and Export KML on the aircraft details card",
-   "Wide / Narrow button for the details card, a hover block on aircraft, a geometric-altitude label field and Reset My Map Settings",
-   "This Release Notes page"
-  ],
-  "improved": [
-   "Admin > Status says why a service failed, and its overall banner counts every row",
-   "The How to Feed page now says plainly that ultrafeeder users need nothing extra for MLAT, and explains UAT correctly: a station's 978 MHz aircraft travel through its normal feed, so no extra line, port or setting is needed",
-   "Data Source filter and the aircraft card treat UAT and ADS-R as one source, as the hub reports them"
-  ],
-  "fixed": [
-   "The stack updater clears a leftover parked container and retries, which fixes the 'portal FAILED' row on Admin > Status",
-   "A test that used a fixed date stopped working when the date arrived"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.23",
-  "released": "2026-10-06T02:03:39",
-  "title": "MLAT everywhere, service status, new feed page",
-  "added": [
-   "MLAT Network page: stations on a map, click one to see the stations it is synchronised with, coloured by how well their clocks agree",
-   "How an aircraft is tracked: the details card says whether the position came from ADS-B, MLAT, UAT/ADS-R, TIS-B or Mode S only, explains it, and for MLAT shows how many stations hear it",
-   "MLAT status in plain words on My Station (with what to fix), the public Feeders list and station pages, the public API, the feed check and the admin pages",
-   "Service Status pages: a plain-words page for everyone (/status) and an in-depth one for administrators with the reason behind each state",
-   "Data Source filter on the live map (ADS-B, MLAT, UAT/ADS-R, TIS-B, Mode S, other) with live counts",
-   "The hub itself is now managed by the stack updater, with the MLAT results input connected"
-  ],
-  "improved": [
-   "The How to Feed page was rewritten: how ADS-B, MLAT and UAT work, setup for new and existing stations, ports, troubleshooting and privacy",
-   "Nginx Proxy Manager is told to reload after any service is replaced, so a replaced container is never answered with a stale address"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.22",
-  "released": "2026-10-06T00:34:47",
-  "title": "Stack updater and MLAT server",
-  "added": [
-   "Stack updater (adsb-stack): one service that keeps every hub service in step with the compose files carried in its image, so new services appear on the hub with Update Now and no commands",
-   "MLAT server (adsb-mlat) running the upstream mlat-server, with Admin > MLAT showing connected stations and their health (never their locations)"
-  ],
-  "improved": [
-   "Update Now asks the stack updater to apply new services before Watchtower replaces images",
-   "Flight Progress draws the right aircraft shape for each type instead of one generic icon"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.21",
-  "released": "2026-10-05T22:48:19",
-  "title": "Secrets and privacy hardening",
-  "added": [],
-  "improved": [],
-  "fixed": [],
-  "security": [
-   "Two-factor secrets and webhook addresses are stored sealed, recovery codes are keyed, backups are encrypted",
-   "Unknown user names at sign-in are masked, an emergency command-line tool exists for administrators, and a privacy crawl test checks that exact locations are never published"
-  ]
- },
- {
-  "version": "1.0.20",
-  "released": "2026-10-05T22:03:32",
-  "title": "Two-factor sign-in",
-  "added": [
-   "Two-factor sign-in with an authenticator app, ten one-time recovery codes, administrator reset and a setting to require it for administrators"
-  ],
-  "improved": [],
-  "fixed": [
-   "Sky View no longer steps backward between position reports"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.19",
-  "released": "2026-10-05T21:47:02",
-  "title": "Alert webhooks and sign-in security",
-  "added": [
-   "Alert webhooks for Discord, Slack, ntfy or any JSON receiver, with limits and protection against unsafe addresses, so alerts work without email"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": [
-   "A list of your sign-ins with Sign Out per device, a per-address sign-in throttle, browser security headers, and an audit entry when an administrator signs in from a new address"
-  ]
- },
- {
-  "version": "1.0.18",
-  "released": "2026-10-05T21:18:36",
-  "title": "Flight History",
-  "added": [
-   "Flight History: the portal keeps its own log of every flight it hears, with a History page, period pickers and earlier-flight tracks; the live map's search suggests earlier flights",
-   "Station statistics links with a Station selector, and the Network Feeders dashboard in the Tools menu"
-  ],
-  "improved": [
-   "Highlight for aircraft matching your alert rules, a Watch This Aircraft button, a station coverage layer and airport weather (METAR) on airport markers",
-   "More reliable release script"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.16",
-  "released": "2026-10-05T20:16:33",
-  "title": "Sky View and weather updates",
-  "added": [
-   "Sky View: a live 3D view from an aircraft with terrain, drag to look around, click another aircraft to jump to it, aircraft drawn at their true altitude, and a heading tape",
-   "Weather layers update automatically, with an Update Now button and an updated time per layer"
-  ],
-  "improved": [],
-  "fixed": [
-   "Sky View no longer rewinds between reports"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.14",
-  "released": "2026-10-05T18:56:10",
-  "title": "Weather panel",
-  "added": [
-   "Weather panel with a tile for each layer, live preview, opacity slider, a 50-minute NEXRAD radar loop and winds aloft worked out from aircraft readings"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.13",
-  "released": "2026-10-05T18:19:36",
-  "title": "Airline logos and military emblems",
-  "added": [
-   "Real airline logos and real military service emblems on the live map, in the list (Airline column), on Flight Search and on Flight Progress"
-  ],
-  "improved": [
-   "Grafana dashboards"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.12",
-  "released": "2026-10-05T17:49:52",
-  "title": "Grafana sign-in message",
-  "added": [],
-  "improved": [],
-  "fixed": [
-   "A refused Grafana login now gets a clear hint about the password"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.11",
-  "released": "2026-10-05T17:42:21",
-  "title": "Map labels",
-  "added": [
-   "Labels on aircraft icons with airline logos, choose-your-own fields, size and background, the route, a selected-aircraft beacon, and the planned route on the map with progress"
-  ],
-  "improved": [
-   "Details card with folded sections; the All trails option honours the filters"
-  ],
-  "fixed": [
-   "Grafana setup now logs every step and says why it was refused"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.10",
-  "released": "2026-10-05T16:57:04",
-  "title": "About page and updates page",
-  "added": [
-   "Public About page"
-  ],
-  "improved": [
-   "The version, update check and Update Now moved to Admin > Updates"
-  ],
-  "fixed": [
-   "The switch command could use a cached older image"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.9",
-  "released": "2026-10-05T16:29:29",
-  "title": "One-command hub switch",
-  "added": [
-   "One command on the hub switches it to automatic updates; the hub's compose files now travel inside the portal image"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.8",
-  "released": "2026-10-05T16:06:26",
-  "title": "Automatic updates",
-  "added": [
-   "Automatic updates (Watchtower) every night at 4 a.m. and an Update Now button for administrators",
-   "Grafana and Prometheus images that carry their own configuration and dashboards"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.7",
-  "released": "2026-10-05T15:51:12",
-  "title": "Phone-friendly pages",
-  "added": [
-   "Mobile pass 1: a drawer menu, phone layouts for every page, and a live map with bottom sheets and a slide-up list"
-  ],
-  "improved": [],
-  "fixed": [
-   "Forms with a field named 'action' posted to the wrong address, which made Assign role fail with a 404"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.6",
-  "released": "2026-10-05T15:14:10",
-  "title": "Security settings",
-  "added": [],
-  "improved": [],
-  "fixed": [],
-  "security": [
-   "Session length limits, inactivity sign-out with a warning, administrator limits, password rules and age, and Sign Everyone Out"
-  ]
- },
- {
-  "version": "1.0.5",
-  "released": "2026-10-05T14:51:51",
-  "title": "Expired form tokens",
-  "added": [],
-  "improved": [],
-  "fixed": [
-   "Admin pages left open for an hour failed on the next action with 'The request could not be completed'; form tokens now last as long as the session, and refused actions explain why"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.4",
-  "released": "2026-10-05T14:15:36",
-  "title": "Quieter map",
-  "added": [],
-  "improved": [
-   "Aircraft labels are off by default"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.3",
-  "released": "2026-10-05T13:38:44",
-  "title": "Range, recovery and search",
-  "added": [
-   "Per-station range, account recovery by email or by a claimed station's UUID, delete your own account, a Contacts page, an alert notice, Hide Others on the live map, flight search, and sign-in by user name or email"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.2",
-  "released": "2026-10-05T04:08:35",
-  "title": "Email change and trail gaps",
-  "added": [
-   "Change your email address in your profile (password required)"
-  ],
-  "improved": [
-   "Trails break at gaps and draw short gaps dashed, like the classic map"
-  ],
-  "fixed": [],
-  "security": []
- },
- {
-  "version": "1.0.1",
-  "released": "2026-10-05T03:38:00",
-  "title": "Trails and Grafana fixes",
-  "added": [],
-  "improved": [
-   "Trail labels are off by default"
-  ],
-  "fixed": [
-   "The Grafana heatmap opened mid-ocean instead of over the network's area, and its maps row opened collapsed",
-   "The trail now reaches the aircraft (recent and full traces merged with a live tail)"
-  ],
-  "security": []
- },
- {
-  "version": "1.0.0",
-  "released": "2026-10-05T02:40:16",
-  "title": "First release",
-  "added": [
-   "Accounts, sign-in, roles and permissions, an audit log, sign-in history and an administrator area",
-   "Feeder tracking, claiming a station, station IDs, station pages, and a public Feeders list with map, rankings and JSON API that applies each owner's privacy choice",
-   "How to Feed guide with an Am I Feeding check",
-   "The live map built in: classic aircraft icons, columns, filters, a full details card with photo, make and model and route, trails, layers from tar1090's sources, radar, an Arkansas chart background and per-station views",
-   "Heatmap and Replay tools, embedded tools in the menu, Flight Progress page, Statistics Dashboard and Grafana with the Ultrafeeder dashboard",
-   "Aircraft alert rules, airport data and pages, backups with restore, SMTP settings, and display preferences",
-   "The release process: a build on every change, a Promote to stable step and an update check"
-  ],
-  "improved": [],
-  "fixed": [],
-  "security": []
- }
+  {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [
+      "In progress: weather stations and the repeater directory"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.29",
+    "released": "2026-10-08T20:49:23",
+    "title": "Hospital checks, our own address search, a real admin overview and a calmer layout",
+    "added": [
+      "Admin > Hospitals: Import Hospital Data (renamed from Import Trauma Levels) now also understands the capability tags surgeon, trauma ICU, CT, vascular, interventional radiology, facial and eye injuries; a file adds to the services on record and never removes one",
+      "Admin > Hospitals: an Address Lookup on every hospital (pre-filled with its address) asks the US Census, our own Photon address search and OpenStreetMap, lists the answers with a small map, and Use This Position keeps the one you choose",
+      "Admin > Interesting Aircraft: our own editable list that feeds the Interesting flag on the live map, with a CSV import, the Plane-Alert database (by category) and a Data Updates job",
+      "Our own address search (Photon, US data from OpenStreetMap) joins the stack and installs itself with Update Now",
+      "Admin > Hospitals: Check All Positions looks up every hospital's address with the Census and our own Photon, confirms the position where they agree and lists the rest for review; Check This Position does one hospital at once",
+      "Admin > Hospitals: Data Issues flags hospitals with a missing or incomplete address, an approximate position, no phone number, a trauma centre with no heliport, or a heliport that is far from its hospital or not in the airport data, with a filter for each",
+      "Live map: the Filters and Weather panels fold up from a small arrow on their bottom edge, and the choice is remembered",
+      "Live map: the altitude colour scale now stays under the map at all times, in your chosen units",
+      "Menu: Airports and Hospitals now sit in their own Places group instead of under Aircraft",
+      "Service Status now lists the address search (Photon), Planefence, and every outside data source we use (OurAirports, the Census, the hospital list, the aircraft databases, weather, photos, routes, map tiles and layers) with whether it is answering and when our copy was last refreshed",
+      "Admin Overview is now a real overview: what needs attention with a link to fix each thing, the network at a glance, the data we keep, the services behind the site and recent activity",
+      "A Map button in the top bar, next to Display, opens the live map from any page (on a phone it stays beside the menu button)",
+      "Page width: on very wide monitors page content is limited to a comfortable width and centred (maps still use the whole window). Choose Full width in the Display menu or on your profile page; the site default and the limit are settings"
+    ],
+    "improved": [
+      "Settings: the long Maps and Data Sources section is split into Map Tiles and Weather, Hospitals, Air Ambulance, Interesting Aircraft, Places and Search and Address Finders, under a new Facilities and Lookups tab",
+      "Admin menu: the pages are grouped (People, Network, Map and Data, Site, System) and always in the same order",
+      "Distance settings are now shown and typed in feet and miles by default, with metres and kilometres one setting away; a unit typed with a number (250 m, 0.5 mi) is understood either way",
+      "Dropdown menus stand out more: a lighter surface, an accent edge and a shadow, with the page behind them stepping back",
+      "Home page: a taller map that always shows the whole of Arkansas, with every kind of station on it (switchable in a legend), and a live Right Now panel (emergencies, air ambulances, military and listed aircraft, records, network activity) instead of the release notes",
+      "Flight page: the map now fills its section",
+      "Live map: the Legend is now a button in the top row next to Weather and Filters and opens as a panel under them, instead of a box floating at the bottom",
+      "Every section on a page is the same width, on wide screens and on phones"
+    ],
+    "fixed": [
+      "Admin > Hospitals: the Import button always did a preview; it now imports",
+      "Hospital positions you confirm or set by hand are no longer overwritten by hospital list updates",
+      "Hospitals list: the Trauma column no longer wraps (Level IV broke onto two lines), and sorting by it puts the levels in order I to V with hospitals that have none last",
+      "Aircraft Tracking: the radar is no longer huge; it scales with the window (never more than about 680 pixels), the number cards are compact, and a list of the highest aircraft in the air fills the space beside the radar",
+      "Settings: saving the whole Settings form no longer changes the distance settings that were not part of it"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.28",
+    "released": "2026-10-07T17:12:47",
+    "title": "Fixed-wing air ambulances, a site icon and fixes",
+    "added": [
+      "A site icon: a signal-arc badge in the browser tab, on bookmarks, as a phone home-screen icon and in the web app manifest",
+      "Fixed-wing air ambulances and medical transports (Pilatus PC-12, King Air, small jets) beside the helicopters: found from the aircraft database by owner names set in Settings, plus tail numbers you add as fixed wing; a second Aircraft Flags entry, Air ambulance (fixed wing), and the aircraft card says which kind it is"
+    ],
+    "improved": [],
+    "fixed": [
+      "The Admin > Updates page title no longer shows page code in the browser tab, and its Live Content settings section (the source of the live Release Notes and Roadmap) is back on the page; it had slipped into the title"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.27",
+    "released": "2026-10-07T14:56:46",
+    "title": "Complete feed pages, hospital filters and positions, Data Updates and consistent names",
+    "added": [
+      "Admin > Hospitals can ask OpenStreetMap where a hospital with only an approximate position is, one at a time or twelve at a time, and keeps the answer",
+      "Admin > Data Updates: one page with a schedule for every outside data set (places, airports, hospitals, trauma levels and services, air ambulances), a Run Now button, the last result and the next run, one time of day for all, and failures shown on Status. A source that fails keeps its last good data and tries again later. Trauma levels and services can be read automatically from the address of a CSV file kept by the trauma system"
+    ],
+    "improved": [
+      "The How to Feed pages are complete and consistent: ADS-B, MLAT and UAT each have How It Works, What You Need, Hardware, Hardware Setup, Software Setup, After You Are Feeding, Ports, Troubleshooting, Your Data and More Help, and point to each other (ADS-B and MLAT usually run together)",
+      "Air ambulance moved to Aircraft Flags (it is a property of an aircraft, not a type), and Military is offered once, under Aircraft Flags, instead of twice",
+      "Hospital positions are better: a second try with the street written other ways, then the hospital's own helipad from the airport data, then the trauma list's coordinates; hospitals guessed at the same place are spread out so none hides another; hospital names keep CHI, VA and LLC in capitals",
+      "In progress: fixed-wing air ambulances"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.26",
+    "released": "2026-10-07T05:19:58",
+    "title": "ArkSignal: new name, home page, menus, hospitals, air ambulances and more",
+    "added": [
+      "Coverage Map (/coverage): one map with a layer for each kind of service: ADS-B coverage around every station, MLAT stations, and UAT / ADS-R traffic right now. More layers join it as the network grows",
+      "Choose the page you land on after signing in (Profile > After I sign in, take me to), with a site default set by an administrator in Settings > Accounts. A page you were heading to still wins",
+      "The How to Feed section is split into pages with a sub-menu: ADS-B, MLAT, UAT (978 MHz) and Am I Feeding?. Old links keep working",
+      "Settings are grouped into tabs (General, Accounts and Security, Map and Data, Feeders and Alerts, Updates and Backups) with a search box that finds a setting by name",
+      "The network is now called ArkSignal. The header wordmark, page titles (Page | ArkSignal), About, emails and the Feed and Support wording follow it; the name, accent part and tagline are settings (Admin > Settings > General), and adsb.allisononline.org keeps working",
+      "A rewritten About page: what the network is, who runs it (a hobby project run by two volunteers), what you can do here today, where it is going, and credits for the MLAT server, Planefence and rclone",
+      "A new home page: ArkSignal at a glance, with a live strip (aircraft overhead, stations online, MLAT, service status), a map preview, one search box for a callsign, tail number, airport, city or station, a card for each service and the latest release. The previous home page is now Aircraft Tracking (/aircraft, also in the menu)",
+      "Moving to arksignal.allisononline.org: an administrator can set a Main Address and a list of Old Addresses (Settings > General) so page requests on the old address are sent to the new one with a permanent redirect; it stays off until it is filled in",
+      "Search the live map by place: type a city, ZIP code or county in the map search box and pick it from the list (or press Enter) to jump there. The places come from the US Census Bureau and are loaded by an administrator under Admin > Places",
+      "Hospitals: a public Hospitals list and a page for each hospital (address, emergency care, trauma level and services where known, and the heliport it uses), a Hospitals layer on the live map coloured by trauma level, and an Admin > Hospitals page that loads the list from the Centers for Medicare & Medicaid Services and finds each hospital with the Census Bureau geocoder. Trauma levels, services and heliport links are entered by an administrator and kept by every update",
+      "Air ambulance helicopters: an Air ambulance entry in the live map's Aircraft Type filter (count, chip, and a line on the aircraft card naming the operator). They are found from the aircraft database tar1090 uses (helicopters owned by Air Evac, Air Methods, Med-Trans, Life Flight Network, REACH, hospitals and similar) plus a tail number list an administrator keeps in Admin > Air Ambulance",
+      "Import trauma levels: Admin > Hospitals takes a CSV list of trauma-designated hospitals (with a preview), matches it to the hospitals by position and name, adds the ones the public list lacks, and shows the level, designation date and source on each hospital page",
+      "A map legend on the live map: a collapsible panel that explains the colours of whatever layers are switched on",
+      "Administrators can open any account (Admin > Users, click a name) and change what the person can change themselves: email address, display name, callsign, display choices and landing page, alert webhook and alert rules, and sign-ins, with two-factor reset, a temporary password and unlock. The current password is never shown to anyone, only replaced; every change is written to the audit log, and only a Super Admin can change a Super Admin",
+      "Hospital filters: choose which kinds of facility are loaded (acute care, critical access, children's, rural emergency, Veterans Administration, Department of Defense, psychiatric, long-term), leave out names containing words such as BEHAVIORAL or SURGICAL, and optionally keep only hospitals with an emergency department. Behavioral health centres are out by default, and an update removes loaded facilities that no longer match (anything edited by hand is kept)",
+      "Hospital services: stroke, neurosurgery, cardiac, obstetrics, NICU, children's, burn, orthopedics, cancer and psychiatric tags on hospitals, a Service filter on the Hospitals list, and a CSV import that can carry them (with the CMS number for exact matching). The hospital import now keeps only hospitals with an emergency department by default"
+    ],
+    "improved": [
+      "The top menu and a slim bottom bar (About, Status, Release Notes, Roadmap, Contact) stay in view while you scroll long pages, on phones too",
+      "Search boxes on the admin Users, Feeders, MLAT and Map Layers lists, and on the public Feeders page; click a column heading to sort",
+      "Flights, Flight History and Airports can be sorted by any column",
+      "New stations are shown feed.arksignal.allisononline.org on the How to Feed page; stations already using feed.adsb.allisononline.org keep working and the page says so",
+      "The top menu is grouped by service: Aircraft (map, flights, history, airports, MLAT, tools), Network (coverage, stations, statistics, status) and Feed, with the part of the site you are in highlighted; new services get their own group as they arrive",
+      "Inside Aircraft, Network or Feed a second bar under the top menu lists that service's pages with the current one marked; clicking a group name goes to that section, and resting the mouse on it opens its menu",
+      "Live map: every filter that is on shows as a small chip you can click to switch it off, with a Clear All button",
+      "The top menu and the section bar now run the full width of the window and fold into a menu button on narrow screens instead of being cut off",
+      "Hospitals on the live map are square badges instead of dots: the trauma level number on a colour for trauma centres, a red plus for an emergency department, grey for none, and a blue H where a heliport is linked, so they stand apart from airports",
+      "Airport weather on the live map now refreshes by itself every few minutes (the weather refresh setting) instead of only when the map is moved",
+      "adsb.allisononline.org now sends visitors to arksignal.allisononline.org (page requests only; the feed and MLAT addresses are untouched). The Main Address and the list of old addresses are in Settings > General"
+    ],
+    "fixed": [
+      "Hospital markers on the live map can be clicked, like the airports",
+      "The admin user page uses one consistent width and shows the user name as plain text"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.25",
+    "released": "2026-10-06T17:30:32",
+    "title": "Planefence, off-site backups, live release notes and roadmap",
+    "added": [
+      "Planefence and Plane-Alert: which aircraft flew over Arkansas, with photos, airlines and routes, and a list of interesting aircraft (military, government, rare); in the Tools menu, with notifications (Discord, Mastodon and others) set up on an administrator-only configuration page. It arrives with Update Now, with no files to edit by hand",
+      "Off-site backups: Admin > Backups > Off-Site Copy sends encrypted copies of everything (the portal database with all flights and history, the hub's secret keys and settings, Grafana, statistics history and the hub's traffic history) to an SFTP server, S3 bucket, NAS share or WebDAV, with a small daily copy and a big weekly copy as separate files, connection test, copy-now buttons and a history of runs",
+      "Restore Part: restore only some areas of a backup (accounts, stations, flight history, alerts, settings...), or bring back one person, station, role or alert rule with what belongs to it, in merge or replace mode, with a safety backup first. The off-site restore helper can also unpack only chosen parts",
+      "Aircraft Type filter on the live map: helicopters, jets, turboprops, piston props, large and heavy, light aircraft, gliders and balloons, drones, ground vehicles and unknown type, with counts",
+      "A public Roadmap page (/roadmap): what is coming next, in progress, planned and just released, filterable by area",
+      "Live Release Notes and Roadmap: both pages read their lists from the project's repository, so they update as soon as work is pushed instead of staying frozen at the last release (Admin > Updates > Live Content)",
+      "A Support page (hidden until an administrator sets it up in Admin > Support): why donations help, what the network costs to run with a monthly progress bar, links to Ko-fi and PayPal, and an Equipment Fund wish list for antennas, receivers and mesh nodes the project installs at host sites. The portal only links out and never handles payment details"
+    ],
+    "improved": [
+      "The keyboard shortcuts help opens as a popup in the middle of the screen, on top of everything",
+      "Registration, change password, reset and forgot-password forms list their requirements and tick them as you type, including user name rules, email format and whether the two passwords match",
+      "Every section of the live map's filters (Stations, Show, Data Source, Aircraft Flags, Aircraft Type, Altitude, Display and View, Layers) folds up like the sections of the aircraft details card, remembers whether you left it open, and shows a small count of the filters active in it"
+    ],
+    "fixed": [
+      "Am I Feeding said MLAT was not connected for a claimed station even when it was working"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.24",
+    "released": "2026-10-06T14:00:05",
+    "title": "Live map upgrades, MLAT user names, release notes",
+    "added": [
+      "MLAT User Name on the station page: stations that already use a different MLAT_USER are recognised by it (the Station ID is used when it is empty)",
+      "Units on the live map: aeronautical (ft, kt, nm), metric or imperial, chosen per visitor with a site default in Settings",
+      "Keyboard shortcuts on the live map with the same keys as tar1090 (F, I, U, V, L, O, K, B, R, H, Q, E, arrows, / and ?), plus a help panel",
+      "Search on the live map takes several terms with commas, * wildcards and ! to leave terms out, and also matches squawk and model",
+      "Aircraft Flags filter (military, interesting, PIA, LADD) in the live map's filter card",
+      "Jump to a place: type coordinates, an aircraft hex or an airport code in the search box and press Enter",
+      "Links to a view: the live map reads position, zoom, filters, units and the selected aircraft from the address, and Copy Link to This View builds one",
+      "Altitude chart and Export KML on the aircraft details card",
+      "Wide / Narrow button for the details card, a hover block on aircraft, a geometric-altitude label field and Reset My Map Settings",
+      "This Release Notes page"
+    ],
+    "improved": [
+      "Admin > Status says why a service failed, and its overall banner counts every row",
+      "The How to Feed page now says plainly that ultrafeeder users need nothing extra for MLAT, and explains UAT correctly: a station's 978 MHz aircraft travel through its normal feed, so no extra line, port or setting is needed",
+      "Data Source filter and the aircraft card treat UAT and ADS-R as one source, as the hub reports them"
+    ],
+    "fixed": [
+      "The stack updater clears a leftover parked container and retries, which fixes the 'portal FAILED' row on Admin > Status",
+      "A test that used a fixed date stopped working when the date arrived"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.23",
+    "released": "2026-10-06T02:03:39",
+    "title": "MLAT everywhere, service status, new feed page",
+    "added": [
+      "MLAT Network page: stations on a map, click one to see the stations it is synchronised with, coloured by how well their clocks agree",
+      "How an aircraft is tracked: the details card says whether the position came from ADS-B, MLAT, UAT/ADS-R, TIS-B or Mode S only, explains it, and for MLAT shows how many stations hear it",
+      "MLAT status in plain words on My Station (with what to fix), the public Feeders list and station pages, the public API, the feed check and the admin pages",
+      "Service Status pages: a plain-words page for everyone (/status) and an in-depth one for administrators with the reason behind each state",
+      "Data Source filter on the live map (ADS-B, MLAT, UAT/ADS-R, TIS-B, Mode S, other) with live counts",
+      "The hub itself is now managed by the stack updater, with the MLAT results input connected"
+    ],
+    "improved": [
+      "The How to Feed page was rewritten: how ADS-B, MLAT and UAT work, setup for new and existing stations, ports, troubleshooting and privacy",
+      "Nginx Proxy Manager is told to reload after any service is replaced, so a replaced container is never answered with a stale address"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.22",
+    "released": "2026-10-06T00:34:47",
+    "title": "Stack updater and MLAT server",
+    "added": [
+      "Stack updater (adsb-stack): one service that keeps every hub service in step with the compose files carried in its image, so new services appear on the hub with Update Now and no commands",
+      "MLAT server (adsb-mlat) running the upstream mlat-server, with Admin > MLAT showing connected stations and their health (never their locations)"
+    ],
+    "improved": [
+      "Update Now asks the stack updater to apply new services before Watchtower replaces images",
+      "Flight Progress draws the right aircraft shape for each type instead of one generic icon"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.21",
+    "released": "2026-10-05T22:48:19",
+    "title": "Secrets and privacy hardening",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": [
+      "Two-factor secrets and webhook addresses are stored sealed, recovery codes are keyed, backups are encrypted",
+      "Unknown user names at sign-in are masked, an emergency command-line tool exists for administrators, and a privacy crawl test checks that exact locations are never published"
+    ]
+  },
+  {
+    "version": "1.0.20",
+    "released": "2026-10-05T22:03:32",
+    "title": "Two-factor sign-in",
+    "added": [
+      "Two-factor sign-in with an authenticator app, ten one-time recovery codes, administrator reset and a setting to require it for administrators"
+    ],
+    "improved": [],
+    "fixed": [
+      "Sky View no longer steps backward between position reports"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.19",
+    "released": "2026-10-05T21:47:02",
+    "title": "Alert webhooks and sign-in security",
+    "added": [
+      "Alert webhooks for Discord, Slack, ntfy or any JSON receiver, with limits and protection against unsafe addresses, so alerts work without email"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": [
+      "A list of your sign-ins with Sign Out per device, a per-address sign-in throttle, browser security headers, and an audit entry when an administrator signs in from a new address"
+    ]
+  },
+  {
+    "version": "1.0.18",
+    "released": "2026-10-05T21:18:36",
+    "title": "Flight History",
+    "added": [
+      "Flight History: the portal keeps its own log of every flight it hears, with a History page, period pickers and earlier-flight tracks; the live map's search suggests earlier flights",
+      "Station statistics links with a Station selector, and the Network Feeders dashboard in the Tools menu"
+    ],
+    "improved": [
+      "Highlight for aircraft matching your alert rules, a Watch This Aircraft button, a station coverage layer and airport weather (METAR) on airport markers",
+      "More reliable release script"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.16",
+    "released": "2026-10-05T20:16:33",
+    "title": "Sky View and weather updates",
+    "added": [
+      "Sky View: a live 3D view from an aircraft with terrain, drag to look around, click another aircraft to jump to it, aircraft drawn at their true altitude, and a heading tape",
+      "Weather layers update automatically, with an Update Now button and an updated time per layer"
+    ],
+    "improved": [],
+    "fixed": [
+      "Sky View no longer rewinds between reports"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.14",
+    "released": "2026-10-05T18:56:10",
+    "title": "Weather panel",
+    "added": [
+      "Weather panel with a tile for each layer, live preview, opacity slider, a 50-minute NEXRAD radar loop and winds aloft worked out from aircraft readings"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.13",
+    "released": "2026-10-05T18:19:36",
+    "title": "Airline logos and military emblems",
+    "added": [
+      "Real airline logos and real military service emblems on the live map, in the list (Airline column), on Flight Search and on Flight Progress"
+    ],
+    "improved": [
+      "Grafana dashboards"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.12",
+    "released": "2026-10-05T17:49:52",
+    "title": "Grafana sign-in message",
+    "added": [],
+    "improved": [],
+    "fixed": [
+      "A refused Grafana login now gets a clear hint about the password"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.11",
+    "released": "2026-10-05T17:42:21",
+    "title": "Map labels",
+    "added": [
+      "Labels on aircraft icons with airline logos, choose-your-own fields, size and background, the route, a selected-aircraft beacon, and the planned route on the map with progress"
+    ],
+    "improved": [
+      "Details card with folded sections; the All trails option honours the filters"
+    ],
+    "fixed": [
+      "Grafana setup now logs every step and says why it was refused"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.10",
+    "released": "2026-10-05T16:57:04",
+    "title": "About page and updates page",
+    "added": [
+      "Public About page"
+    ],
+    "improved": [
+      "The version, update check and Update Now moved to Admin > Updates"
+    ],
+    "fixed": [
+      "The switch command could use a cached older image"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.9",
+    "released": "2026-10-05T16:29:29",
+    "title": "One-command hub switch",
+    "added": [
+      "One command on the hub switches it to automatic updates; the hub's compose files now travel inside the portal image"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.8",
+    "released": "2026-10-05T16:06:26",
+    "title": "Automatic updates",
+    "added": [
+      "Automatic updates (Watchtower) every night at 4 a.m. and an Update Now button for administrators",
+      "Grafana and Prometheus images that carry their own configuration and dashboards"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.7",
+    "released": "2026-10-05T15:51:12",
+    "title": "Phone-friendly pages",
+    "added": [
+      "Mobile pass 1: a drawer menu, phone layouts for every page, and a live map with bottom sheets and a slide-up list"
+    ],
+    "improved": [],
+    "fixed": [
+      "Forms with a field named 'action' posted to the wrong address, which made Assign role fail with a 404"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.6",
+    "released": "2026-10-05T15:14:10",
+    "title": "Security settings",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": [
+      "Session length limits, inactivity sign-out with a warning, administrator limits, password rules and age, and Sign Everyone Out"
+    ]
+  },
+  {
+    "version": "1.0.5",
+    "released": "2026-10-05T14:51:51",
+    "title": "Expired form tokens",
+    "added": [],
+    "improved": [],
+    "fixed": [
+      "Admin pages left open for an hour failed on the next action with 'The request could not be completed'; form tokens now last as long as the session, and refused actions explain why"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.4",
+    "released": "2026-10-05T14:15:36",
+    "title": "Quieter map",
+    "added": [],
+    "improved": [
+      "Aircraft labels are off by default"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.3",
+    "released": "2026-10-05T13:38:44",
+    "title": "Range, recovery and search",
+    "added": [
+      "Per-station range, account recovery by email or by a claimed station's UUID, delete your own account, a Contacts page, an alert notice, Hide Others on the live map, flight search, and sign-in by user name or email"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.2",
+    "released": "2026-10-05T04:08:35",
+    "title": "Email change and trail gaps",
+    "added": [
+      "Change your email address in your profile (password required)"
+    ],
+    "improved": [
+      "Trails break at gaps and draw short gaps dashed, like the classic map"
+    ],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.1",
+    "released": "2026-10-05T03:38:00",
+    "title": "Trails and Grafana fixes",
+    "added": [],
+    "improved": [
+      "Trail labels are off by default"
+    ],
+    "fixed": [
+      "The Grafana heatmap opened mid-ocean instead of over the network's area, and its maps row opened collapsed",
+      "The trail now reaches the aircraft (recent and full traces merged with a live tail)"
+    ],
+    "security": []
+  },
+  {
+    "version": "1.0.0",
+    "released": "2026-10-05T02:40:16",
+    "title": "First release",
+    "added": [
+      "Accounts, sign-in, roles and permissions, an audit log, sign-in history and an administrator area",
+      "Feeder tracking, claiming a station, station IDs, station pages, and a public Feeders list with map, rankings and JSON API that applies each owner's privacy choice",
+      "How to Feed guide with an Am I Feeding check",
+      "The live map built in: classic aircraft icons, columns, filters, a full details card with photo, make and model and route, trails, layers from tar1090's sources, radar, an Arkansas chart background and per-station views",
+      "Heatmap and Replay tools, embedded tools in the menu, Flight Progress page, Statistics Dashboard and Grafana with the Ultrafeeder dashboard",
+      "Aircraft alert rules, airport data and pages, backups with restore, SMTP settings, and display preferences",
+      "The release process: a build on every change, a Promote to stable step and an update check"
+    ],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  }
 ]
