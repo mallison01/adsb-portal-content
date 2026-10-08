@@ -16,13 +16,13 @@
   {
    "title": "Collapse the map panels from the bottom",
    "summary": "A small arrow at the bottom of the Filters and Weather panels folds them away.",
-   "status": "planned",
+   "status": "done",
    "area": "Map"
   },
   {
    "title": "Tidier admin area",
    "summary": "One consistent width for every admin section, the admin area using the full screen width, and shorter, better grouped settings.",
-   "status": "planned",
+   "status": "done",
    "area": "Admin"
   },
   {
