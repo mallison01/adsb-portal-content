@@ -56,9 +56,9 @@
    "area": "Map"
   },
   {
-   "title": "County map features",
-   "summary": "A clickable county map: every county is one shape, shaded by how many feeders, weather stations, hospitals or airports it has, with a page for each county. Later: counties without a hospital, drive-time rings, interstates.",
-   "status": "planned",
+   "title": "County map",
+   "summary": "A clickable county map: every Arkansas county is one shape, shaded by how many feeders, weather stations, hospitals, airports or balloon launch sites it has, with a page for each county and county layers on the aircraft and home maps. Released in 1.0.31. Later: drive-time rings around hospitals and interstates.",
+   "status": "done",
    "area": "Map"
   },
   {
@@ -231,8 +231,8 @@
   },
   {
    "title": "Radiosondes",
-   "summary": "Weather balloons launched near Arkansas: live tracks, predicted landing places and which of our stations heard them, using the public SondeHub data.",
-   "status": "planned",
+   "summary": "National Weather Service and amateur weather balloons over Arkansas and its neighbors: live map, tracks, charts, history, launch sites, receiving stations members can claim with their location obscured, search, and a layer on the aircraft map. Released in 1.0.31.",
+   "status": "done",
    "area": "Data"
   },
   {

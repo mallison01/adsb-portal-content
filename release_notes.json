@@ -5,9 +5,45 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "In progress: the repeater directory and the county map"
+      "In progress: more granular administrator roles (weather, radiosondes, a repeater moderator) and the repeater directory"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.31",
+    "released": "2026-10-09T15:24:42",
+    "title": "Weather balloons, the county map, and help for administrators",
+    "added": [
+      "Copy buttons on code blocks and setup values (upload address, server, path, port, commands)",
+      "Radiosondes and balloons: National Weather Service balloons and amateur balloons over Arkansas and its neighbors, recorded live with their tracks, data and history",
+      "A Balloon Map in the same style as the aircraft map, flight pages with charts and a Skew-T diagram, launch sites and receiving stations, search, and CSV and GeoJSON downloads",
+      "Claim your radiosonde receiving station (by call sign, by a code in the station's antenna description, or approved by an administrator) and choose how its location is shown",
+      "County Map: every Arkansas county shaded by what is in it (feeders, weather stations, hospitals, airports, balloon launch sites), with a page for each county; counties are also layers on the aircraft map and the home map",
+      "Weather balloons card on the home page and a Weather balloons layer on the aircraft map",
+      "Weather balloon status: climbing (balloon intact) or burst and falling, recovery reports from SondeHub, balloon icons for launch, burst, falling and landing",
+      "Flight pages show the telemetry of the moment (updating by itself), and who is hearing the balloon with the signal now",
+      "Weather Statistics and Balloon Statistics dashboards in Grafana, and a hover read-out on the weather station charts",
+      "Radiosonde receiving stations are claimed for you automatically when their call sign (with or without a suffix such as -LR) matches your profile",
+      "Administrators can open and edit a member's weather station or radiosonde station with the member's own pages",
+      "Administrators can assign a radiosonde station to a member or start a claim for them",
+      "Administrators can add a weather station or an ADS-B feeder for a member, as well as assign a radiosonde station"
+    ],
+    "improved": [
+      "Weather setup pages now cover the Home Assistant (HACS) integration and a ready-made compose file for the Tempest bridge container",
+      "Am I Feeding? also checks your weather stations when you are signed in",
+      "Admin > Data Updates loads county outlines and balloon launch sites; Admin > Radiosondes shows the live feed and the claims",
+      "The Statistics Dashboard and Feeder Statistics pages are now called Aircraft Statistics and Aircraft Feeder Statistics",
+      "Bigger tap targets for airports, launch sites and stations on phones; Overview comes before the Balloon Map; the About page and the Roadmap's finished cards are up to date",
+      "Receiving Stations can be searched and sorted",
+      "Balloon icons can be resized and their labels turned off (hover shows the details); the balloon charts match the weather station charts, with icons"
+    ],
+    "fixed": [
+      "A duplicate navigation bar under the menu on the How to Feed pages is gone",
+      "Home Assistant setup no longer fails with 'Could not reach ArkSignal' for an http:// address (the site redirects to https; integration 1.0.2 follows it correctly), and the address shown for Home Assistant and scripts is the https one",
+      "Hospital position picker: Use the Picked Position now updates the Latitude and Longitude shown on the hospital",
+      "Receiving stations whose position was uploaded as text appeared at the wrong place (and so were missing from Arkansas)"
+    ],
     "security": []
   },
   {
