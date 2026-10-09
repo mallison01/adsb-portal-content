@@ -5,9 +5,30 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "In progress: recovery reports and chase mode for the balloon map, balloon predictions, and the SondeHub archive"
+      "In progress: predictions for future balloon flights, the SondeHub archive and a prediction service"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.33",
+    "released": "2026-10-09T20:29:40",
+    "title": "Balloon recovery reports and chase mode, folding home card, and a setting for where each map opens",
+    "added": [
+      "Balloon recovery reports: signed-in members report a recovered, planned or not-found balloon from its flight page, in SondeHub's own format (serial, recovered by, recovery success, recovery planned, position, notes); it is sent to SondeHub and shown here",
+      "Chase mode on the Balloon Map for signed-in members: your position, the distance, bearing and directions to the balloon you pick, other chasers' cars, and an optional Share My Position that puts your car (CALLSIGN_chase) on SondeHub's map",
+      "New balloon icons for a planned recovery, a chase car and your own position; recovered, planned and not-found landings show on the map, with a Recovery filter and Hide recovered sondes",
+      "Settings > Map Areas: every map (home page, aircraft live map, Coverage Map, Balloon Map, Weather Map, County Map, Feeders map) has its own \"opens on\" area, all set to the whole of Arkansas by default",
+      "Read-only production access for troubleshooting (a locked-down key that can read logs and container state on the hub and nothing else; installed by you with one script)"
+    ],
+    "improved": [
+      "Backups: the restore screens have a Map Data area (hospitals, places, counties, air ambulances, interesting aircraft) and the balloon recovery reports; a test now fails if a table is in no area",
+      "The card beside the home map folds each block (Worth a Look, Records, The Network, Weather, Radiosondes) into a one-line headline you can open; it only scrolls once enough blocks are open, and it remembers which you opened"
+    ],
+    "fixed": [
+      "Browser location was blocked on every page by the site's security header; it is now allowed for this site only, so chase mode and Use Browser Position can ask for it",
+      "The Balloon Map, Weather Map and County Map open on Arkansas whole instead of fitting themselves to whatever balloons, stations or counties were loaded"
+    ],
     "security": []
   },
   {

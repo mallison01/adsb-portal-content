@@ -213,25 +213,25 @@
     },
     {
       "title": "Map revamp: one map for every kind of data",
-      "summary": "Preset views (Aircraft, Weather, Radio, Mesh, Everything), one search box for everything, active-filter chips and per-layer filter sections.",
+      "summary": "Every map now shares one layout, icons, popups and settings. Still to do: saved views, one search box, roads.",
       "status": "progress",
       "area": "Map"
     },
     {
       "title": "Places, roads, counties and hospitals",
-      "summary": "County and city boundaries, major roads, ZIP codes and hospitals with their trauma level and services, tied to their heliports, searchable by city or ZIP, with a drill-down panel showing everything nearby.",
-      "status": "planned",
+      "summary": "Counties, county pages, cities, hospitals and heliports are done; roads and drill-down are still to do.",
+      "status": "progress",
       "area": "Map"
     },
     {
       "title": "Weather stations",
-      "summary": "Members' own weather stations (Ecowitt, Tempest, Weather Underground format, Home Assistant) with their own pages, charts, daily summary, map layers and a card on the home page. Built; ships in the next release.",
+      "summary": "Members' own weather stations on the weather pages, the weather map and the home page.",
       "status": "done",
       "area": "Stations"
     },
     {
       "title": "Radiosondes",
-      "summary": "National Weather Service and amateur weather balloons over Arkansas and its neighbors: live map, tracks, charts, history, launch sites, receiving stations members can claim with their location obscured, search, and a layer on the aircraft map. Released in 1.0.31.",
+      "summary": "Live balloons, flights, launch sites, receiving stations, recovery reports and chase mode.",
       "status": "done",
       "area": "Data"
     },
@@ -399,56 +399,20 @@
     },
     {
       "title": "Easier navigation on every page",
-      "summary": "The top menu and a bottom bar stay in view while you scroll long pages, on phones too.",
-      "status": "progress",
+      "summary": "A grouped top menu (overview first, map second) and an always-visible bar on every page.",
+      "status": "done",
       "area": "Hub"
-    },
-    {
-      "title": "A tidier Settings area",
-      "summary": "Admin settings regrouped into a sub-menu of shorter pages, with a search for any setting.",
-      "status": "progress",
-      "area": "Hub"
-    },
-    {
-      "title": "Search on the admin lists",
-      "summary": "Find a person, station, MLAT connection or map layer by typing.",
-      "status": "progress",
-      "area": "Accounts"
-    },
-    {
-      "title": "Search and sort on public lists",
-      "summary": "Search and sort the public Feeders list, and sort Flights, Flight History and Airports by any column.",
-      "status": "progress",
-      "area": "Stations"
-    },
-    {
-      "title": "How to Feed split by feed type",
-      "summary": "Separate pages for ADS-B, MLAT, UAT and Am I Feeding, with room for weather stations, ACARS and more.",
-      "status": "progress",
-      "area": "Stations"
-    },
-    {
-      "title": "Network coverage map",
-      "summary": "What the network covers, filterable by type: ADS-B, MLAT, UAT and later repeaters, radiosondes, weather and mesh.",
-      "status": "progress",
-      "area": "Map"
-    },
-    {
-      "title": "Choose your landing page",
-      "summary": "Each person picks which page they land on after signing in.",
-      "status": "progress",
-      "area": "Accounts"
     },
     {
       "title": "ArkSignal: a new name",
-      "summary": "The network now covers far more than ADS-B (weather, radio, mesh and more), so it becomes ArkSignal, at arksignal.allisononline.org. The old addresses keep working for everyone already feeding.",
-      "status": "planned",
+      "summary": "The network is ArkSignal: new name, wordmark, About page and emails.",
+      "status": "done",
       "area": "Community"
     },
     {
       "title": "A new home page with a page for each service",
-      "summary": "A broad ArkSignal overview with live numbers and a card for each service (aircraft, weather, radio, mesh and more). Aircraft tracking becomes its own landing page, and every other service gets one tailored to it.",
-      "status": "planned",
+      "summary": "The overview home page is live, with a map of every kind of station and a card for each service; a landing page for each service is next.",
+      "status": "progress",
       "area": "Hub"
     },
     {
@@ -616,8 +580,44 @@
     {
       "title": "Balloon recovery reports and chase mode",
       "summary": "Signed-in members report recoveries to SondeHub, see recovered, planned and unrecoverable sondes on the map, and use a chase mode.",
-      "status": "progress",
+      "status": "done",
       "area": "Data"
+    },
+    {
+      "title": "Predictions for future balloon flights",
+      "summary": "Where the next launches from each site are likely to land, learned from years of history: a landing area, burst height and flight time, with a score of how well it did before.",
+      "status": "planned",
+      "area": "Data"
+    },
+    {
+      "title": "SondeHub archive import",
+      "summary": "Bring in SondeHub's open archive for Arkansas and the surrounding launch sites, as far back as it goes, so predictions start with years of data.",
+      "status": "planned",
+      "area": "Data"
+    },
+    {
+      "title": "A prediction and archive service",
+      "summary": "The heavy work runs in its own container with its own database, so it can move to another host as the network grows.",
+      "status": "planned",
+      "area": "Hub"
+    },
+    {
+      "title": "Read-only production access",
+      "summary": "A locked-down login that lets Claude read logs and container state on the hub, and nothing else.",
+      "status": "progress",
+      "area": "Hub"
+    },
+    {
+      "title": "Backups kept in step with every feature",
+      "summary": "Every table has a restore area and a test fails when a new one does not.",
+      "status": "done",
+      "area": "Hub"
+    },
+    {
+      "title": "Hospital drive-time rings",
+      "summary": "Rings on the map showing how far an ambulance can drive from each hospital in 15, 30 and 60 minutes.",
+      "status": "idea",
+      "area": "Map"
     }
   ]
 }
