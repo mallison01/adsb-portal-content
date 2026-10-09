@@ -5,9 +5,38 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "In progress: more granular administrator roles (weather, radiosondes, a repeater moderator) and the repeater directory"
+      "In progress: recovery reports and chase mode for the balloon map, balloon predictions, and the SondeHub archive"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.32",
+    "released": "2026-10-09T19:02:48",
+    "title": "Granular roles, one registry for every service, and a more consistent set of maps",
+    "added": [
+      "Admin Feeders and MLAT lists have Actions (Manage, Details, Release, Assign, Ban) like the weather and radiosonde lists",
+      "Radiosonde receiving stations and balloon flights on the coverage map; every kind of point (hospitals, airports, stations, launch sites) can be switched on over the county map",
+      "Choose how precisely your station's location is shown: exact, within about 400 feet, 0.7 mile, 6 miles, 60 miles, or hidden",
+      "Granular administrator roles: separate permissions for weather stations, radiosondes and map data (and a repeater moderator, ready for the repeater directory); the broader Manage Feeders and Manage Settings still include them",
+      "Settings: Panels When a Map Opens. Every map now starts with its list, filters and legend closed (set it to Open to bring them back)",
+      "Home page: the map shows the balloon receiving stations and launch sites, and the card beside it has Weather Right Now and Radiosondes Right Now; the admin Overview has weather and radiosonde tiles, claims waiting and the launch-site and county data"
+    ],
+    "improved": [
+      "Menu: Places opens the County Map, and Weather lists Overview first and the Weather Map second, like Aircraft and Radiosondes",
+      "Clicking a marker on the county map or a county page opens the same popup as on the aircraft map (hospital, airport, station, balloon site) instead of jumping to another page",
+      "Stations that stand at the same place (an ADS-B feeder, a weather station, a balloon receiving station) no longer hide each other on the maps: their markers fan out around the shared spot, each still clickable",
+      "Administrators' Add forms for a member (weather station, feeder, radiosonde station) now offer every option the member has, find the member as you type (user name, display name, call sign or email) and can tie a weather station to one of the member's feeders",
+      "The county maps use the same airport, hospital and balloon icons as the other maps",
+      "County map hospitals show the heliport badge and link, and look faint when their position is only approximate, like the aircraft map",
+      "Menu entries and map behavior follow one rule on every map: the overview comes first and the map second, the same icons and popups, panels closed when a map opens"
+    ],
+    "fixed": [
+      "Update Now no longer leaves Grafana stuck when the update service and the stack updater replace the same container at once: the stack updater clears the container that holds the name and retries",
+      "Radiosonde receiving stations whose position was missing (\"not known yet\") get it back at once, from one request to SondeHub, instead of waiting for their next upload",
+      "Weather labels on the maps no longer cover a feeder at the same place: the label sits beside a small dot marking the station's position",
+      "The map on the home page can be zoomed: zoom buttons, double click and pinch always work, and the mouse wheel zooms once the map has been clicked"
+    ],
     "security": []
   },
   {
