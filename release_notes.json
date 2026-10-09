@@ -5,9 +5,41 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "In progress: weather stations and the repeater directory"
+      "In progress: the repeater directory and the county map"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.0.30",
+    "released": "2026-10-09T02:39:29",
+    "title": "Weather stations, a shared map look, Planefence speed-up",
+    "added": [
+      "A Show on Map button on airport and hospital pages that opens the live map on that place",
+      "Weather stations: members' own stations (Ecowitt, Weather Underground format, Home Assistant, and Ecowitt.net accounts) with live conditions, charts, daily summaries, records, a map layer on the home and live maps, and a Weather card on the home page",
+      "Add a weather station to one of your ADS-B feeders, or run a weather-only station; choose public, approximate or hidden just like a feeder",
+      "Home Assistant users can install the ArkSignal Weather integration, pick their weather device and be done; a small Tempest bridge sends a Tempest station's own local readings without any cloud service (both are published separately)",
+      "A full Weather Map with radar and satellite layers, filters, wind arrows and a station list; weather stations on the aircraft map can show wind, temperature, rain and more",
+      "Condition icons (sunny, cloudy, rain, storm, wind, fog, night) and an icon for every reading on the weather station page",
+      "Plane-Alert can use your own Interesting Aircraft list as its alert list, so the list is kept in one place",
+      "Planefence now keeps low-flying aircraft only (up to 5,000 ft) after the first start of this release, so its list is much shorter; change it any time on Admin > Planefence"
+    ],
+    "improved": [
+      "In progress: the repeater directory",
+      "Buttons that ask for confirmation (such as Delete) now ask before they act on every page",
+      "Weather uploads accept values that carry their own unit, so any unit system works",
+      "Weather station charts are smaller and sit side by side",
+      "The weather map now has the same layout, layers, Weather panel and label choices as the aircraft map, with weather stations as labels that show a wind rose and any values you choose",
+      "Hospitals: setting or editing a position by hand takes the hospital off the review list, and the Address Lookup always has a map you can click to place the hospital when a lookup fails",
+      "The home page's right-now numbers, cards and map count only what is in Arkansas (a margin of 15 miles), so a station or aircraft far away or across the border does not skew them; it can be switched off in Settings",
+      "Planefence and Plane-Alert load faster: the aircraft list now streams to the page as it is read instead of being collected first, pages are compressed (about a fifth of the size) and cached briefly"
+    ],
+    "fixed": [
+      "Flight paths: a flight that lands out of range and flies again hours later is now drawn as a separate leg instead of joined to the earlier one by a straight line",
+      "The phone menu shows each group name and its arrow on one line",
+      "After saving something on a page (such as Use This Position on a hospital) the page no longer jumps to the top: the confirmation stays in view where you are",
+      "Weather stations now show on the coverage map, with their own layer"
+    ],
     "security": []
   },
   {

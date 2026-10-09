@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "items": [
   {
    "title": "Arkansas trauma list and hospital capabilities",
@@ -57,7 +57,7 @@
   },
   {
    "title": "County map features",
-   "summary": "County outlines, counties without a hospital shaded, drive-time rings around a hospital, interstates and highways.",
+   "summary": "A clickable county map: every county is one shape, shaded by how many feeders, weather stations, hospitals or airports it has, with a page for each county. Later: counties without a hospital, drive-time rings, interstates.",
    "status": "planned",
    "area": "Map"
   },
@@ -225,8 +225,8 @@
   },
   {
    "title": "Weather stations",
-   "summary": "Members' own weather stations (Ecowitt, Tempest, Weather Underground and more) with their own pages, current conditions, rain, wind, lightning and history, and a weather layer on the map, in the style of Weather Underground.",
-   "status": "planned",
+   "summary": "Members' own weather stations (Ecowitt, Tempest, Weather Underground format, Home Assistant) with their own pages, charts, daily summary, map layers and a card on the home page. Built; ships in the next release.",
+   "status": "done",
    "area": "Stations"
   },
   {
@@ -552,6 +552,42 @@
    "summary": "Page content is limited to a comfortable width by default, with full width one click away, saved on your profile.",
    "status": "done",
    "area": "Site"
+  },
+  {
+   "title": "Show on Map links",
+   "summary": "Airport, hospital and weather station pages have a Show on Map button that opens the live map on that place.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Flight paths that separate",
+   "summary": "A flight that lands out of range and flies again later is drawn as its own path, not joined to the earlier one.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Home Assistant integration and Tempest bridge",
+   "summary": "Install ArkSignal Weather from HACS, choose your weather device and it sends the readings; Tempest owners without Home Assistant run a small bridge that listens to their hub locally.",
+   "status": "done",
+   "area": "Stations"
+  },
+  {
+   "title": "Weather map with layers and filters",
+   "summary": "A full Weather Map with radar and satellite layers, a station list, wind arrows, filters and a details card; the same markers on the live map and the Weather page.",
+   "status": "done",
+   "area": "Map"
+  },
+  {
+   "title": "Home page for Arkansas only",
+   "summary": "The home page's right-now numbers, cards and map count only what is in Arkansas, with a margin at the border.",
+   "status": "done",
+   "area": "Hub"
+  },
+  {
+   "title": "Faster Planefence",
+   "summary": "Streamed and compressed data, cached pages and a fence limited to low-flying aircraft, and Plane-Alert can use the Interesting Aircraft list.",
+   "status": "done",
+   "area": "Data"
   }
  ]
 }
