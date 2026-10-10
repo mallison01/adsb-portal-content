@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "items": [
     {
       "title": "Drive times from anywhere on a map",
-      "summary": "Click the map, or search a city or an address, and the nearest hospitals are listed by drive time with rings of 15, 30, 60 and 90 minutes (an estimate from the network's own routing server).",
-      "status": "next",
+      "summary": "Click the map to pick a place, or search a city or an address, and the nearest hospitals are listed by road drive time and distance (near-ties by trauma level, then services). Drive-time rings of 15, 30, 60 and 90 minutes can be shown for any hospital or place, on the County Map and the other maps. An estimate from the network's own routing server.",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "One list of location precision",
       "summary": "Twelve steps from exact to hidden, the same on every form and setting, written in your own units. Radiosonde stations show to about 0.7 mile until their owner chooses.",
-      "status": "next",
+      "status": "done",
       "area": "Stations"
     },
     {

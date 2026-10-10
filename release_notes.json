@@ -16,7 +16,7 @@
     "title": "Drive times from anywhere, one location precision list",
     "added": [
       "Service Status has a row for the routing server (OSRM) behind the hospital drive-time rings",
-      "Drive times from anywhere: switch on Click the map to pick a place and press Show Drive Times From Here (or search a city or an address and choose Drive times from ...) and the nearest hospitals are listed by road drive time, ties and near-ties by trauma level and services, with rings of 15, 30, 60 and 90 minutes (an estimate, not an ambulance's route)",
+      "Drive times from anywhere: switch on Click the map to pick a place and press Show Drive Times From Here (or search a city or an address and choose Drive times from ...) and the nearest hospitals are listed by road drive time and road distance, ties and near-ties by trauma level and services, with rings of 15, 30, 60 and 90 minutes (an estimate, not an ambulance's route)",
       "County Map: drive-time rings only when you ask (a hospital's popup, or the Hospital Drive-Time Rings choice for the Level I and II or all trauma centers), thick colored lines with minute labels, now including a 90 minute ring",
       "Location precision: one list of twelve steps (Exact down to 40 feet, then 400 feet, a quarter mile, 0.7 mile, 1.5 miles, 3 miles, the site's General, 15, 30 and 60 miles, Hidden) for feeders, weather stations, radiosonde stations and the administrator defaults, written in your own units",
       "Admin > Full Roadmap shows everything; the public Roadmap shows only what is meant for the public"
