@@ -2,6 +2,36 @@
   "updated": "2026-10-09",
   "items": [
     {
+      "title": "Highways map layer and hospital drive-time rings",
+      "summary": "Interstates, US and state highways as a map layer on every map, and 15, 30 and 60 minute drive-time rings on hospital pages (an estimate from the network's own routing server).",
+      "status": "done",
+      "area": "Map"
+    },
+    {
+      "title": "APRS stations and weather",
+      "summary": "Digipeaters, gateways, weather stations (CWOP included) and optionally moving stations from the APRS-IS network around Arkansas, with a map, station pages, an APRS weather page and a takedown list.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Repeater directory",
+      "summary": "Amateur radio repeaters in every mode from Hearham's open data and Arkansas hams, with a map, reports, sysop claims and member submissions. More layers, coverage estimates and extra sources are still to come.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Phone-friendly pages",
+      "summary": "Menu, section bars, tables as cards, folded map panels and smoother scrolling on phones.",
+      "status": "done",
+      "area": "Site"
+    },
+    {
+      "title": "Balloon landing forecasts and archive history",
+      "summary": "A separate prediction service imports SondeHub's open archive and forecasts where the balloons of upcoming launches will land, then scores itself against the real flights. Members can also load any flight by serial.",
+      "status": "done",
+      "area": "Radiosondes"
+    },
+    {
       "title": "Arkansas trauma list and hospital capabilities",
       "summary": "Load the state's designated trauma centres and what each hospital can do from the state's own files, with their source shown.",
       "status": "done",

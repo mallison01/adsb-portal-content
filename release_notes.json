@@ -5,9 +5,43 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "In progress: predictions for future balloon flights, the SondeHub archive and a prediction service"
+      "Nothing yet: this section is filled in as the next release is worked on"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.1.0",
+    "released": "2026-10-10T12:00:00",
+    "title": "Balloon forecasts and history, repeaters, APRS, highways, drive-time rings, one search and saved views, and a phone-friendly site",
+    "added": [
+      "Balloon forecast flights: for each upcoming launch the Balloon Map draws where it will launch from, its path (colored by height), where it will burst and where it will land, shaped like past flights from the same site, season and hour and pulled toward the latest flights; a separate switch shows the area half of such flights landed in",
+      "Historical balloon flights: every flight SondeHub's archive holds for the Little Rock launch site and the sites around Arkansas can be brought in as full flights, slowly in the background (switch it on under Admin > Radiosondes > Historical Flights)",
+      "Repeaters: also adds the repeaters APRS stations announce, and administrators can import a list a club or council gave permission to use (a CSV file)",
+      "The Radiosondes overview lists Arkansas only by default (flights launched in Arkansas, the receiving stations and launch sites there); Settings > Radiosondes > Radiosondes Overview Shows adds Missouri, Tennessee, Mississippi, Louisiana, Texas, Oklahoma or anywhere else. The Balloon Map and All Flights still show every state",
+      "Display menu: Distances in settings (site default, feet and miles, or metres and kilometres), saved with your account"
+    ],
+    "improved": [
+      "In progress: predictions for future balloon flights, the SondeHub archive and a prediction service",
+      "Radiosonde settings that were in kilometers and meters (launch site match distance, landed-below altitude, recovery radius) are now distance settings shown in feet and miles, or in your own choice of units",
+      "Phones: the menu opens full screen with one group open at a time and whole-row taps; the section bar opens over the page instead of pushing it down; tables turn into cards; the home map's layer list starts folded; the Coverage Map fits a phone; the footer stays at the bottom on short pages; scrolling is smoother (the page background no longer repaints while you scroll, and blur effects are off on touch screens)",
+      "County Map: a Highlight and Name on Hover switch, off by default (Settings > Counties sets the site default)",
+      "Maps: one search box on every map finds airports, places, hospitals, repeaters, APRS stations, balloons and counties and flies there; Saved Views remember where a map is looking, its filters and its layers (kept with your account when signed in)",
+      "Highways: a map layer of the Interstates, US highways and state highways (from the Census, kept on this site) on every map with the Layers list",
+      "Hospital pages: drive-time rings show how far a vehicle gets in 15, 30 and 60 minutes by road (our own estimate from the network's routing server, not an ambulance's route); worked out once and kept",
+      "APRS: stations, digipeaters, gateways and weather stations (including Citizen Weather Observer Program stations) read from the amateur radio APRS-IS network around Arkansas, with a list, a map, a page for each station, an APRS Weather page in your own units, a takedown list for call signs, and an APRS service of its own (own container and database)",
+      "Repeater directory: amateur radio repeaters, linked nodes and gateways in every mode (FM, DMR, D-STAR, Fusion, P25) from Hearham's open listing and Arkansas hams, with a list and filters, a page for each repeater, a Repeater Map, reports of problems, sysop claims, member submissions that wait for an editor and a Radio menu; the search box finds a frequency or call sign",
+      "Balloon landing forecasts: a new prediction service (its own container and database) imports SondeHub's open archive back to 2022 for Arkansas and the surrounding launch sites and forecasts where the balloons of upcoming launches will land, from past flights of the same site, season and hour and the latest winds; every forecast is scored against the real flight. See Next Launch Forecast on the Radiosondes page and Forecast landing areas on the Balloon Map",
+      "Load a Flight by Serial: signed-in members can pull any flight from SondeHub's public archive by serial (Balloon Flights page); it is kept here like any other flight",
+      "Radiosonde predictions: the whole predicted path to the landing is kept and drawn on the flight page and the map, not just a line to the landing point",
+      "The faint range labels on the page background and the radar, the privacy-precision wording, the live map altitude legend and filters now follow your units too",
+      "One units choice for the whole site: imperial (feet, mph, miles, degrees F) by default, set per person in the Display menu (imperial, aeronautical or metric) and saved with the account; the aircraft and balloon maps, the balloon flight page and charts, range statistics, airports, flight history, weather and every distance in Admin settings follow it. The site default is Settings > Units (Site Default)",
+      "Every map now has the small arrow at the bottom of its open panels that folds them away (the Balloon Map, Weather Map, County Map, Repeater Map and APRS Map were missing it)"
+    ],
+    "fixed": [
+      "The balloon map and the aircraft map's balloon layer draw a flight's whole track, from launch to landing, thinned evenly; before, a long flight showed only its last hour or so",
+      "Weather stations that are not reporting no longer appear on the aircraft map (Settings > Weather Stations > Hide Offline Stations on the Aircraft Map; a visitor can switch it with Reporting Now Only in the Weather panel)"
+    ],
     "security": []
   },
   {
