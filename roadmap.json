@@ -2,6 +2,18 @@
   "updated": "2026-10-09",
   "items": [
     {
+      "title": "Drive times from anywhere on a map",
+      "summary": "Click the map, or search a city or an address, and the nearest hospitals are listed by drive time with rings of 15, 30, 60 and 90 minutes (an estimate from the network's own routing server).",
+      "status": "next",
+      "area": "Map"
+    },
+    {
+      "title": "One list of location precision",
+      "summary": "Twelve steps from exact to hidden, the same on every form and setting, written in your own units. Radiosonde stations show to about 0.7 mile until their owner chooses.",
+      "status": "next",
+      "area": "Stations"
+    },
+    {
       "title": "Highways map layer and hospital drive-time rings",
       "summary": "Interstates, US and state highways as a map layer on every map, and 15, 30 and 60 minute drive-time rings on hospital pages (an estimate from the network's own routing server).",
       "status": "done",
@@ -635,7 +647,8 @@
       "title": "Read-only production access",
       "summary": "A locked-down login that lets Claude read logs and container state on the hub, and nothing else.",
       "status": "progress",
-      "area": "Hub"
+      "area": "Hub",
+      "audience": "admin"
     },
     {
       "title": "Backups kept in step with every feature",

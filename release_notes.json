@@ -5,9 +5,35 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "Nothing yet: this section is filled in as the next release is worked on"
+      "Nothing yet: this list fills in as the next release is built"
     ],
     "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.2.0",
+    "released": "2026-10-10T15:09:22",
+    "title": "Drive times from anywhere, one location precision list",
+    "added": [
+      "Service Status has a row for the routing server (OSRM) behind the hospital drive-time rings",
+      "Drive times from anywhere: switch on Click the map to pick a place and press Show Drive Times From Here (or search a city or an address and choose Drive times from ...) and the nearest hospitals are listed by road drive time, ties and near-ties by trauma level and services, with rings of 15, 30, 60 and 90 minutes (an estimate, not an ambulance's route)",
+      "County Map: drive-time rings only when you ask (a hospital's popup, or the Hospital Drive-Time Rings choice for the Level I and II or all trauma centers), thick colored lines with minute labels, now including a 90 minute ring",
+      "Location precision: one list of twelve steps (Exact down to 40 feet, then 400 feet, a quarter mile, 0.7 mile, 1.5 miles, 3 miles, the site's General, 15, 30 and 60 miles, Hidden) for feeders, weather stations, radiosonde stations and the administrator defaults, written in your own units",
+      "Admin > Full Roadmap shows everything; the public Roadmap shows only what is meant for the public"
+    ],
+    "improved": [
+      "Long pages have a round arrow at the bottom right that takes you back to the top",
+      "Data Updates: the page shows what is running; different sources can run at the same time, but a source cannot start while it, or one whose data it uses (or that uses its data), is running",
+      "Airline logos: the map no longer waits for logos to be fetched (they are fetched in the background and kept, and logos for the airlines in the air are fetched ahead of time), so the aircraft map loads quickly with logos on",
+      "Balloon Map and Flights page: shorter windows of 1, 2 and 3 hours",
+      "MLAT Network page: the station dots are bigger, with a halo and a white edge",
+      "Radiosondes: receiving stations are shown to about 0.7 mile until their owner chooses (it was General, about 6 miles)",
+      "Picking a place, airport or hospital in a map's search clears the search box so nothing stays filtered, flies there and marks it with a label for a few seconds"
+    ],
+    "fixed": [
+      "The routing server address default is the one the hub and production reach (172.16.254.101); 1.1.0 shipped the WireGuard tunnel address",
+      "APRS Weather: pressure shows two decimals in inches of mercury"
+    ],
     "security": []
   },
   {
