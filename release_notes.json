@@ -11,6 +11,27 @@
     "security": []
   },
   {
+    "version": "1.3.0",
+    "released": "2026-10-10T19:27:37",
+    "title": "One map layout, admin by service with setting search, APRS lists and map labels",
+    "added": [
+      "County Map: show counties shaded, outlined, or both, and switch back and forth",
+      "Every map has a Map selector at the top that switches between the kinds of map (aircraft, weather stations, balloons, counties, repeaters, APRS) and keeps your view",
+      "Admin: the menu is organized by service (Aircraft and Feeders, Weather and Balloons, Radio, Map and Data, Updates, Site), each with its own Settings page; a search box on every admin page finds any setting and opens it"
+    ],
+    "improved": [
+      "Radio overview: click a column heading to sort, like the other lists",
+      "APRS Stations and APRS Weather: search box and click-to-sort headings",
+      "APRS Map: station labels with the weather reading of your choice (in your own units), like the other maps",
+      "Maps: opening the Legend now folds away Layers and Filters instead of stacking under it; the button is called Layers & Filters",
+      "The aircraft map and the Weather Map are built on the same map layout as the other maps, so panels, the Legend, the fold arrow and Drive Times behave the same everywhere"
+    ],
+    "fixed": [
+      "APRS Weather and other server-built pages follow the units you choose in the Display menu even when you are signed out (the browser's choice is now remembered in a cookie)"
+    ],
+    "security": []
+  },
+  {
     "version": "1.2.0",
     "released": "2026-10-10T15:09:22",
     "title": "Drive times from anywhere, one location precision list",

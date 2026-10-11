@@ -661,6 +661,12 @@
       "summary": "Rings on the map showing how far an ambulance can drive from each hospital in 15, 30 and 60 minutes.",
       "status": "idea",
       "area": "Map"
+    },
+    {
+      "title": "Send your weather station to the APRS network",
+      "summary": "Hams could push their station's readings to APRS (and CWOP) from the ArkSignal container or the Home Assistant integration, with one switch per station.",
+      "status": "idea",
+      "area": "Stations"
     }
   ]
 }
