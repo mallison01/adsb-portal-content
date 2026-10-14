@@ -16,7 +16,8 @@
    "Full screen on every map: a button on the map's top right corner (Esc leaves it)",
    "Radiosonde stations can send frames directly: a claimed station makes a private upload address on My Radiosonde Stations and a small bridge program passes on auto_rx's payload summary (a station already uploading to SondeHub needs nothing more)",
    "Mesh nodes: the broker finds its TLS certificate in the proxy's certificate store and follows renewals by itself; the public Meshtastic server's Arkansas topic can also be read (Settings > Mesh Nodes)",
-   "Admin > Usage: every request the site makes to outside services counted by host (today, 7 and 30 days, failures, data read), the stored data of every service and the portal's own database, and the live feeds"
+   "Admin > Usage: every request the site makes to outside services counted by host (today, 7 and 30 days, failures, data read), the stored data of every service and the portal's own database, and the live feeds",
+   "Radiosonde predictions: three predictors to pick from on a launch site's Forecast block (past flights, our own forecast-wind flight model, and Tawhiri once an address is set), each scored against real landings; forecast winds are asked for sparingly (kept 6 hours, limited per day)"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
@@ -33,7 +34,8 @@
    "Radiosonde Flights: a Heard by list filters the flights by receiving station",
    "Radiosonde Flights: Heard by is a box you type in, with the receiving stations to pick from",
    "Upload addresses and servers on the weather, ACARS, radiosonde and mesh pages use the Feed Hostname (feed.arksignal.allisononline.org), so feeds can move to more hosts later; older addresses keep working",
-   "Mesh nodes: Arkansas nodes already uplinking to Meshtastic's public server appear without doing anything (the public server's Arkansas topic is read by default; switch it off in Settings > Mesh Nodes)"
+   "Mesh nodes: Arkansas nodes already uplinking to Meshtastic's public server appear without doing anything (the public server's Arkansas topic is read by default; switch it off in Settings > Mesh Nodes)",
+   "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown"
   ],
   "fixed": [
    "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects",
