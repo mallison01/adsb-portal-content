@@ -2,6 +2,12 @@
   "updated": "2026-10-14",
   "items": [
     {
+      "title": "Smoother wind streams",
+      "summary": "Wind streams follow a smooth blended wind field and curve with it at every zoom. Wind from a forecast model would improve them further.",
+      "status": "done",
+      "area": "Weather"
+    },
+    {
       "title": "Radio overview, repeater position picker and call sign links",
       "summary": "A Radio overview page, a repeater list with locations, a map picker to set a repeater's position, and links that work for any call sign.",
       "status": "done",

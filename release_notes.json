@@ -4,8 +4,13 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [],
-    "improved": [],
-    "fixed": [],
+    "improved": [
+      "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
+      "Weather map: a new region opens at once with what is kept and fills in as airport weather arrives"
+    ],
+    "fixed": [
+      "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects"
+    ],
     "security": []
   },
   {
