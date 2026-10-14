@@ -3,6 +3,15 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.4.0",
+    "released": "2026-10-13T22:01:12",
+    "title": "Weather for any place, DMR and call sign tools, one-engine maps, Grafana statistics, frequencies",
     "added": [
       "Satellite and Hybrid (satellite with roads and place names) map styles on every map, from Display and View",
       "Show my location on every map (your browser's position stays in your browser)",
