@@ -1,6 +1,78 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-13",
   "items": [
+    {
+      "title": "Frequencies list",
+      "summary": "APRS, calling frequencies, FRS, GMRS, MURS, weather radio, marine and mesh frequencies in one list.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Clearer feeder icons",
+      "summary": "Feeders show as airplane badges that can be seen at state level, on the Feeders page and the Coverage Map.",
+      "status": "done",
+      "area": "Map"
+    },
+    {
+      "title": "County Map outline-only look",
+      "summary": "A look that draws just the thin county lines, the same as the County outlines box on other maps.",
+      "status": "done",
+      "area": "Map"
+    },
+    {
+      "title": "Grafana statistics dashboards",
+      "summary": "Weather and radiosonde statistics in Grafana with filters, delivered by the normal update.",
+      "status": "done",
+      "area": "Weather"
+    },
+    {
+      "title": "Call signs, contacts and talkgroups",
+      "summary": "One page to look up a call sign, find a DMR contact and browse talkgroups; call sign details show wherever a call sign appears.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "DMR time slots and talkgroups on repeaters",
+      "summary": "Each DMR repeater shows its color code, ID and both time slots with their talkgroups; editors add them from the standard list.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Weather map for any region",
+      "summary": "The weather map loads only what is in view, anywhere we have data, and never lets labels overlap.",
+      "status": "done",
+      "area": "Map"
+    },
+    {
+      "title": "Radiosonde station coverage from real flights",
+      "summary": "Each receiving station's coverage outline is built from the flights it really heard, like an ADS-B station's.",
+      "status": "done",
+      "area": "Radiosondes"
+    },
+    {
+      "title": "Labels that never overlap on every map",
+      "summary": "Weather and APRS map labels already never overlap; the repeater map and receiving station labels are next.",
+      "status": "planned",
+      "area": "Map"
+    },
+    {
+      "title": "Repeater code plug formats and a review queue",
+      "summary": "More radio export formats and a queue for imported repeaters waiting for a position.",
+      "status": "planned",
+      "area": "Radio"
+    },
+    {
+      "title": "Weather for any place",
+      "summary": "Type a ZIP code, city, airport or address and get a full weather page made from the stations near it, with the National Weather Service forecast and history charts.",
+      "status": "done",
+      "area": "Weather"
+    },
+    {
+      "title": "Our own weather forecasting",
+      "summary": "Short-range forecasts made from the network's own stations and balloon soundings, beside the National Weather Service forecast. Later down the list.",
+      "status": "idea",
+      "area": "Weather"
+    },
     {
       "title": "Drive times from anywhere on a map",
       "summary": "Click the map to pick a place, or search a city or an address, and the nearest hospitals are listed by road drive time and distance (near-ties by trauma level, then services). Drive-time rings of 15, 30, 60 and 90 minutes can be shown for any hospital or place, on the County Map and the other maps. An estimate from the network's own routing server.",
@@ -666,6 +738,48 @@
       "title": "Send your weather station to the APRS network",
       "summary": "Hams could push their station's readings to APRS (and CWOP) from the ArkSignal container or the Home Assistant integration, with one switch per station.",
       "status": "idea",
+      "area": "Stations"
+    },
+    {
+      "title": "Satellite map",
+      "summary": "A satellite imagery base map on every map.",
+      "status": "next",
+      "area": "Map"
+    },
+    {
+      "title": "Your location on every map",
+      "summary": "An option to show where you are on any map.",
+      "status": "next",
+      "area": "Map"
+    },
+    {
+      "title": "APRS and airport weather on the Weather Map",
+      "summary": "The APRS weather stations and airport weather in the same format as the members' stations, without duplicates.",
+      "status": "next",
+      "area": "Stations"
+    },
+    {
+      "title": "Live weather layers",
+      "summary": "Heat maps, wind streams, UV and cloud across the state from every weather source and the balloons.",
+      "status": "next",
+      "area": "Map"
+    },
+    {
+      "title": "Statistics with real filters",
+      "summary": "Weather and balloon statistics you can filter by area, ZIP, city, county, station, flight or receiving station, with each data source switchable.",
+      "status": "next",
+      "area": "Data"
+    },
+    {
+      "title": "Repeater details for digital radios",
+      "summary": "Talkgroups, DMR and other IDs, call sign lookups and more import options, built around what a radio's code plug needs.",
+      "status": "next",
+      "area": "Community"
+    },
+    {
+      "title": "Radiosonde map and flight details",
+      "summary": "Click a balloon for the same flyout as every other map; filters and search on the heard-by table; forecasts picked from a launch site with dates, like SondeHub.",
+      "status": "next",
       "area": "Stations"
     }
   ]
