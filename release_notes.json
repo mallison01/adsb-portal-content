@@ -17,7 +17,8 @@
       "Call sign details (name, class, place) on hover in the Radiosonde Map receiving station card and on APRS stations in the Weather Map card and popups",
       "Repeater Map: call sign and frequency labels (a setting), and Radiosonde Map: balloon, receiving station and launch site labels now come from one label engine, so no two labels ever overlap",
       "The menu's Heatmap and Replay now open the portal's own on the live map; the classic tar1090 pages remain under Classic Map (or ?classic=1)",
-      "Maps: the Map selector switches between Aircraft, Weather Stations, Radiosondes, Counties, Coverage, Repeaters and APRS Stations in place, without reloading the page; the view stays, and the address, title, menu and Back button follow"
+      "Maps: the Map selector switches between Aircraft, Weather Stations, Radiosondes, Counties, Coverage, Repeaters and APRS Stations in place, without reloading the page; the view stays, and the address, title, menu and Back button follow",
+      "Labels never overlap on any map: the live map's aircraft labels and the County Map's labels join the APRS, Repeater and Radiosonde maps on one shared label engine (the most important label wins a crowded spot; the weather map's labels still combine into averages, now with the same engine), and it measures each label as drawn"
     ],
     "fixed": [
       "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects"

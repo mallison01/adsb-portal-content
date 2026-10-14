@@ -75,8 +75,8 @@
     },
     {
       "title": "Labels that never overlap on every map",
-      "summary": "Weather, APRS, repeater and radiosonde map labels never overlap (one shared label engine); the aircraft and coverage maps join it with the merged map.",
-      "status": "next",
+      "summary": "Aircraft, weather, APRS, repeater, radiosonde and county map labels never overlap; one shared label engine measures every label as drawn and keeps the most important.",
+      "status": "done",
       "area": "Map"
     },
     {
