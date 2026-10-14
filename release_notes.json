@@ -6,7 +6,8 @@
     "added": [
       "Replay of past traffic on the live map, built into the portal: play any past time from the hub's own history at 1x to 100x, step by minutes, pick a date and time (in the site's time zone), and share a link to a moment; key Y",
       "Heat map of past traffic on the live map: any period up to the longest range in Settings, ending now or in the past, drawn from the hub's history on a grid that follows the zoom, with the altitude limits, strength and spread, and its own legend",
-      "Settings > Public Pages: Replay and Heatmap (the portal's own or the classic tar1090 pages), the speed and start time of the Replay, how much history each worker keeps ready, the most heat squares per request"
+      "Settings > Public Pages: Replay and Heatmap (the portal's own or the classic tar1090 pages), the speed and start time of the Replay, how much history each worker keeps ready, the most heat squares per request",
+      "Live map: select several aircraft at once (key M, click each; key T selects all shown, Esc deselects), each with its own track and in the link you copy; persistence (key P) keeps aircraft that stop being heard on the map, dimmed, for the time set in Settings"
     ],
     "improved": [
       "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
