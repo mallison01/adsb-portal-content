@@ -3,6 +3,15 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.4.1",
+    "released": "2026-10-14T10:36:02",
+    "title": "Radio overview, repeater positions, background service status, Grafana filters, one-segment station links",
     "added": [
       "Radio overview page and a separate Repeater List with a Location column",
       "Set or correct a repeater's position on its page: click or drag on a map, or search an address",
@@ -21,7 +30,8 @@
     "fixed": [
       "Weather Statistics said the statistics could not be loaded",
       "APRS repeater links such as 147.090/R gave a 404",
-      "Frequencies page wording: FRS needs no license, GMRS needs one"
+      "Frequencies page wording: FRS needs no license, GMRS needs one",
+      "A backup restore could fail with a deadlock if it ran at the same moment as a background update; a restore now waits for the weather statistics and data updates to finish and keeps them out until it is done"
     ],
     "security": []
   },
