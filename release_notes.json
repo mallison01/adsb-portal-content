@@ -6,7 +6,12 @@
     "added": [],
     "improved": [
       "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
-      "Weather map: a new region opens at once with what is kept and fills in as airport weather arrives"
+      "Weather map: a new region opens at once with what is kept and fills in as airport weather arrives",
+      "Radiosonde Statistics: the bar charts are the shared hover charts with grid and labelled axes",
+      "Weather map: the heat map has its own color bar and legend section when it shows a different reading than the labels",
+      "Radiosonde Station Coverage runs by itself at the first pass after an update when it has never run",
+      "Call sign details (name, class, place) on hover in the Radiosonde Map receiving station card and on APRS stations in the Weather Map card and popups",
+      "Repeater Map: call sign and frequency labels (a setting), and Radiosonde Map: balloon, receiving station and launch site labels now come from one label engine, so no two labels ever overlap"
     ],
     "fixed": [
       "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects"

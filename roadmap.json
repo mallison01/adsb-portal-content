@@ -75,7 +75,7 @@
     },
     {
       "title": "Labels that never overlap on every map",
-      "summary": "Weather and APRS map labels already never overlap; the repeater map and receiving station labels are next.",
+      "summary": "Weather, APRS, repeater and radiosonde map labels never overlap (one shared label engine); the aircraft and coverage maps join it with the merged map.",
       "status": "next",
       "area": "Map"
     },
