@@ -853,6 +853,12 @@
    "summary": "The mesh broker takes its certificate from the site's proxy and follows renewals; the public Meshtastic server can also be read, if switched on.",
    "status": "done",
    "area": "Radio"
+  },
+  {
+   "title": "Usage page",
+   "summary": "What the site asks of outside services and what each service stores.",
+   "status": "done",
+   "area": "Hub"
   }
  ]
 }
