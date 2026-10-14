@@ -811,6 +811,18 @@
       "summary": "The portal's own Replay (play back any past time at up to 100x) and Heat Map (where aircraft flew in any period) on the live map, read from the hub's history files.",
       "status": "done",
       "area": "Map"
+    },
+    {
+      "title": "ACARS and satellite datalink",
+      "summary": "Members' ACARS, VDL2 and HF datalink receivers feed a messages page, station pages and the aircraft card. Satellite receivers (JAERO, Iridium) can use the same bridge.",
+      "status": "done",
+      "area": "Aircraft"
+    },
+    {
+      "title": "Repeater code plug export",
+      "summary": "Repeaters out to a radio: the DM32's channel and talkgroup lists, CHIRP and an RT Systems style file, plus a queue for repeaters waiting for a position.",
+      "status": "done",
+      "area": "Radio"
     }
   ]
 }
