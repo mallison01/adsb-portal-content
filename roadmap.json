@@ -2,6 +2,12 @@
   "updated": "2026-10-14",
   "items": [
     {
+      "title": "One merged map with native replay and heatmap",
+      "summary": "Every map becomes one page with lazy-loaded data modules, with replay and heatmap built in and the features of the classic map, and one label engine so labels never overlap on any map.",
+      "status": "next",
+      "area": "Map"
+    },
+    {
       "title": "Smoother wind streams",
       "summary": "Wind streams follow a smooth blended wind field and curve with it at every zoom. Wind from a forecast model would improve them further.",
       "status": "done",
@@ -70,7 +76,7 @@
     {
       "title": "Labels that never overlap on every map",
       "summary": "Weather and APRS map labels already never overlap; the repeater map and receiving station labels are next.",
-      "status": "planned",
+      "status": "next",
       "area": "Map"
     },
     {
@@ -400,7 +406,7 @@
     {
       "title": "Native replay and heatmap",
       "summary": "Replay a past day and see where traffic flies, built into the map instead of the embedded classic tools.",
-      "status": "planned",
+      "status": "next",
       "area": "Map"
     },
     {
