@@ -178,7 +178,7 @@
     {
       "title": "APRS",
       "summary": "Amateur radio position reports on the map: stations, digipeaters, IGates and weather, with an APRS coverage map.",
-      "status": "planned",
+      "status": "done",
       "area": "Radio"
     },
     {
@@ -327,14 +327,14 @@
     },
     {
       "title": "Map revamp: one map for every kind of data",
-      "summary": "Every map now shares one layout, icons, popups and settings. Still to do: saved views, one search box, roads.",
-      "status": "progress",
+      "summary": "Every map shares one layout, icons, popups and settings, with saved views, one search box that never filters, satellite and hybrid styles, your location, county outlines and drive times on every map. The single merged map (one page, lazy modules) is still to do.",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "Places, roads, counties and hospitals",
-      "summary": "Counties, county pages, cities, hospitals and heliports are done; roads and drill-down are still to do.",
-      "status": "progress",
+      "summary": "Counties, county pages, cities, hospitals, heliports, highways and drive-time rings are done.",
+      "status": "done",
       "area": "Map"
     },
     {
@@ -352,7 +352,7 @@
     {
       "title": "Repeater directory",
       "summary": "An Arkansas directory of repeaters in every mode (FM, DMR, D-STAR, Fusion, P25 and more) laid out like the airports, started from open data and local lists and kept right by the community. Anyone signed in can submit one or report a correction.",
-      "status": "planned",
+      "status": "done",
       "area": "Data"
     },
     {
@@ -441,7 +441,7 @@
     },
     {
       "title": "Amateur radio extras",
-      "summary": "APRS stations, space weather and HF propagation, net schedules and Winlink gateways.",
+      "summary": "Space weather and HF propagation, net schedules and Winlink gateways (APRS stations are already built).",
       "status": "idea",
       "area": "Data"
     },
@@ -525,14 +525,14 @@
     },
     {
       "title": "A new home page with a page for each service",
-      "summary": "The overview home page is live, with a map of every kind of station and a card for each service; a landing page for each service is next.",
-      "status": "progress",
+      "summary": "The overview home page is live with a map of every kind of station and a card for each service, and each service has its own overview page and menu.",
+      "status": "done",
       "area": "Hub"
     },
     {
       "title": "Report and correct repeaters",
       "summary": "Submit a new repeater, flag a wrong frequency or tone or one that is off the air, and let sysops keep their own current, with a review queue and credit to contributors.",
-      "status": "planned",
+      "status": "done",
       "area": "Community"
     },
     {
@@ -700,19 +700,19 @@
     {
       "title": "Predictions for future balloon flights",
       "summary": "Where the next launches from each site are likely to land, learned from years of history: a landing area, burst height and flight time, with a score of how well it did before.",
-      "status": "planned",
+      "status": "done",
       "area": "Data"
     },
     {
       "title": "SondeHub archive import",
       "summary": "Bring in SondeHub's open archive for Arkansas and the surrounding launch sites, as far back as it goes, so predictions start with years of data.",
-      "status": "planned",
+      "status": "done",
       "area": "Data"
     },
     {
       "title": "A prediction and archive service",
       "summary": "The heavy work runs in its own container with its own database, so it can move to another host as the network grows.",
-      "status": "planned",
+      "status": "done",
       "area": "Hub"
     },
     {
@@ -731,7 +731,7 @@
     {
       "title": "Hospital drive-time rings",
       "summary": "Rings on the map showing how far an ambulance can drive from each hospital in 15, 30 and 60 minutes.",
-      "status": "idea",
+      "status": "done",
       "area": "Map"
     },
     {
@@ -743,43 +743,43 @@
     {
       "title": "Satellite map",
       "summary": "A satellite imagery base map on every map.",
-      "status": "next",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "Your location on every map",
       "summary": "An option to show where you are on any map.",
-      "status": "next",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "APRS and airport weather on the Weather Map",
       "summary": "The APRS weather stations and airport weather in the same format as the members' stations, without duplicates.",
-      "status": "next",
+      "status": "done",
       "area": "Stations"
     },
     {
       "title": "Live weather layers",
       "summary": "Heat maps, wind streams, UV and cloud across the state from every weather source and the balloons.",
-      "status": "next",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "Statistics with real filters",
       "summary": "Weather and balloon statistics you can filter by area, ZIP, city, county, station, flight or receiving station, with each data source switchable.",
-      "status": "next",
+      "status": "done",
       "area": "Data"
     },
     {
       "title": "Repeater details for digital radios",
       "summary": "Talkgroups, DMR and other IDs, call sign lookups and more import options, built around what a radio's code plug needs.",
-      "status": "next",
+      "status": "done",
       "area": "Community"
     },
     {
       "title": "Radiosonde map and flight details",
       "summary": "Click a balloon for the same flyout as every other map; filters and search on the heard-by table; forecasts picked from a launch site with dates, like SondeHub.",
-      "status": "next",
+      "status": "done",
       "area": "Stations"
     }
   ]
