@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "One merged map",
-      "summary": "Every map becomes one page with lazy-loaded data modules, with the features of the classic map, and one label engine so labels never overlap on any map. The native Replay and Heat Map are already on the live map.",
+      "summary": "Every map is one page made from one shell; switching the kind of map happens in place (done). Left: the classic map's remaining features and one label engine on every map.",
       "status": "next",
       "area": "Map"
     },
