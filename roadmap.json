@@ -859,6 +859,18 @@
    "summary": "What the site asks of outside services and what each service stores.",
    "status": "done",
    "area": "Hub"
+  },
+  {
+   "title": "Our own forecast wind data",
+   "summary": "Read NOAA's open GFS wind files ourselves for the radiosonde wind predictor, instead of a web service.",
+   "status": "planned",
+   "area": "Radio"
+  },
+  {
+   "title": "Numbered radiosonde forecasts",
+   "summary": "Forecast flights on the Radiosonde Map are numbered in launch order.",
+   "status": "done",
+   "area": "Radio"
   }
  ]
 }

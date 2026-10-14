@@ -35,7 +35,8 @@
    "Radiosonde Flights: Heard by is a box you type in, with the receiving stations to pick from",
    "Upload addresses and servers on the weather, ACARS, radiosonde and mesh pages use the Feed Hostname (feed.arksignal.allisononline.org), so feeds can move to more hosts later; older addresses keep working",
    "Mesh nodes: Arkansas nodes already uplinking to Meshtastic's public server appear without doing anything (the public server's Arkansas topic is read by default; switch it off in Settings > Mesh Nodes)",
-   "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown"
+   "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown",
+   "Radiosonde Map: forecast flights are numbered in the order they launch"
   ],
   "fixed": [
    "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects",
