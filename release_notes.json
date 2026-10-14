@@ -3,9 +3,26 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
-    "added": [],
-    "improved": [],
-    "fixed": [],
+    "added": [
+      "Radio overview page and a separate Repeater List with a Location column",
+      "Set or correct a repeater's position on its page: click or drag on a map, or search an address",
+      "Bullseye button on every map to show where you are, and Drive Times From My Location",
+      "Show on Map goes to the map of its own kind (a weather station to the Weather Map, a hospital to the County Map)"
+    ],
+    "improved": [
+      "Show my location no longer zooms the map when it opens",
+      "Service Status opens at once and shows the result of background checks that run on a schedule; only an administrator can force a run",
+      "Coverage Map opens on Arkansas with only the ADS-B coverage on; radiosonde stations show as antennas with their coverage outline",
+      "Weather Statistics shows the main readings as two columns of charts",
+      "Grafana: the Weather Dashboard and Radiosonde Dashboard carry the filters (renamed from Balloon Statistics)",
+      "The home page note about services still to come is built from the roadmap",
+      "Station addresses with a slash in the call sign (APRS repeaters) use a tilde and always work"
+    ],
+    "fixed": [
+      "Weather Statistics said the statistics could not be loaded",
+      "APRS repeater links such as 147.090/R gave a 404",
+      "Frequencies page wording: FRS needs no license, GMRS needs one"
+    ],
     "security": []
   },
   {

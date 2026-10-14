@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "items": [
+    {
+      "title": "Radio overview, repeater position picker and call sign links",
+      "summary": "A Radio overview page, a repeater list with locations, a map picker to set a repeater's position, and links that work for any call sign.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Service status checked in the background",
+      "summary": "The status page opens at once and shows the result of checks that run on a schedule; only an administrator can force a run.",
+      "status": "done",
+      "area": "Hub"
+    },
     {
       "title": "Frequencies list",
       "summary": "APRS, calling frequencies, FRS, GMRS, MURS, weather radio, marine and mesh frequencies in one list.",
