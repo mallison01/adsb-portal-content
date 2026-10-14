@@ -823,6 +823,12 @@
       "summary": "Repeaters out to a radio: the DM32's channel and talkgroup lists, CHIRP and an RT Systems style file, plus a queue for repeaters waiting for a position.",
       "status": "done",
       "area": "Radio"
+    },
+    {
+      "title": "Mesh nodes (Meshtastic)",
+      "summary": "Nodes that publish their own map report, on a list, a map and node pages, with who hears whom. MeshCore waits for a verified feed.",
+      "status": "done",
+      "area": "Radio"
     }
   ]
 }
