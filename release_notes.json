@@ -17,7 +17,8 @@
    "Radiosonde stations can send frames directly: a claimed station makes a private upload address on My Radiosonde Stations and a small bridge program passes on auto_rx's payload summary (a station already uploading to SondeHub needs nothing more)",
    "Mesh nodes: the broker finds its TLS certificate in the proxy's certificate store and follows renewals by itself; the public Meshtastic server's Arkansas topic can also be read (Settings > Mesh Nodes)",
    "Admin > Usage: every request the site makes to outside services counted by host (today, 7 and 30 days, failures, data read), the stored data of every service and the portal's own database, and the live feeds",
-   "Radiosonde predictions: three predictors to pick from on a launch site's Forecast block (past flights, our own forecast-wind flight model, and Tawhiri once an address is set), each scored against real landings; forecast winds are asked for sparingly (kept 6 hours, limited per day)"
+   "Radiosonde predictions: three predictors to pick from on a launch site's Forecast block (past flights, our own forecast-wind flight model, and Tawhiri once an address is set), each scored against real landings; forecast winds are asked for sparingly (kept 6 hours, limited per day)",
+   "Live map: Without position only filter (key G) for aircraft that are heard but send no position; Display menu: show all times in UTC"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
