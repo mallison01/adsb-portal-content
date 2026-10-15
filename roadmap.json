@@ -911,7 +911,7 @@
     {
       "title": "Display preferences and saved map views in My Account",
       "summary": "The Display menu's choices (theme, units for each service, times, page width, map label and icon sizes, trail options) become a section of the profile where you can set them, see your saved map views, and manage all of it in one place.",
-      "status": "planned",
+      "status": "next",
       "area": "Accounts"
     },
     {
