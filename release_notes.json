@@ -5,7 +5,7 @@
   "title": "Coming in the next release",
   "added": [],
   "improved": [
-   "Units are now separate for each service (Aircraft, Weather, Radiosondes, APRS, ACARS, Mesh, Repeaters, Places and Counties, Home/Coverage/Feeders): each has a default in Settings > Units (the standard unit, except Radiosondes, which are metric as on SondeHub), your own choice for each in the Display menu, and a Units box in every map's Layers and Filters"
+   "Units are now separate for each service, each starting in its industry's own units: Aircraft, ACARS, Coverage, Feeders and MLAT in feet, knots and nautical miles; Weather, APRS, Repeaters and Places in US units; Radiosondes and Mesh in metric (as on SondeHub); the Home page in the site's standard unit. Settings > Units sets each default, the Display menu has your own choice for each service (it beats your overall choice, which beats the default), and every map's Layers and Filters has a Units box"
   ],
   "fixed": [
    "Themes: when the site puts a seasonal theme on, ordinary pages show a clear banner under the menu with a Normal look button, and on maps the button is a solid, easy-to-see pill at the top middle"
