@@ -9,7 +9,8 @@
       "County and hospital pages link to the website and show a picture (found in Wikidata and Wikimedia Commons, credited; administrators can type their own); the map moved to the bottom of the page and is larger",
       "Admin > Counties for each county's website and picture",
       "Settings > Security > Admin Area: Allowed Addresses limits the whole Admin area to chosen addresses and networks (it cannot be saved from an address that is not on the list)",
-      "The live map: Last Flight Only / All Flights for a selected aircraft's trail, geometric altitude above sea level (EGM96), a slim wind label, and a Show More / Show All row at the end of the aircraft list"
+      "The live map: Last Flight Only / All Flights for a selected aircraft's trail, geometric altitude above sea level (EGM96), a slim wind label, and a Show More / Show All row at the end of the aircraft list",
+      "Every map shows a Clear Drive Times and Rings button while drive times or rings are on the map"
     ],
     "improved": [
       "Units are now separate for each service, each starting in its industry's own units: Aircraft, ACARS, Coverage, Feeders and MLAT in feet, knots and nautical miles; Weather, APRS, Repeaters and Places in US units; Radiosondes and Mesh in metric (as on SondeHub); the Home page in the site's standard unit. Settings > Units sets each default, the Display menu has your own choice for each service (it beats your overall choice, which beats the default), and every map's Layers and Filters has a Units box",
@@ -18,7 +19,8 @@
     ],
     "fixed": [
       "Themes: when the site puts a seasonal theme on, ordinary pages show a clear banner under the menu with a Normal look button, and on maps the button is a solid, easy-to-see pill at the top middle",
-      "Units: the Balloon Flights list, home page cards, county weather, flight search and feeder antenna heights now follow the right service's units, and the duplicate Units box on the Radiosonde Map is gone"
+      "Units: the Balloon Flights list, home page cards, county weather, flight search and feeder antenna heights now follow the right service's units, and the duplicate Units box on the Radiosonde Map is gone",
+      "The heat map no longer stays switched on when you go to another map and come back; the Trauma Map has its drive times, satellite map and per-hospital rings (15 to 90 minutes)"
     ],
     "security": []
   },
