@@ -919,6 +919,12 @@
       "summary": "A filter on the County Map that limits every Show on the Map choice (hospitals, airports, stations, launch sites and the rest) to a state, a county or a ZIP code area.",
       "status": "next",
       "area": "Map"
+    },
+    {
+      "title": "NWS stations on the Weather Map",
+      "summary": "Looked at and not built: the National Weather Service's own data service only gives observations for airport stations, which the Airport weather source already shows; its mesonet and RAWS stations reach us through the APRS (CWOP) source.",
+      "status": "done",
+      "area": "Weather"
     }
   ]
 }
