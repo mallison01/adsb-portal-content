@@ -82,7 +82,7 @@
   {
    "title": "Repeater code plug formats and a review queue",
    "summary": "More radio export formats and a queue for imported repeaters waiting for a position.",
-   "status": "planned",
+   "status": "next",
    "area": "Radio"
   },
   {
@@ -388,7 +388,7 @@
   {
    "title": "ACARS messages",
    "summary": "Aircraft datalink messages received by member stations, shown on the aircraft details and on a live messages page.",
-   "status": "planned",
+   "status": "next",
    "area": "Data"
   },
   {
@@ -411,8 +411,8 @@
   },
   {
    "title": "More of the classic map's features",
-   "summary": "Multi-select, persistence mode, QNH-corrected altitude and the remaining options of the classic tar1090 map.",
-   "status": "planned",
+   "summary": "Multi-select, persistence, without-position filter, UTC times, QNH-corrected altitude and auto-select are built; last leg only and a few others remain.",
+   "status": "progress",
    "area": "Map"
   },
   {
