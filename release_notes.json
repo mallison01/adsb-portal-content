@@ -25,7 +25,7 @@
    "Live map: altitude can be corrected for air pressure (the QNH the aircraft sends, or one you type) and the map can select an aircraft by itself for a wall display (key A)",
    "All My Stations: one page with a card for everything you run (ADS-B feeders, weather, radiosonde, ACARS, repeaters, mesh) and a count for each",
    "Repeaters: linked systems. Groups of repeaters linked together show as a badge on the list (which can be filtered by system), as a Linked Repeaters section on each repeater's page, and as lines between them on the Repeater Map; administrators and repeater owners make and change them",
-   "Site themes: color schemes (Midnight, Ocean, Forest, Sunset, Slate, High Contrast, Paper, Daylight) and seasonal and holiday themes (spring, summer, fall, winter, Halloween, Thanksgiving, Christmas, New Year, Independence Day, Easter, St. Patrick's Day, Valentine's Day) that switch on by date, with drifting decorations and their own symbols on the maps (Santa on some aircraft at Christmas, pumpkins and skeletons on the balloons at Halloween). Pick any in the Display menu; a Normal Look button goes back at once when the site puts a seasonal theme on; administrators set the dates in Admin > Themes"
+   "Site themes: color schemes (Midnight, Ocean, Forest, Sunset, Slate, High Contrast, Paper, Daylight) and seasonal and holiday themes (spring, summer, fall, winter, Halloween, Thanksgiving, Christmas, New Year, Independence Day, Easter, St. Patrick's Day, Valentine's Day) that switch on by date, with still decorations (a ribbon of the theme's colors, a cobweb at Halloween, lights at Christmas) and their own symbols on the maps (Santa on some aircraft at Christmas, pumpkins and skeletons on the balloons at Halloween). Pick any in the Display menu; a Normal Look button goes back at once when the site puts a seasonal theme on; administrators set the dates in Admin > Themes"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
@@ -46,7 +46,8 @@
    "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown",
    "Radiosonde Map: forecast flights are numbered in the order they launch",
    "SondeHub is credited on every radiosonde page and in the map credits of every map that shows its data (balloons, receiving stations, forecasts)",
-   "Themes: seasonal and holiday themes are offered in the Display menu only during their dates (a setting can list them all)"
+   "Themes: seasonal and holiday themes are offered in the Display menu only during their dates (a setting can list them all)",
+   "Themes: no falling emoji; a saved look from before themes existed follows the site once, so the seasonal theme shows for returning visitors too"
   ],
   "fixed": [
    "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects",
