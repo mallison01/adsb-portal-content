@@ -411,8 +411,8 @@
     },
     {
       "title": "Phone polish",
-      "summary": "A second pass on phones, driven by real-world feedback.",
-      "status": "planned",
+      "summary": "Marty's phone screenshots of 2026-10-15 are being worked through: taller-than-needed header and footer, labels that run off the screen, blank space under the footer, the mesh feed table, and more.",
+      "status": "progress",
       "area": "Map"
     },
     {
