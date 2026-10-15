@@ -889,6 +889,12 @@
    "summary": "Color schemes you can pick, and seasonal and holiday themes that switch on by date, with their own decorations and map icons (Santa planes at Christmas, pumpkin and skeleton balloons at Halloween).",
    "status": "done",
    "area": "Site"
+  },
+  {
+   "title": "Units for each service",
+   "summary": "Radiosondes default to metric like SondeHub; every service has its own unit setting, in the Display menu and in each map's Layers and Filters.",
+   "status": "next",
+   "area": "Site"
   }
  ]
 }
