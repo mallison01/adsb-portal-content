@@ -19,7 +19,8 @@
    "Admin > Usage: every request the site makes to outside services counted by host (today, 7 and 30 days, failures, data read), the stored data of every service and the portal's own database, and the live feeds",
    "Radiosonde predictions: three predictors to pick from on a launch site's Forecast block (past flights, our own forecast-wind flight model, and Tawhiri once an address is set), each scored against real landings; forecast winds are asked for sparingly (kept 6 hours, limited per day)",
    "Live map: Without position only filter (key G) for aircraft that are heard but send no position; Display menu: show all times in UTC",
-   "Live map: an ACARS positions layer shows aircraft out of ADS-B range that reported a position by ACARS, ADS-C or HFDL, dimmed with the age of the report (Settings > ACARS sets how long)"
+   "Live map: an ACARS positions layer shows aircraft out of ADS-B range that reported a position by ACARS, ADS-C or HFDL, dimmed with the age of the report (Settings > ACARS sets how long)",
+   "Mesh Map: measured coverage of gateways and observers (the farthest node each was heard to hear in each direction, labelled as measured, not predicted); Mesh Health page: routers gone quiet, low batteries, busy channels, old firmware and places a router is missing"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",
