@@ -3,10 +3,16 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
-    "added": [],
+    "added": [
+      "The Trauma Map (Places menu): Arkansas' trauma regions and zones, every trauma center by level, hospitals of neighboring states near the state line, county and hospital popups with a picture, address and website, and drive times from a place or from your location",
+      "The County Map can shade by Trauma Region or ADH Trauma Zone, and every county page names its region and zone",
+      "County and hospital pages link to the website and show a picture (found in Wikidata and Wikimedia Commons, credited; administrators can type their own); the map moved to the bottom of the page and is larger",
+      "Admin > Counties for each county's website and picture"
+    ],
     "improved": [
       "Units are now separate for each service, each starting in its industry's own units: Aircraft, ACARS, Coverage, Feeders and MLAT in feet, knots and nautical miles; Weather, APRS, Repeaters and Places in US units; Radiosondes and Mesh in metric (as on SondeHub); the Home page in the site's standard unit. Settings > Units sets each default, the Display menu has your own choice for each service (it beats your overall choice, which beats the default), and every map's Layers and Filters has a Units box",
-      "Every map now sizes itself to the window so the footer is always in view and the page never scrolls"
+      "Every map now sizes itself to the window so the footer is always in view and the page never scrolls",
+      "The embedded tar1090 Classic Map is retired: the live map has all of its features (old links open the live map)"
     ],
     "fixed": [
       "Themes: when the site puts a seasonal theme on, ordinary pages show a clear banner under the menu with a Normal look button, and on maps the button is a solid, easy-to-see pill at the top middle",
