@@ -3,6 +3,15 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.6.0",
+    "released": "2026-10-15T16:46:43",
+    "title": "Trauma Map and trauma regions, county and hospital pictures and websites, Admin allow-list, tar1090 leftovers",
     "added": [
       "The Trauma Map (Places menu): Arkansas' trauma regions and zones, every trauma center by level, hospitals of neighboring states near the state line, county and hospital popups with a picture, address and website, and drive times from a place or from your location",
       "The County Map can shade by Trauma Region or ADH Trauma Zone, and every county page names its region and zone",
@@ -13,7 +22,8 @@
       "Every map shows a Clear Drive Times and Rings button while drive times or rings are on the map"
     ],
     "improved": [
-      "The embedded tar1090 Classic Map is retired: the live map has all of its features (old links open the live map)"
+      "The embedded tar1090 Classic Map is retired: the live map has all of its features (old links open the live map)",
+      "The trauma jobs and the hospital lookups never hold the database while waiting on outside services, so backups and restores are not blocked"
     ],
     "fixed": [
       "Themes: when the site puts a seasonal theme on, ordinary pages show a clear banner under the menu with a Normal look button, and on maps the button is a solid, easy-to-see pill at the top middle",

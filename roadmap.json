@@ -424,7 +424,7 @@
     {
       "title": "Admin area allow-list",
       "summary": "Limit the whole Admin area to chosen addresses and networks (Settings > Security); it cannot be saved from an address that is not on the list, and a server command clears it.",
-      "status": "next",
+      "status": "done",
       "area": "Accounts"
     },
     {
@@ -887,25 +887,25 @@
     {
       "title": "Units for each service",
       "summary": "Radiosondes default to metric like SondeHub; every service has its own unit setting, in the Display menu and in each map's Layers and Filters.",
-      "status": "next",
+      "status": "done",
       "area": "Site"
     },
     {
       "title": "Trauma Map and trauma regions",
       "summary": "Arkansas' seven trauma regions and two trauma zones on the County Map and on a new simple Trauma Map (Places menu): trauma centers by level, hospitals near the state line, drive times, pictures and websites.",
-      "status": "next",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "County and hospital pages: websites, pictures and a bigger map",
       "summary": "Each county and hospital page links to its website and shows a picture where the map used to be; the map is larger and sits across the bottom of the page.",
-      "status": "next",
+      "status": "done",
       "area": "Map"
     },
     {
       "title": "Classic tar1090 map retired",
       "summary": "The live map has every feature of the embedded tar1090 map, so the Classic Map menu item is gone (old links open the live map).",
-      "status": "next",
+      "status": "done",
       "area": "Aircraft"
     },
     {
