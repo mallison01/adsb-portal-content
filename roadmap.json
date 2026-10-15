@@ -4,7 +4,7 @@
   {
    "title": "One merged map",
    "summary": "Every map is one page made from one shell; switching the kind of map happens in place (done). Left: the classic map's remaining features and one label engine on every map.",
-   "status": "next",
+   "status": "progress",
    "area": "Map"
   },
   {
@@ -82,7 +82,7 @@
   {
    "title": "Repeater code plug formats and a review queue",
    "summary": "More radio export formats and a queue for imported repeaters waiting for a position.",
-   "status": "next",
+   "status": "done",
    "area": "Radio"
   },
   {
@@ -388,7 +388,7 @@
   {
    "title": "ACARS messages",
    "summary": "Aircraft datalink messages received by member stations, shown on the aircraft details and on a live messages page.",
-   "status": "next",
+   "status": "done",
    "area": "Data"
   },
   {
@@ -406,7 +406,7 @@
   {
    "title": "Native replay and heatmap",
    "summary": "Replay a past day and see where traffic flies, built into the map instead of the embedded classic tools.",
-   "status": "next",
+   "status": "done",
    "area": "Map"
   },
   {
@@ -881,13 +881,13 @@
   {
    "title": "Linked repeaters",
    "summary": "Groups of linked repeaters on the list and as lines on the Repeater Map.",
-   "status": "next",
+   "status": "done",
    "area": "Radio"
   },
   {
    "title": "Site themes and seasonal themes",
    "summary": "Color schemes you can pick, and seasonal and holiday themes that switch on by date, with their own decorations and map icons (Santa planes at Christmas, pumpkin and skeleton balloons at Halloween).",
-   "status": "next",
+   "status": "done",
    "area": "Site"
   }
  ]
