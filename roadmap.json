@@ -405,8 +405,8 @@
     },
     {
       "title": "More of the classic map's features",
-      "summary": "Multi-select, persistence, without-position filter, UTC times, QNH-corrected altitude and auto-select are built; last leg only and a few others remain.",
-      "status": "progress",
+      "summary": "Multi-select, persistence, without-position filter, UTC times, QNH-corrected altitude, auto-select, last flight only, sea-level geometric altitude (EGM96), slim wind labels and the list's show more rows are all built.",
+      "status": "done",
       "area": "Map"
     },
     {
@@ -423,8 +423,8 @@
     },
     {
       "title": "Admin area allow-list",
-      "summary": "Limit the Admin area to chosen addresses.",
-      "status": "planned",
+      "summary": "Limit the whole Admin area to chosen addresses and networks (Settings > Security); it cannot be saved from an address that is not on the list, and a server command clears it.",
+      "status": "next",
       "area": "Accounts"
     },
     {
