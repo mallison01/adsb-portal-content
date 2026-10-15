@@ -907,6 +907,12 @@
       "summary": "The live map has every feature of the embedded tar1090 map, so the Classic Map menu item is gone (old links open the live map).",
       "status": "next",
       "area": "Aircraft"
+    },
+    {
+      "title": "Display preferences and saved map views in My Account",
+      "summary": "The Display menu's choices (theme, units for each service, times, page width, map label and icon sizes, trail options) become a section of the profile where you can set them, see your saved map views, and manage all of it in one place.",
+      "status": "planned",
+      "area": "Accounts"
     }
   ]
 }
