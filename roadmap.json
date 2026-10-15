@@ -883,6 +883,12 @@
    "summary": "Groups of linked repeaters on the list and as lines on the Repeater Map.",
    "status": "next",
    "area": "Radio"
+  },
+  {
+   "title": "Site themes and seasonal themes",
+   "summary": "Color schemes you can pick, and seasonal and holiday themes that switch on by date, with their own decorations and map icons (Santa planes at Christmas, pumpkin and skeleton balloons at Halloween).",
+   "status": "next",
+   "area": "Site"
   }
  ]
 }
