@@ -411,8 +411,8 @@
     },
     {
       "title": "Phone polish",
-      "summary": "Marty's phone screenshots of 2026-10-15 are being worked through: taller-than-needed header and footer, labels that run off the screen, blank space under the footer, the mesh feed table, and more.",
-      "status": "progress",
+      "summary": "The first pass from your phone screenshots is built: full-screen Layers and Filters with an easy Close, a short footer, smaller labels and icons, readable panels and a handful of page fixes.",
+      "status": "next",
       "area": "Map"
     },
     {

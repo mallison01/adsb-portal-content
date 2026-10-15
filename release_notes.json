@@ -8,9 +8,16 @@
       "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too"
     ],
     "improved": [
-      "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)"
+      "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
+      "Phones: Layers and Filters opens full screen with a Close bar at the top and a Show the Map button (and Escape); the footer is two short lines at the end of the page, clear of the home bar; map labels, weather labels and aircraft icons start smaller; panels are solid so the map does not show through; maps follow the visible screen height as the browser bars come and go"
     ],
-    "fixed": [],
+    "fixed": [
+      "The mesh page's server name breaks at its dots instead of in the middle of a word",
+      "The Radio overview no longer says mesh is coming",
+      "The County Map's list of ways to show counties lost a redundant choice, and the hospital heliport badge only shows zoomed in",
+      "The Aircraft Map's Stations list names each station once",
+      "The drive-times list no longer lists the hospital you asked from at 0 minutes"
+    ],
     "security": []
   },
   {
