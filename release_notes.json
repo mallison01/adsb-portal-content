@@ -22,7 +22,8 @@
    "Live map: an ACARS positions layer shows aircraft out of ADS-B range that reported a position by ACARS, ADS-C or HFDL, dimmed with the age of the report (Settings > ACARS sets how long)",
    "Mesh Map: measured coverage of gateways and observers (the farthest node each was heard to hear in each direction, labelled as measured, not predicted); Mesh Health page: routers gone quiet, low batteries, busy channels, old firmware and places a router is missing",
    "Mesh nodes can be claimed: put a code in the node's name and it becomes yours (or an administrator approves); you choose whether your name shows as its operator and can hide the node from the mesh pages",
-   "Live map: altitude can be corrected for air pressure (the QNH the aircraft sends, or one you type) and the map can select an aircraft by itself for a wall display (key A)"
+   "Live map: altitude can be corrected for air pressure (the QNH the aircraft sends, or one you type) and the map can select an aircraft by itself for a wall display (key A)",
+   "All My Stations: one page with a card for everything you run (ADS-B feeders, weather, radiosonde, ACARS, repeaters, mesh) and a count for each"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",

@@ -871,6 +871,12 @@
    "summary": "Forecast flights on the Radiosonde Map are numbered in launch order.",
    "status": "done",
    "area": "Radio"
+  },
+  {
+   "title": "All My Stations",
+   "summary": "One page showing everything you run, by service, with a count for each.",
+   "status": "done",
+   "area": "Accounts"
   }
  ]
 }
