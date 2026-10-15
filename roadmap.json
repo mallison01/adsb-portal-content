@@ -3,8 +3,8 @@
   "items": [
     {
       "title": "One merged map",
-      "summary": "Every map is one page made from one shell; switching the kind of map happens in place (done). Left: the classic map's remaining features and one label engine on every map.",
-      "status": "progress",
+      "summary": "Every map is one page built from one shell, and the Map selector switches the kind of map in place, keeping the view; each type shows only its own layers and filters. We keep it this way rather than putting every filter on one map.",
+      "status": "done",
       "area": "Map"
     },
     {
