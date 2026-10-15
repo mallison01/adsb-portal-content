@@ -917,7 +917,7 @@
     {
       "title": "County Map: limit what is shown by state, county or ZIP",
       "summary": "A filter on the County Map that limits every Show on the Map choice (hospitals, airports, stations, launch sites and the rest) to a state, a county or a ZIP code area.",
-      "status": "planned",
+      "status": "next",
       "area": "Map"
     }
   ]
