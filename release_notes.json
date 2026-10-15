@@ -45,7 +45,8 @@
    "Mesh nodes: Arkansas nodes already uplinking to Meshtastic's public server appear without doing anything (the public server's Arkansas topic is read by default; switch it off in Settings > Mesh Nodes)",
    "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown",
    "Radiosonde Map: forecast flights are numbered in the order they launch",
-   "SondeHub is credited on every radiosonde page and in the map credits of every map that shows its data (balloons, receiving stations, forecasts)"
+   "SondeHub is credited on every radiosonde page and in the map credits of every map that shows its data (balloons, receiving stations, forecasts)",
+   "Themes: seasonal and holiday themes are offered in the Display menu only during their dates (a setting can list them all)"
   ],
   "fixed": [
    "Receiving stations with a slash in the call sign (KFS/SE) have a one-segment address (KFS~SE); the old address redirects",
