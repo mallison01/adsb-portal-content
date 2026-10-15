@@ -23,7 +23,8 @@
    "Mesh Map: measured coverage of gateways and observers (the farthest node each was heard to hear in each direction, labelled as measured, not predicted); Mesh Health page: routers gone quiet, low batteries, busy channels, old firmware and places a router is missing",
    "Mesh nodes can be claimed: put a code in the node's name and it becomes yours (or an administrator approves); you choose whether your name shows as its operator and can hide the node from the mesh pages",
    "Live map: altitude can be corrected for air pressure (the QNH the aircraft sends, or one you type) and the map can select an aircraft by itself for a wall display (key A)",
-   "All My Stations: one page with a card for everything you run (ADS-B feeders, weather, radiosonde, ACARS, repeaters, mesh) and a count for each"
+   "All My Stations: one page with a card for everything you run (ADS-B feeders, weather, radiosonde, ACARS, repeaters, mesh) and a count for each",
+   "Repeaters: linked systems. Groups of repeaters linked together show as a badge on the list (which can be filtered by system), as a Linked Repeaters section on each repeater's page, and as lines between them on the Repeater Map; administrators and repeater owners make and change them"
   ],
   "improved": [
    "Weather map: wind streams follow a smooth wind field and curve instead of running in straight lines when zoomed out",

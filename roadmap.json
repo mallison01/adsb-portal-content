@@ -877,6 +877,12 @@
    "summary": "One page showing everything you run, by service, with a count for each.",
    "status": "done",
    "area": "Accounts"
+  },
+  {
+   "title": "Linked repeaters",
+   "summary": "Groups of linked repeaters on the list and as lines on the Repeater Map.",
+   "status": "next",
+   "area": "Radio"
   }
  ]
 }
