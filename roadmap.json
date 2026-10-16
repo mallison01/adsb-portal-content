@@ -2,6 +2,18 @@
   "updated": "2026-10-16",
   "items": [
     {
+      "title": "Space weather",
+      "summary": "Radio > Space Weather: NOAA storm scales, K index, solar flux, flare class and a rough HF band guide.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Weather overview",
+      "summary": "The Weather overview shows the whole weather setup at a glance: stations, alerts, radar and satellite, earthquakes, rivers, space weather and balloons, with the station map and list below.",
+      "status": "done",
+      "area": "Weather"
+    },
+    {
       "title": "Earthquakes layer",
       "summary": "Recent earthquakes in and around Arkansas (the New Madrid zone) from the USGS, drawn by magnitude on the maps, with the time, depth and USGS link on click.",
       "status": "done",
@@ -477,8 +489,8 @@
     },
     {
       "title": "Amateur radio extras",
-      "summary": "Space weather and HF propagation, net schedules and Winlink gateways (APRS stations are already built).",
-      "status": "planned",
+      "summary": "Space weather and HF propagation are built (Radio > Space Weather). Net schedules and Winlink gateways (APRS stations) remain.",
+      "status": "progress",
       "area": "Data"
     },
     {

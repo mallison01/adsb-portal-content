@@ -9,7 +9,8 @@
       "Call Sign Lookup: type the start of a call sign (KD5) and every call sign on the site that begins with it is listed, with what each is (repeater, APRS station, station owner, sonde receiver, DMR contact)",
       "Weather Alerts layer: the National Weather Service's active warnings, watches and advisories drawn as colored areas on the maps (tornado red, severe storm orange, flood green, winter pink, heat, fire weather, wind); click one for the details. Admin > Settings chooses the states and how often it refreshes",
       "Earthquakes layer: recent earthquakes in and around Arkansas (the New Madrid zone) from the USGS, as circles sized and colored by magnitude; click one for the time, depth and the USGS page. Admin > Settings chooses the area, smallest magnitude and days back",
-      "River Gauges layer: river and lake gauges in and around Arkansas from NOAA's National Water Prediction Service, as dots colored by flood category (green no flooding up to purple major flooding); click one for the stage, flow and the NOAA page. Admin > Settings chooses the area"
+      "River Gauges layer: river and lake gauges in and around Arkansas from NOAA's National Water Prediction Service, as dots colored by flood category (green no flooding up to purple major flooding); click one for the stage, flow and the NOAA page. Admin > Settings chooses the area",
+      "Radio > Space Weather: NOAA's storm scales, planetary K index with a three-day chart, solar flux, X-ray flare class and a rough HF band guide"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
@@ -26,7 +27,9 @@
       "My Account > Display and Maps, Two-Factor and My Repeaters use the same folding sections as the rest of the site",
       "Every admin page uses the same folding sections; the Feeders and Weather Stations page titles no longer show a stray tag",
       "Phones: the round buttons along the bottom of the map are put away while the Replay bar is up",
-      "Weather Alerts, Earthquakes and River Gauges sit in the Weather panel under Alerts and Hazards; clicking one opens the details card (the full warning text and what to do, the magnitude and depth, the stage and flow), river gauges are drawn as water drops, the legend lists them, and their hover labels stay on the page"
+      "Weather Alerts, Earthquakes and River Gauges sit in the Weather panel under Alerts and Hazards; clicking one opens the details card (the full warning text and what to do, the magnitude and depth, the stage and flow), river gauges are drawn as water drops, the legend lists them, and their hover labels stay on the page",
+      "The Weather overview is now a true overview of the weather setup: stations, active alerts, radar and satellite, earthquakes, rivers and lakes, space weather and the weather balloons, each with its current numbers and a link, above the station map and list",
+      "Opening a details card (or choosing another item) folds the Weather, Layers and Filters and Legend panels away on every map"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
