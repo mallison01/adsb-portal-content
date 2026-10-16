@@ -13,7 +13,8 @@
       "Phones: Layers and Filters opens full screen with a Close bar at the top and a Show the Map button (and Escape); the footer is two short lines at the end of the page, clear of the home bar; map labels, weather labels and aircraft icons start smaller; panels are solid so the map does not show through; maps follow the visible screen height as the browser bars come and go",
       "Map pages give the room back: on a phone the footer is not drawn (its links are at the bottom of the menu) and the Show List button sits at the bottom center clear of the locate and full screen buttons; on a larger screen the footer is one thin line",
       "Phones: the menu bar and the section bar are slimmer, leaving more of the screen to the page and the map",
-      "The site-wide search (the home page box) lists every hit, grouped by kind with a count (airports, places, counties, hospitals, repeaters, APRS stations, feeders, weather stations, mesh nodes, call signs, balloons), and offers the flight search and the aircraft map; one hit still goes straight to its page"
+      "The site-wide search (the home page box) lists every hit, grouped by kind with a count (airports, places, counties, hospitals, repeaters, APRS stations, feeders, weather stations, mesh nodes, call signs, balloons), and offers the flight search and the aircraft map; one hit still goes straight to its page",
+      "Phones: once you move or zoom a map, its top panel (map type and search box) folds to one row of buttons, with a Search button to bring it back"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
