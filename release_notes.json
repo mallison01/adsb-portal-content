@@ -12,7 +12,8 @@
       "River Gauges layer: river and lake gauges in and around Arkansas from NOAA's National Water Prediction Service, as dots colored by flood category (green no flooding up to purple major flooding); click one for the stage, flow and the NOAA page. Admin > Settings chooses the area",
       "Radio > Space Weather: NOAA's storm scales, planetary K index with a three-day chart, solar flux, X-ray flare class and a rough HF band guide",
       "Weather panel: NOAA Visible Satellite and Water Vapor imagery under Satellite, and a Lightning layer (strike density) under Alerts and Hazards",
-      "Feeder achievements: friendly badges (Long Reach, Furthest Reach, Always On, Busy Antenna, Veteran, Established, New Arrival, Network Pillar) on the Feeders page and each feeder's page, worked out from the real numbers, with an Achievements section that says what each takes and who holds it; every limit is a setting"
+      "Feeder achievements: friendly badges (Long Reach, Furthest Reach, Always On, Busy Antenna, Veteran, Established, New Arrival, Network Pillar) on the Feeders page and each feeder's page, worked out from the real numbers, with an Achievements section that says what each takes and who holds it; every limit is a setting",
+      "Kiosk Display (Network menu): a wall-screen mode that cycles full screen through chosen pages (aircraft, weather, balloons, space weather, feeders) with no menus, with pause, previous, next and full screen controls and a clock; any page also works without menus when its address ends in ?kiosk=1. The pages and the timing are settings"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",

@@ -2,6 +2,12 @@
   "updated": "2026-10-16",
   "items": [
     {
+      "title": "Kiosk display",
+      "summary": "A wall-screen mode at /kiosk that cycles full screen through chosen pages with no menus, plus ?kiosk=1 on any page; the pages and timing are settings.",
+      "status": "done",
+      "area": "Community"
+    },
+    {
       "title": "Space weather",
       "summary": "Radio > Space Weather: NOAA storm scales, K index, solar flux, flare class and a rough HF band guide.",
       "status": "done",
@@ -506,8 +512,8 @@
       "area": "Data"
     },
     {
-      "title": "Discord bot and kiosk mode",
-      "summary": "Alerts in Discord and a wall-display (kiosk) mode for clubs and shops.",
+      "title": "Discord bot",
+      "summary": "Alerts in Discord from a bot of the site (needs Marty to create the Discord application and give the site its token). Kiosk mode is built (its own item).",
       "status": "planned",
       "area": "Community"
     },
