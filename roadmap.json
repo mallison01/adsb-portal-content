@@ -429,8 +429,8 @@
     },
     {
       "title": "Email",
-      "summary": "Account verification, password reset by email and alert emails, once a sending service is chosen.",
-      "status": "planned",
+      "summary": "Password reset by email and alert emails are built, with a test message, on Admin > SMTP: enter a sending service's settings there to turn it on. Account verification by email is not built.",
+      "status": "done",
       "area": "Accounts"
     },
     {
