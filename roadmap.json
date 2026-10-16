@@ -9,7 +9,7 @@
     },
     {
       "title": "Kiosk display",
-      "summary": "A wall-screen mode (Display menu, /kiosk): chosen pages full screen with every menu and map control hidden, an Exit button, a Setup panel (pages, seconds for each, presets, one page only), the date and time at a chosen corner and size, and ?kiosk=1 on any page.",
+      "summary": "A wall-screen mode (Display menu, /kiosk): chosen pages full screen whose menus and map controls hide after a set time with no input and return with any input, an Exit button, a Setup panel (pages, seconds for each, presets, one page only), the date and time at a chosen corner and size, and ?kiosk=1 on any page.",
       "status": "done",
       "area": "Community"
     },
