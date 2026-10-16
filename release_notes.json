@@ -25,7 +25,8 @@
       "Phones: the Replay bar starts folded (time, Play, Back to Live and the slider) with a More button for the step buttons, speed, date and time",
       "My Account > Display and Maps, Two-Factor and My Repeaters use the same folding sections as the rest of the site",
       "Every admin page uses the same folding sections; the Feeders and Weather Stations page titles no longer show a stray tag",
-      "Phones: the round buttons along the bottom of the map are put away while the Replay bar is up"
+      "Phones: the round buttons along the bottom of the map are put away while the Replay bar is up",
+      "Weather Alerts, Earthquakes and River Gauges sit in the Weather panel under Alerts and Hazards; clicking one opens the details card (the full warning text and what to do, the magnitude and depth, the stage and flow), river gauges are drawn as water drops, the legend lists them, and their hover labels stay on the page"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
