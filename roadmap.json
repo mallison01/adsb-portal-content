@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "items": [
+    {
+      "title": "Phone maps: folding top panel and clear popups",
+      "summary": "On a phone the map's top panel folds to one row of buttons once the map is moved, and popups open clear of the panels; the radiosonde Heard By table has a Sort by choice.",
+      "status": "done",
+      "area": "Map"
+    },
+    {
+      "title": "Usage history, pickers and filters",
+      "summary": "Admin > Usage keeps request and feed counts by the hour and for all time, with From, To and All Time pickers and filters for the table; a service restart loses nothing.",
+      "status": "done",
+      "area": "Admin"
+    },
     {
       "title": "One merged map",
       "summary": "Every map is one page built from one shell, and the Map selector switches the kind of map in place, keeping the view; each type shows only its own layers and filters. We keep it this way rather than putting every filter on one map.",
