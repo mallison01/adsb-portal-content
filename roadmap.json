@@ -531,8 +531,8 @@
     },
     {
       "title": "Station achievements and leaderboards",
-      "summary": "Friendly recognition for range, uptime and contribution.",
-      "status": "planned",
+      "summary": "Badges for feeders (range, uptime, activity, age) on the Feeders page and each feeder's page, with a section that says what each takes and who holds it; the ranking table was already there.",
+      "status": "done",
       "area": "Community"
     },
     {
