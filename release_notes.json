@@ -10,7 +10,8 @@
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
-      "Phones: Layers and Filters opens full screen with a Close bar at the top and a Show the Map button (and Escape); the footer is two short lines at the end of the page, clear of the home bar; map labels, weather labels and aircraft icons start smaller; panels are solid so the map does not show through; maps follow the visible screen height as the browser bars come and go"
+      "Phones: Layers and Filters opens full screen with a Close bar at the top and a Show the Map button (and Escape); the footer is two short lines at the end of the page, clear of the home bar; map labels, weather labels and aircraft icons start smaller; panels are solid so the map does not show through; maps follow the visible screen height as the browser bars come and go",
+      "Map pages give the room back: on a phone the footer is not drawn (its links are at the bottom of the menu) and the Show List button sits at the bottom center clear of the locate and full screen buttons; on a larger screen the footer is one thin line"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
