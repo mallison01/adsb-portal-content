@@ -501,8 +501,8 @@
     },
     {
       "title": "Satellite imagery and passes",
-      "summary": "GOES satellite and lightning layers, and pass predictions for satellites over each station.",
-      "status": "planned",
+      "summary": "Visible and water vapor satellite imagery and lightning are built (Weather panel). Satellite pass predictions (amateur radio and weather satellites over Arkansas) remain.",
+      "status": "progress",
       "area": "Data"
     },
     {
