@@ -3,7 +3,7 @@
   "items": [
     {
       "title": "Phone maps: folding top panel and clear popups",
-      "summary": "On a phone the map's top panel folds to one row of buttons once the map is moved, and popups open clear of the panels; the radiosonde Heard By table has a Sort by choice. Floating buttons no longer cover an open card. The Radiosonde Map shows claimed stations as claimed. My Account pages use the site's folding sections.",
+      "summary": "On a phone the map's top panel folds to one row of buttons once the map is moved, and popups open clear of the panels; the radiosonde Heard By table has a Sort by choice. Floating buttons no longer cover an open card. The Radiosonde Map shows claimed stations as claimed. My Account pages use the site's folding sections. Admin pages all use folding sections.",
       "status": "done",
       "area": "Map"
     },
