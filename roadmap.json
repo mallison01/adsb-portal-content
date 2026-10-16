@@ -471,8 +471,8 @@
     },
     {
       "title": "API keys",
-      "summary": "Request a key for a documented public API with fair limits.",
-      "status": "planned",
+      "summary": "Members make API keys (My Account) for a documented public API at /api/v1 with per-minute and per-day limits; administrators manage, limit and revoke them.",
+      "status": "done",
       "area": "Accounts"
     },
     {
