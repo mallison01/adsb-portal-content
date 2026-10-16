@@ -14,7 +14,9 @@
       "Map pages give the room back: on a phone the footer is not drawn (its links are at the bottom of the menu) and the Show List button sits at the bottom center clear of the locate and full screen buttons; on a larger screen the footer is one thin line",
       "Phones: the menu bar and the section bar are slimmer, leaving more of the screen to the page and the map",
       "The site-wide search (the home page box) lists every hit, grouped by kind with a count (airports, places, counties, hospitals, repeaters, APRS stations, feeders, weather stations, mesh nodes, call signs, balloons), and offers the flight search and the aircraft map; one hit still goes straight to its page",
-      "Phones: once you move or zoom a map, its top panel (map type and search box) folds to one row of buttons, with a Search button to bring it back"
+      "Phones: once you move or zoom a map, its top panel (map type and search box) folds to one row of buttons, with a Search button to bring it back",
+      "Phones: a map popup now opens clear of the top panel and the details card instead of sliding under them",
+      "Radiosonde flight page: the Heard By table has a Sort by choice and an order button (the column headings still sort too)"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
