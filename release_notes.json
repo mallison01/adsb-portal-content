@@ -5,7 +5,8 @@
     "title": "Coming in the next release",
     "added": [
       "County Map: a Limit To box in Show on the Map limits every kind of point (and the drive-time rings) to one state, one county, or the area around a ZIP code or place; it is kept in the link to the view",
-      "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too"
+      "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too",
+      "Call Sign Lookup: type the start of a call sign (KD5) and every call sign on the site that begins with it is listed, with what each is (repeater, APRS station, station owner, sonde receiver, DMR contact)"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
@@ -16,7 +17,10 @@
       "The Radio overview no longer says mesh is coming",
       "The County Map's list of ways to show counties lost a redundant choice, and the hospital heliport badge only shows zoomed in",
       "The Aircraft Map's Stations list names each station once",
-      "The drive-times list no longer lists the hospital you asked from at 0 minutes"
+      "The drive-times list no longer lists the hospital you asked from at 0 minutes",
+      "Opening Units for each service in the Display menu on a phone no longer closes the Display menu",
+      "The Weather Map's labels no longer jump and re-merge while the airport weather loads or when you leave it sitting: they are drawn at most twice while loading and then stay put",
+      "On a phone the County Map starts with smaller icons and shows only trauma centers zoomed out to the state"
     ],
     "security": []
   },
