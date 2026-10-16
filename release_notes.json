@@ -23,7 +23,9 @@
       "The drive-times list no longer lists the hospital you asked from at 0 minutes",
       "Opening Units for each service in the Display menu on a phone no longer closes the Display menu",
       "The Weather Map's labels no longer jump and re-merge while the airport weather loads or when you leave it sitting: they are drawn at most twice while loading and then stay put",
-      "On a phone the County Map starts with smaller icons and shows only trauma centers zoomed out to the state"
+      "On a phone the County Map starts with smaller icons and shows only trauma centers zoomed out to the state",
+      "Replay on a phone is usable: a short bar with the time, the transport buttons, speed, date and time and the slider, with the other map buttons moved up out of its way",
+      "Maps follow the screen height as a phone browser's bars slide away or come back, so the blank strip under the map goes away"
     ],
     "security": []
   },
