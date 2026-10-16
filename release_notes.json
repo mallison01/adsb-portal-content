@@ -8,7 +8,8 @@
       "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too",
       "Call Sign Lookup: type the start of a call sign (KD5) and every call sign on the site that begins with it is listed, with what each is (repeater, APRS station, station owner, sonde receiver, DMR contact)",
       "Weather Alerts layer: the National Weather Service's active warnings, watches and advisories drawn as colored areas on the maps (tornado red, severe storm orange, flood green, winter pink, heat, fire weather, wind); click one for the details. Admin > Settings chooses the states and how often it refreshes",
-      "Earthquakes layer: recent earthquakes in and around Arkansas (the New Madrid zone) from the USGS, as circles sized and colored by magnitude; click one for the time, depth and the USGS page. Admin > Settings chooses the area, smallest magnitude and days back"
+      "Earthquakes layer: recent earthquakes in and around Arkansas (the New Madrid zone) from the USGS, as circles sized and colored by magnitude; click one for the time, depth and the USGS page. Admin > Settings chooses the area, smallest magnitude and days back",
+      "River Gauges layer: river and lake gauges in and around Arkansas from NOAA's National Water Prediction Service, as dots colored by flood category (green no flooding up to purple major flooding); click one for the stage, flow and the NOAA page. Admin > Settings chooses the area"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",

@@ -465,8 +465,8 @@
     },
     {
       "title": "River and lake gauges",
-      "summary": "River and lake levels across Arkansas with flood stages, as a map layer. Earthquakes are done (their own layer).",
-      "status": "planned",
+      "summary": "River and lake gauges in and around Arkansas from NOAA's National Water Prediction Service, colored by flood category, with the stage and flow on click.",
+      "status": "done",
       "area": "Data"
     },
     {
