@@ -18,7 +18,9 @@
       "Phones: a map popup now opens clear of the top panel and the details card instead of sliding under them",
       "Radiosonde flight page: the Heard By table has a Sort by choice and an order button (the column headings still sort too)",
       "Admin > Usage: date and time pickers (From, To, All Time) for the table of outside requests, filters for that table (text, outside or internal, failures only, used in the range), counts kept by the hour and for all time by default (the live feeds and the service containers' own requests are added up every minute, so a restart loses nothing), and the Settings link works again",
-      "Phones: while a details card is open, the Normal look, locate and full screen buttons are put away so they no longer sit on top of the card's text"
+      "Phones: while a details card is open, the Normal look, locate and full screen buttons are put away so they no longer sit on top of the card's text",
+      "Phones: the Replay bar starts folded (time, Play, Back to Live and the slider) with a More button for the step buttons, speed, date and time",
+      "My Account > Display and Maps uses the same folding sections as the rest of the site"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",

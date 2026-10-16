@@ -220,7 +220,7 @@
     {
       "title": "Passkeys",
       "summary": "Sign in with a passkey on a phone, laptop or security key.",
-      "status": "idea",
+      "status": "planned",
       "area": "Accounts"
     },
     {
@@ -447,20 +447,20 @@
     },
     {
       "title": "Built to scale and survive a failure",
-      "summary": "Designed so the hub, the MLAT server and the portal can run on more than one machine and share the load.",
+      "summary": "Designed so the hub, the MLAT server and the portal can run on more than one machine and share the load. Considered as things are built, and done last unless something needs it sooner.",
       "status": "planned",
       "area": "Hub"
     },
     {
       "title": "Weather alerts on the map",
       "summary": "National Weather Service warnings (tornado, severe storm, flood) drawn as areas, with alerts to subscribers.",
-      "status": "idea",
+      "status": "planned",
       "area": "Data"
     },
     {
       "title": "Earthquakes and river gauges",
       "summary": "USGS earthquake activity (New Madrid zone) and river and lake levels across Arkansas.",
-      "status": "idea",
+      "status": "planned",
       "area": "Data"
     },
     {
@@ -472,7 +472,7 @@
     {
       "title": "Amateur radio extras",
       "summary": "Space weather and HF propagation, net schedules and Winlink gateways (APRS stations are already built).",
-      "status": "idea",
+      "status": "planned",
       "area": "Data"
     },
     {
@@ -484,19 +484,37 @@
     {
       "title": "Satellite imagery and passes",
       "summary": "GOES satellite and lightning layers, and pass predictions for satellites over each station.",
-      "status": "idea",
+      "status": "planned",
       "area": "Data"
     },
     {
-      "title": "Discord bot, phone app and kiosk mode",
-      "summary": "Alerts in Discord, an installable phone app, and a wall-display mode for clubs and emergency operations centers.",
+      "title": "Discord bot and kiosk mode",
+      "summary": "Alerts in Discord and a wall-display (kiosk) mode for clubs and shops.",
+      "status": "planned",
+      "area": "Community"
+    },
+    {
+      "title": "Phone app",
+      "summary": "An installable phone app. Its own item, only if it is ever done.",
+      "status": "idea",
+      "area": "Phone App"
+    },
+    {
+      "title": "Private messages",
+      "summary": "Members sending each other private messages inside the site.",
+      "status": "idea",
+      "area": "Community"
+    },
+    {
+      "title": "Chat",
+      "summary": "A chat system for members, perhaps by service or region.",
       "status": "idea",
       "area": "Community"
     },
     {
       "title": "Station achievements and leaderboards",
       "summary": "Friendly recognition for range, uptime and contribution.",
-      "status": "idea",
+      "status": "planned",
       "area": "Community"
     },
     {
@@ -767,7 +785,7 @@
     {
       "title": "Send your weather station to the APRS network",
       "summary": "Hams could push their station's readings to APRS (and CWOP) from the ArkSignal container or the Home Assistant integration, with one switch per station.",
-      "status": "idea",
+      "status": "planned",
       "area": "Stations"
     },
     {
