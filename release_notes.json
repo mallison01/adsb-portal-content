@@ -13,7 +13,7 @@
       "Radio > Space Weather: NOAA's storm scales, planetary K index with a three-day chart, solar flux, X-ray flare class and a rough HF band guide",
       "Weather panel: NOAA Visible Satellite and Water Vapor imagery under Satellite, and a Lightning layer (strike density) under Alerts and Hazards",
       "Feeder achievements: friendly badges (Long Reach, Furthest Reach, Always On, Busy Antenna, Veteran, Established, New Arrival, Network Pillar) on the Feeders page and each feeder's page, worked out from the real numbers, with an Achievements section that says what each takes and who holds it; every limit is a setting",
-      "Kiosk Display (Network menu): a wall-screen mode that shows pages full screen with no menus, with an Exit Kiosk button (and Esc), a Setup panel to choose the pages, how long each stays up, a preset or a single page only, a bar that hides itself when nobody is touching the screen, and a link that keeps the setup; presets and the default pages are settings. Any page also works without menus when its address ends in ?kiosk=1",
+      "Kiosk Display (Display menu): a wall-screen mode that shows pages full screen with no menus, with an Exit Kiosk button (and Esc), a Setup panel to choose the pages, how long each stays up, a preset or a single page only, a bar that hides itself when nobody is touching the screen, and a link that keeps the setup; presets and the default pages are settings. Any page also works without menus when its address ends in ?kiosk=1; the date and time can be drawn on the screen at a chosen corner and size (settings), and every menu and map control is hidden on the display",
       "Trauma Map: one switch, Air ambulance aircraft, shows every helicopter and airplane on the air ambulance lists that the network hears right now, with a details card and a Legend entry"
     ],
     "improved": [
@@ -34,7 +34,9 @@
       "Weather Alerts, Earthquakes and River Gauges sit in the Weather panel under Alerts and Hazards; clicking one opens the details card (the full warning text and what to do, the magnitude and depth, the stage and flow), river gauges are drawn as water drops, the legend lists them, and their hover labels stay on the page",
       "The Weather overview is now a true overview of the weather setup: stations, active alerts, radar and satellite, earthquakes, rivers and lakes, space weather and the weather balloons, each with its current numbers and a link, above the station map and list",
       "Opening a details card (or choosing another item) folds the Weather, Layers and Filters and Legend panels away on every map",
-      "Radio > Space Weather: each K index bar shows its value and, under it, the time range and date in UTC and in your own time"
+      "Radio > Space Weather: each K index bar shows its value and, under it, the time range and date in UTC and in your own time",
+      "Satellite and Hybrid maps no longer lose the picture when you zoom in close: the USGS imagery hands over to the worldwide imagery past its last zoom, and any imagery stays on screen up to the map's limit",
+      "The Kiosk Display's bottom bar comes back whenever the mouse moves anywhere (even over the page), when you leave full screen with Esc, or when the pointer touches the bottom edge; Esc outside full screen leaves the kiosk"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
