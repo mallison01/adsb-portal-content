@@ -6,7 +6,8 @@
     "added": [
       "County Map: a Limit To box in Show on the Map limits every kind of point (and the drive-time rings) to one state, one county, or the area around a ZIP code or place; it is kept in the link to the view",
       "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too",
-      "Call Sign Lookup: type the start of a call sign (KD5) and every call sign on the site that begins with it is listed, with what each is (repeater, APRS station, station owner, sonde receiver, DMR contact)"
+      "Call Sign Lookup: type the start of a call sign (KD5) and every call sign on the site that begins with it is listed, with what each is (repeater, APRS station, station owner, sonde receiver, DMR contact)",
+      "Weather Alerts layer: the National Weather Service's active warnings, watches and advisories drawn as colored areas on the maps (tornado red, severe storm orange, flood green, winter pink, heat, fire weather, wind); click one for the details. Admin > Settings chooses the states and how often it refreshes"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",

@@ -453,8 +453,8 @@
     },
     {
       "title": "Weather alerts on the map",
-      "summary": "National Weather Service warnings (tornado, severe storm, flood) drawn as areas, with alerts to subscribers.",
-      "status": "planned",
+      "summary": "National Weather Service warnings, watches and advisories drawn as colored areas on the maps (a Weather Alerts layer), with the details on click; the states and refresh are settings.",
+      "status": "done",
       "area": "Data"
     },
     {
