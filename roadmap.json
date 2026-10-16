@@ -2,8 +2,14 @@
   "updated": "2026-10-16",
   "items": [
     {
+      "title": "Air ambulances on the Trauma Map",
+      "summary": "A single switch on the Trauma Map draws every air ambulance helicopter and airplane the network hears, with a details card.",
+      "status": "done",
+      "area": "Map"
+    },
+    {
       "title": "Kiosk display",
-      "summary": "A wall-screen mode at /kiosk that cycles full screen through chosen pages with no menus, plus ?kiosk=1 on any page; the pages and timing are settings.",
+      "summary": "A wall-screen mode at /kiosk: chosen pages full screen with no menus, an Exit button, a Setup panel (pages, seconds for each, presets, one page only) and ?kiosk=1 on any page; the defaults and presets are settings.",
       "status": "done",
       "area": "Community"
     },
