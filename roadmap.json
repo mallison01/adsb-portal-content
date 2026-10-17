@@ -507,8 +507,8 @@
     },
     {
       "title": "Drone Remote ID",
-      "summary": "Drones that broadcast their identity and position, from member receivers.",
-      "status": "idea",
+      "summary": "Drones that broadcast Remote ID, heard by members' own receivers (ESP32 scanners or phones): a list, a map, a page for each drone, a Drones layer on every map and a How to Feed page with a bridge program. The operator's location is not kept unless an administrator allows it, and pilots can ask for an ID to be hidden.",
+      "status": "done",
       "area": "Stations"
     },
     {
