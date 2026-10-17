@@ -495,8 +495,8 @@
     },
     {
       "title": "River traffic (AIS)",
-      "summary": "Barges and boats on the Arkansas, White and Mississippi rivers from member AIS receivers.",
-      "status": "idea",
+      "summary": "Barges, towboats and boats on the Arkansas, White and Mississippi rivers and the lakes from members' AIS receivers: a list, a map, a page for each vessel, a Marine Traffic layer on every map, a How to Feed page with a bridge program, and an administrator takedown list.",
+      "status": "done",
       "area": "Stations"
     },
     {
