@@ -916,8 +916,8 @@
     },
     {
       "title": "Our own forecast data (GFS)",
-      "summary": "Read NOAA's open GFS model files ourselves: the wind data for the radiosonde predictor (and then our own Tawhiri) and short-range weather forecasts beside the National Weather Service forecast. Last on the list.",
-      "status": "planned",
+      "summary": "The prediction service reads NOAA's GFS model itself (winds by height and the surface forecast, every six hours, for Arkansas and a wide margin): the balloon predictor flies through our own winds and Weather for a Place has an hour-by-hour model forecast. A separate Tawhiri (our own flight model already exists; the Tawhiri option still calls an outside predictor) and a longer-range model are not built.",
+      "status": "done",
       "area": "Weather"
     },
     {
