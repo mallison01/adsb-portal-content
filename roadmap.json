@@ -501,8 +501,8 @@
     },
     {
       "title": "Amateur radio extras",
-      "summary": "Space weather and HF propagation are built (Radio > Space Weather). Net schedules and Winlink gateways (APRS stations) remain.",
-      "status": "progress",
+      "summary": "Space weather and HF band guide (Radio > Space Weather), net schedules (Radio > Nets) and Winlink gateways (Radio > Winlink Gateways), the last two kept by members with an editors' check.",
+      "status": "done",
       "area": "Data"
     },
     {
