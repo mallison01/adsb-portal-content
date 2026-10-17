@@ -34,7 +34,8 @@
       "Menus reorganized: long flyouts have labelled parts and scroll on short screens, drones sit with aircraft, satellites, nets and space weather are grouped in Radio, My Account has a row for stations and a row for the account, and the Display menu is wider",
       "Kiosk: the site's top bar and footer are never shown, and the date and time start in the top right corner",
       "Feature Access: an administrator can hide any feature (weather stations, radiosondes, repeaters, APRS, mesh, ACARS, River Traffic, Drones, satellites, GOES, space weather, nets, map layers, API, kiosk, achievements) from visitors, limit it to signed-in members, or limit it to members whose role has its See permission; its pages, menus, feeding page and map layer all follow",
-      "Sign in with Google: an optional setting links a verified Google email to the account with the same address instead of asking the member to link it from My Account (off by default)"
+      "Sign in with Google: an optional setting links a verified Google email to the account with the same address instead of asking the member to link it from My Account (off by default)",
+      "Chat and Private Messages: chat rooms for signed-in members (with limits, read-only rooms, muting, reports and an optional one-way mirror to a Discord channel for phone notifications) and private conversations between two members (unread count, block, report, delete your copy; administrators cannot read them), with moderators, settings and Feature Access for each"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",

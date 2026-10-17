@@ -531,14 +531,14 @@
     },
     {
       "title": "Private messages",
-      "summary": "Members sending each other private messages inside the site. Design sketch written (inbox, mute and block, report, limits; decisions for Marty: can administrators read messages, who may start one, a waiting period for new members): see ROADMAP.md, Design sketch.",
-      "status": "idea",
+      "summary": "Private conversations between two members: unread count, block, report, delete your own copy; administrators cannot read them, moderators see only a reported message.",
+      "status": "done",
       "area": "Community"
     },
     {
       "title": "Chat",
-      "summary": "A chat system for members, perhaps by service or region. Design sketch written (rooms, polling, moderation first; decisions for Marty: public or members only, starting rooms, history; an embedded Discord or Matrix room is the no-moderation-work alternative): see ROADMAP.md, Design sketch.",
-      "status": "idea",
+      "summary": "Chat rooms for signed-in members: plain text, limits, read-only rooms, moderators with mutes and reports, and an optional one-way mirror to a Discord channel so people with Discord's phone app are notified.",
+      "status": "done",
       "area": "Community"
     },
     {
