@@ -814,8 +814,8 @@
     },
     {
       "title": "Send your weather station to the APRS network",
-      "summary": "Hams could push their station's readings to APRS (and CWOP) from the ArkSignal container or the Home Assistant integration, with one switch per station.",
-      "status": "planned",
+      "summary": "Owners can send a weather station's newest reading to CWOP or APRS-IS as an APRS weather report (with consent, their own ID or call sign, a preview and a Send Now button).",
+      "status": "done",
       "area": "Stations"
     },
     {
