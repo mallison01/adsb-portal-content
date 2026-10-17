@@ -243,8 +243,8 @@
     },
     {
       "title": "Sign in with Google",
-      "summary": "Link a Google account to sign in without a password.",
-      "status": "idea",
+      "summary": "Members link a Google account on My Account > Google Sign-In and sign in with it (the site checks Google's signed answer itself; accounts are linked by Google's account number, never by email alone; two-factor still applies). An administrator enters the Google client ID and secret to switch it on.",
+      "status": "done",
       "area": "Accounts"
     },
     {
@@ -513,7 +513,7 @@
     },
     {
       "title": "Satellite imagery and passes",
-      "summary": "Visible and water vapor satellite imagery and lightning layers (Weather panel), and Radio > Satellite Passes: pass predictions for the space station, weather satellites and amateur radio satellites over any place. The Satellites map layer shows where each satellite is now with its path, what it can see and a card on how to work it (frequencies, mode, equipment, Doppler on the pass page). Members' own weather satellite receivers (Meteor-M, GOES, NOAA) send decoded pictures to a gallery (Radio > Satellite Images), each receiver with a private upload address. Weather > GOES Imagery shows NOAA's newest GOES-East and West pictures for the Arkansas region and the country.",
+      "summary": "Visible and water vapor satellite imagery and lightning layers (Weather panel), and Radio > Satellite Passes: pass predictions for the space station, weather satellites and amateur radio satellites over any place. The Satellites map layer shows where each satellite is now with its path, what it can see and a card on how to work it (frequencies, mode, equipment, Doppler on the pass page). Members' own weather satellite receivers (Meteor-M, GOES, NOAA) send decoded pictures to a gallery (Radio > Satellite Images), each receiver with a private upload address. Weather > GOES Imagery shows NOAA's newest GOES-East and West pictures for the Arkansas region and the country. Satellite receivers have a How to Feed page and an uploader script.",
       "status": "done",
       "area": "Data"
     },
