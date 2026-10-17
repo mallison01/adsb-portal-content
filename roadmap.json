@@ -429,8 +429,8 @@
     },
     {
       "title": "Satellite-relayed aircraft",
-      "summary": "Positions of aircraft reported over Inmarsat, Iridium and HF radio by members with the right receivers.",
-      "status": "planned",
+      "summary": "Positions of aircraft reported over Inmarsat (JAERO ADS-C), Iridium and HFDL by members' receivers, through the ACARS service: they appear on the live map's ACARS positions layer with the age of the report.",
+      "status": "done",
       "area": "Data"
     },
     {
