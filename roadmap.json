@@ -970,14 +970,14 @@
     },
     {
       "title": "Display preferences and saved map views in My Account",
-      "summary": "The Display menu's choices (theme, units for each service, times, page width, map label and icon sizes, trail options) become a section of the profile where you can set them, see your saved map views, and manage all of it in one place.",
-      "status": "next",
+      "summary": "My Account > Display and Maps holds every choice of the Display menu (theme, units for each service, times, page width, map label and icon sizes, trail options) in folding sections, follows you to every device, and lists your saved map views.",
+      "status": "done",
       "area": "Accounts"
     },
     {
       "title": "County Map: limit what is shown by state, county or ZIP",
-      "summary": "A filter on the County Map that limits every Show on the Map choice (hospitals, airports, stations, launch sites and the rest) to a state, a county or a ZIP code area.",
-      "status": "next",
+      "summary": "The County Map's Show on the Map section has a Limit To filter (state, county or ZIP area) that applies to every choice: hospitals, airports, stations, launch sites and the rest.",
+      "status": "done",
       "area": "Map"
     },
     {
