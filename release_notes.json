@@ -32,7 +32,9 @@
       "Drones: aircraft that broadcast Remote ID, heard by members' own receivers, on a list, a map, a page for each drone and a Drones layer for every map; members add a receiver on My Account > My Remote ID Stations and follow How to Feed Remote ID. The operator's location is never stored unless an administrator turns that on",
       "Satellite-relayed aircraft: the ACARS service now reads the positions that Inmarsat (JAERO ADS-C) and HFDL messages carry in their own fields, so aircraft far outside ADS-B range show on the live map's ACARS positions layer even when their messages have no text",
       "Menus reorganized: long flyouts have labelled parts and scroll on short screens, drones sit with aircraft, satellites, nets and space weather are grouped in Radio, My Account has a row for stations and a row for the account, and the Display menu is wider",
-      "Kiosk: the site's top bar and footer are never shown, and the date and time start in the top right corner"
+      "Kiosk: the site's top bar and footer are never shown, and the date and time start in the top right corner",
+      "Feature Access: an administrator can hide any feature (weather stations, radiosondes, repeaters, APRS, mesh, ACARS, River Traffic, Drones, satellites, GOES, space weather, nets, map layers, API, kiosk, achievements) from visitors, limit it to signed-in members, or limit it to members whose role has its See permission; its pages, menus, feeding page and map layer all follow",
+      "Sign in with Google: an optional setting links a verified Google email to the account with the same address instead of asking the member to link it from My Account (off by default)"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
