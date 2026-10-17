@@ -513,7 +513,7 @@
     },
     {
       "title": "Satellite imagery and passes",
-      "summary": "Visible and water vapor satellite imagery and lightning layers (Weather panel), and Radio > Satellite Passes: pass predictions for the space station, weather satellites and amateur radio satellites over any place. The Satellites map layer shows where each satellite is now with its path, what it can see and a card on how to work it (frequencies, mode, equipment, Doppler on the pass page).",
+      "summary": "Visible and water vapor satellite imagery and lightning layers (Weather panel), and Radio > Satellite Passes: pass predictions for the space station, weather satellites and amateur radio satellites over any place. The Satellites map layer shows where each satellite is now with its path, what it can see and a card on how to work it (frequencies, mode, equipment, Doppler on the pass page). Members' own weather satellite receivers (Meteor-M, GOES, NOAA) send decoded pictures to a gallery (Radio > Satellite Images), each receiver with a private upload address.",
       "status": "done",
       "area": "Data"
     },
