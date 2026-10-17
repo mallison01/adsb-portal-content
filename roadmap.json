@@ -531,13 +531,13 @@
     },
     {
       "title": "Private messages",
-      "summary": "Members sending each other private messages inside the site.",
+      "summary": "Members sending each other private messages inside the site. Design sketch written (inbox, mute and block, report, limits; decisions for Marty: can administrators read messages, who may start one, a waiting period for new members): see ROADMAP.md, Design sketch.",
       "status": "idea",
       "area": "Community"
     },
     {
       "title": "Chat",
-      "summary": "A chat system for members, perhaps by service or region.",
+      "summary": "A chat system for members, perhaps by service or region. Design sketch written (rooms, polling, moderation first; decisions for Marty: public or members only, starting rooms, history; an embedded Discord or Matrix room is the no-moderation-work alternative): see ROADMAP.md, Design sketch.",
       "status": "idea",
       "area": "Community"
     },
