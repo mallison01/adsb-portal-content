@@ -548,6 +548,12 @@
       "area": "Community"
     },
     {
+      "title": "Radio bridges for chats",
+      "summary": "Link a chat to an APRS call sign (messages out from your own call sign, replies in) or to a Meshtastic node. APRS is built and opt in with licensing notes; the mesh side is ready on the portal and waits for the mesh gateway.",
+      "status": "progress",
+      "area": "Community"
+    },
+    {
       "title": "Station achievements and leaderboards",
       "summary": "Badges for feeders (range, uptime, activity, age) on the Feeders page and each feeder's page, with a section that says what each takes and who holds it; the ranking table was already there.",
       "status": "done",
