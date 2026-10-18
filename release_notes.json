@@ -37,7 +37,7 @@
       "Sign in with Google: an optional setting links a verified Google email to the account with the same address instead of asking the member to link it from My Account (off by default)",
       "Chat and Private Messages: chat rooms for signed-in members (with limits, read-only rooms, muting, reports and an optional one-way mirror to a Discord channel for phone notifications) and private conversations between two members (unread count, block, report, delete your copy; administrators cannot read them), with moderators, settings and Feature Access for each",
       "Mesh: a node that sends no role now shows as a Client, every Meshtastic hardware model has its name (a Heltec V4 is no longer 'hardware #110'), and a node page without battery or telemetry says how to get it",
-      "Animation loops: GOES Imagery has an Animation Loop player (play, pause, step, speed, scrub, loop, the time of each picture) for every area and view, and two new areas, the Full Disk of GOES-East and of GOES-West; pictures that members send from the same receiver, satellite and product close together in time are put together into loops on Satellite Images the same way. The number of pictures, how long they are kept, the full disk size and the speeds are settings"
+      "GOES Imagery is one Satellite Viewer: a Controls panel over the picture (like the maps' Layers) chooses the area (now including the full disk of GOES-East and of GOES-West), the view, the newest picture or an animation loop, and how long the loop is; the picture zooms with the mouse wheel, + and - buttons, a double click or a pinch and drags to move around, and it fills the window so the whole picture is in view. Pictures that members send from the same receiver, satellite and product close together in time are put together into loops on Satellite Images the same way. The longest loop, default length, full disk size and speeds are settings"
     ],
     "improved": [
       "Admin > Repeaters, Feeders and Weather Stations are split into tabs (Review, Import, Linked Systems and Add; Feeders and Add a Feeder; Stations and Add a Station)",
@@ -59,7 +59,8 @@
       "Opening a details card (or choosing another item) folds the Weather, Layers and Filters and Legend panels away on every map",
       "Radio > Space Weather: each K index bar shows its value and, under it, the time range and date in UTC and in your own time",
       "Satellite and Hybrid maps no longer lose the picture when you zoom in close: the USGS imagery hands over to the worldwide imagery past its last zoom, and any imagery stays on screen up to the map's limit",
-      "The Kiosk Display's bottom bar comes back whenever the mouse moves anywhere (even over the page), when you leave full screen with Esc, or when the pointer touches the bottom edge; Esc outside full screen leaves the kiosk"
+      "The Kiosk Display's bottom bar comes back whenever the mouse moves anywhere (even over the page), when you leave full screen with Esc, or when the pointer touches the bottom edge; Esc outside full screen leaves the kiosk",
+      "Satellite Passes: a Satellites section of toggle buttons grouped as Space Station, Weather and Amateur Radio, with All, None, Only These for a group, a filter box and a count (nothing chosen shows no passes); How to Work a Satellite is a folded lookup that shows only the satellites you search for, or the one you arrive for from a map card or by choosing its name in the passes; the page is much shorter"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
