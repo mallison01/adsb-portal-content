@@ -62,7 +62,8 @@
       "Radio > Space Weather: each K index bar shows its value and, under it, the time range and date in UTC and in your own time",
       "Satellite and Hybrid maps no longer lose the picture when you zoom in close: the USGS imagery hands over to the worldwide imagery past its last zoom, and any imagery stays on screen up to the map's limit",
       "The Kiosk Display's bottom bar comes back whenever the mouse moves anywhere (even over the page), when you leave full screen with Esc, or when the pointer touches the bottom edge; Esc outside full screen leaves the kiosk",
-      "Satellite Passes: a Satellites section of toggle buttons grouped as Space Station, Weather and Amateur Radio, with All, None, Only These for a group, a filter box and a count (nothing chosen shows no passes); How to Work a Satellite is a folded lookup that shows only the satellites you search for, or the one you arrive for from a map card or by choosing its name in the passes; the page is much shorter"
+      "Satellite Passes: a Satellites section of toggle buttons grouped as Space Station, Weather and Amateur Radio, with All, None, Only These for a group, a filter box and a count (nothing chosen shows no passes); How to Work the Chosen Satellites lists only the satellites ticked above (narrowed by the Find box), or the one you choose by its name in the passes; the page is much shorter",
+      "The top bar is less crowded: your name is now a profile menu with My Account, Chat, Messages, Friends and Sign Out, with a flag on it (and a count on each item) when something is new"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
@@ -78,7 +79,8 @@
       "Maps take exactly the rest of the screen: the page is a column as tall as the screen and the map is the stretching part, so there is no blank strip or scroll bar under it on a phone whose browser bars slide away, and the replay buttons no longer crowd each other",
       "Radiosonde Map: a claimed receiving station's card no longer says \"not claimed yet\", and claimed stations are drawn in the claimed color",
       "Map details cards on phones: the title and the Collapse and Close buttons now stay at the top while a long card scrolls, a card opens at its top, and the open card is no longer hidden under the map credit line",
-      "Mesh: the Meshtastic app no longer shows a red 'broker refused every topic' error after you connect a node (the broker now accepts the app's subscriptions but still sends members' logins nothing)"
+      "Mesh: the Meshtastic app no longer shows a red 'broker refused every topic' error after you connect a node (the broker now accepts the app's subscriptions but still sends members' logins nothing)",
+      "Show on County Map (hospitals) and Show on Aircraft Map (airports) now open on the place itself; before, the link lost its longitude and the map opened on all of Arkansas"
     ],
     "security": []
   },
