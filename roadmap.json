@@ -530,14 +530,20 @@
       "area": "Phone App"
     },
     {
-      "title": "Private messages",
-      "summary": "Private conversations between two members: unread count, block, report, delete your own copy; administrators cannot read them, moderators see only a reported message.",
+      "title": "Messages",
+      "summary": "Email-style private messages between members: Inbox, Sent, Drafts, Archive and Trash, a subject, several recipients, threads with Reply and Reply to All, read and unread, search; administrators cannot read them, moderators see only a reported message.",
       "status": "done",
       "area": "Community"
     },
     {
       "title": "Chat",
-      "summary": "Chat rooms for signed-in members: plain text, limits, read-only rooms, moderators with mutes and reports, and an optional one-way mirror to a Discord channel so people with Discord's phone app are notified.",
+      "summary": "Live chat between two or more members: direct chats and small named groups, messages that appear without reloading, typing and seen notices, online dots and unread counts in the menu; moderators see only a reported message.",
+      "status": "done",
+      "area": "Community"
+    },
+    {
+      "title": "Friends lists",
+      "summary": "Send, accept and decline friend requests, see which friends are online, start a chat or a message in one click, block a member, and choose who may contact you (everyone, friends only, nobody new).",
       "status": "done",
       "area": "Community"
     },
