@@ -417,7 +417,7 @@
     },
     {
       "title": "Meshtastic and MeshCore nodes",
-      "summary": "Where the mesh nodes are, who hears whom, and a guide for joining the Arkansas mesh; every member gets their own broker login on My Mesh Nodes. Still to come: claims, coverage areas and operations help.",
+      "summary": "Where the mesh nodes are, who hears whom, and a guide for joining the Arkansas mesh; every member gets their own broker login on My Mesh Nodes. Still to come: claims, coverage areas and operations help. The overview page shows live numbers, and nodes' Neighbor Info reports draw Direct Links on the map.",
       "status": "done",
       "area": "Stations"
     },
@@ -997,6 +997,12 @@
       "summary": "Looked at and not built: the National Weather Service's own data service only gives observations for airport stations, which the Airport weather source already shows; its mesonet and RAWS stations reach us through the APRS (CWOP) source.",
       "status": "done",
       "area": "Weather"
+    },
+    {
+      "title": "Matrix and the Element app for chat",
+      "summary": "Use a real, premade chat app (Element, on Android and iPhone) with the site's chat, friends and messages through a Matrix server the site runs, with sign-in by the site's own accounts and push notifications. Planned for after the current release; needs a design decision on replacing or mirroring the built-in chat.",
+      "status": "planned",
+      "area": "Community"
     }
   ]
 }
