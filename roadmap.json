@@ -1069,6 +1069,12 @@
       "summary": "Browser notifications for new chats, messages and friend requests, even when the site is closed (Web Push), with per-member choices and an installable app.",
       "status": "planned",
       "area": "Community"
+    },
+    {
+      "title": "Share files in chats and messages",
+      "summary": "Send pictures and files in chats and messages, with size and type limits, private to the conversation and covered by backup.",
+      "status": "planned",
+      "area": "Community"
     }
   ]
 }
