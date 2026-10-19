@@ -1045,6 +1045,24 @@
       "summary": "Show and list temperature, humidity, pressure and other readings from mesh nodes that share them, with charts on the node page.",
       "status": "planned",
       "area": "Stations"
+    },
+    {
+      "title": "Scoped roles for communities",
+      "summary": "Roles and permissions that apply inside one community only (a mesh, an APRS group, a repeater club), so each group manages its own page and resources.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Mesh group self-management",
+      "summary": "A mesh group sets up its own gateway logins, uplinks and downlinks, and sees its own statistics, charts and nodes.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Remote administration of mesh nodes",
+      "summary": "Queue configuration commands for a group's nodes from the site, run by a small bridge program beside a gateway node, with approval and a full audit log; tracks new Meshtastic releases.",
+      "status": "planned",
+      "area": "Stations"
     }
   ]
 }
