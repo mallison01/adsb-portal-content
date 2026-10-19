@@ -83,7 +83,8 @@
       "Radiosonde Map: a claimed receiving station's card no longer says \"not claimed yet\", and claimed stations are drawn in the claimed color",
       "Map details cards on phones: the title and the Collapse and Close buttons now stay at the top while a long card scrolls, a card opens at its top, and the open card is no longer hidden under the map credit line",
       "Mesh: the Meshtastic app no longer shows a red 'broker refused every topic' error after you connect a node (the broker now accepts the app's subscriptions but still sends members' logins nothing)",
-      "Show on County Map (hospitals) and Show on Aircraft Map (airports) now open on the place itself; before, the link lost its longitude and the map opened on all of Arkansas"
+      "Show on County Map (hospitals) and Show on Aircraft Map (airports) now open on the place itself; before, the link lost its longitude and the map opened on all of Arkansas",
+      "GOES loops go back as far as the length asked for: the keep-hours setting no longer deletes pictures a long loop still needs"
     ],
     "security": []
   },
