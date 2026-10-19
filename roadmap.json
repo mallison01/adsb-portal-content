@@ -1093,6 +1093,12 @@
       "summary": "Members who opt in can have their node's data also shared on the public Meshtastic MQTT server, under its rules, without loops.",
       "status": "planned",
       "area": "Stations"
+    },
+    {
+      "title": "End-to-end encryption for chats and messages",
+      "summary": "Encrypted conversations that only the people in them can read, through Matrix and Element or a vetted browser library on the site; the trade-offs are explained to members.",
+      "status": "planned",
+      "area": "Community"
     }
   ]
 }
