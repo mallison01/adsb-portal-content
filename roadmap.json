@@ -1033,6 +1033,18 @@
       "summary": "Charts of battery, channel use and who hears a node, and where the next router would help most.",
       "status": "planned",
       "area": "Stations"
+    },
+    {
+      "title": "Mesh Communities",
+      "summary": "A page, a map and a small site for each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others), edited by its own managers.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Mesh node telemetry",
+      "summary": "Show and list temperature, humidity, pressure and other readings from mesh nodes that share them, with charts on the node page.",
+      "status": "planned",
+      "area": "Stations"
     }
   ]
 }
