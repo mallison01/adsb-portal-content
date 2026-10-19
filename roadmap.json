@@ -1075,6 +1075,12 @@
       "summary": "Send pictures and files in chats and messages, with size and type limits, private to the conversation and covered by backup.",
       "status": "planned",
       "area": "Community"
+    },
+    {
+      "title": "Data retention and thinning",
+      "summary": "Admin > Storage: for every growing table, keep full detail for a time, then thin to coarser points, then delete; attachments pruned after a set time; dry run, run log and audit.",
+      "status": "planned",
+      "area": "Platform"
     }
   ]
 }
