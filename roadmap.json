@@ -1003,6 +1003,36 @@
       "summary": "Use a real, premade chat app (Element, on Android and iPhone) with the site's chat, friends and messages through a Matrix server the site runs, with sign-in by the site's own accounts and push notifications. Planned for after the current release; needs a design decision on replacing or mirroring the built-in chat.",
       "status": "planned",
       "area": "Community"
+    },
+    {
+      "title": "Mesh owner alerts",
+      "summary": "Tell a node's owner when a router goes quiet or its battery is low.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Mesh channels and QR codes",
+      "summary": "A channel configurator for the Meshtastic app: create private channels, share them with members and groups, with a QR code to scan.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Extend the mesh through our broker",
+      "summary": "Link separate mesh areas (for example Little Rock and Sheridan) through the site's MQTT broker, without loops; first proved with two real nodes.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Mesh alert and weather channel",
+      "summary": "Warnings and weather station readings pushed to a mesh channel.",
+      "status": "planned",
+      "area": "Stations"
+    },
+    {
+      "title": "Mesh node history and coverage planning",
+      "summary": "Charts of battery, channel use and who hears a node, and where the next router would help most.",
+      "status": "planned",
+      "area": "Stations"
     }
   ]
 }

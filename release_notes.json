@@ -5,7 +5,8 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [
-      "Friends, chats and messages: type a user name, a call sign or a whole email address to find a member (a list of matches appears as you type, several names with commas for groups and messages); the email address is never listed or shown, and each member can switch off being found by call sign or email on My Account > Friends"
+      "Friends, chats and messages: type a user name, a call sign or a whole email address to find a member (a list of matches appears as you type, several names with commas for groups and messages); the email address is never listed or shown, and each member can switch off being found by call sign or email on My Account > Friends",
+      "Mesh: every node's page has a Claim This Node button for signed-in members (you get a code to put in the node's name), and says when a claim is waiting or the node is yours"
     ],
     "fixed": [
       "The MQTT server name on How to Feed the Mesh Map no longer shows the text <wbr> between its parts",
