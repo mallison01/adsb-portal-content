@@ -549,7 +549,7 @@
     },
     {
       "title": "Radio bridges for chats",
-      "summary": "Link a chat to an APRS call sign (messages out from your own call sign, replies in) or to a Meshtastic node. APRS is built and opt in with licensing notes; the mesh side is ready on the portal and waits for the mesh gateway.",
+      "summary": "Link a chat to an APRS call sign (messages out from your own call sign, replies in) or to a Meshtastic node. APRS is built and opt in with licensing notes; the mesh side is ready on the portal and waits for the mesh gateway. APRS needs a verified license: the call sign is checked against the FCC amateur license data, re-checked weekly, with administrator review and override.",
       "status": "progress",
       "area": "Community"
     },
