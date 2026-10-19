@@ -3,6 +3,15 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.7.0",
+    "released": "2026-10-19T08:30:43",
+    "title": "Live chat, email-style messages and friends, radio bridges, GOES viewer with loops, mesh overview and Neighbor Info, API keys and passkeys, new data layers",
     "added": [
       "County Map: a Limit To box in Show on the Map limits every kind of point (and the drive-time rings) to one state, one county, or the area around a ZIP code or place; it is kept in the link to the view",
       "My Account > Display and Maps: every Display menu choice (theme, decorations, page width, clock, time zone, units for each service, aircraft map choices) and your saved map views (open, rename, delete) in one place, with a reset; the Trauma Map's views can be saved too",
