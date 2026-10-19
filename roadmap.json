@@ -1063,6 +1063,12 @@
       "summary": "Queue configuration commands for a group's nodes from the site, run by a small bridge program beside a gateway node, with approval and a full audit log; tracks new Meshtastic releases.",
       "status": "planned",
       "area": "Stations"
+    },
+    {
+      "title": "Chat and message notifications",
+      "summary": "Browser notifications for new chats, messages and friend requests, even when the site is closed (Web Push), with per-member choices and an installable app.",
+      "status": "planned",
+      "area": "Community"
     }
   ]
 }
