@@ -64,7 +64,8 @@
       "Satellite and Hybrid maps no longer lose the picture when you zoom in close: the USGS imagery hands over to the worldwide imagery past its last zoom, and any imagery stays on screen up to the map's limit",
       "The Kiosk Display's bottom bar comes back whenever the mouse moves anywhere (even over the page), when you leave full screen with Esc, or when the pointer touches the bottom edge; Esc outside full screen leaves the kiosk",
       "Satellite Passes: a Satellites section of toggle buttons grouped as Space Station, Weather and Amateur Radio, with All, None, Only These for a group, a filter box and a count (nothing chosen shows no passes); How to Work the Chosen Satellites lists only the satellites ticked above (narrowed by the Find box), or the one you choose by its name in the passes; the page is much shorter",
-      "The top bar is less crowded: your name is now a profile menu with My Account, Chat, Messages, Friends and Sign Out, with a flag on it (and a count on each item) when something is new"
+      "The top bar is less crowded: your name is now a profile menu with My Account, Chat, Messages, Friends and Sign Out, with a flag on it (and a count on each item) when something is new",
+      "How to Feed the Mesh Map: new sections on setting a node up with the Meshtastic app, every MQTT, channel, LoRa and Neighbor Info setting and what to choose, the Neighbor Info module, and what it takes to work as a gateway that listens for and reports other nodes; the map report interval is corrected to once an hour"
     ],
     "fixed": [
       "The mesh page's server name breaks at its dots instead of in the middle of a word",
