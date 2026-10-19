@@ -6,7 +6,8 @@
     "added": [],
     "improved": [
       "Friends, chats and messages: type a user name, a call sign or a whole email address to find a member (a list of matches appears as you type, several names with commas for groups and messages); the email address is never listed or shown, and each member can switch off being found by call sign or email on My Account > Friends",
-      "Mesh: every node's page has a Claim This Node button for signed-in members (you get a code to put in the node's name), and says when a claim is waiting or the node is yours"
+      "Mesh: every node's page has a Claim This Node button for signed-in members (you get a code to put in the node's name), and says when a claim is waiting or the node is yours",
+      "Mesh broker protection: the site's mesh broker follows the public Meshtastic server's rules on the public channels (only the allowed kinds of packet are kept, and a position more exact than 16 bits is made coarser before it is stored), members' logins can publish only under the site's own topic root, and the broker refuses oversized messages and limits connections; four settings control it"
     ],
     "fixed": [
       "The MQTT server name on How to Feed the Mesh Map no longer shows the text <wbr> between its parts",
