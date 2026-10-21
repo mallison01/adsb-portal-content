@@ -8,7 +8,8 @@
       "Friends, chats and messages: type a user name, a call sign or a whole email address to find a member (a list of matches appears as you type, several names with commas for groups and messages); the email address is never listed or shown, and each member can switch off being found by call sign or email on My Account > Friends",
       "Mesh: every node's page has a Claim This Node button for signed-in members (you get a code to put in the node's name), and says when a claim is waiting or the node is yours",
       "Mesh broker protection: the site's mesh broker follows the public Meshtastic server's rules on the public channels (only the allowed kinds of packet are kept, and a position more exact than 16 bits is made coarser before it is stored), members' logins can publish only under the site's own topic root, and the broker refuses oversized messages and limits connections; four settings control it",
-      "Settings > General: a new Main Address or Feed Address is checked before it is saved (it must resolve in DNS, and the Main Address must answer over https as this very site), so a wrong name can never lock everybody out of the site; the site publishes its own identifier at /.well-known/arksignal.json for this check"
+      "Settings > General: a new Main Address or Feed Address is checked before it is saved (it must resolve in DNS, and the Main Address must answer over https as this very site), so a wrong name can never lock everybody out of the site; the site publishes its own identifier at /.well-known/arksignal.json for this check",
+      "The site's own address moves to arksignal.net: the feed pages show feed.arksignal.net, the \"already feeding\" note is gone, and the old site names only redirect to the new one"
     ],
     "fixed": [
       "The MQTT server name on How to Feed the Mesh Map no longer shows the text <wbr> between its parts",
@@ -190,7 +191,7 @@
       "The How to Feed pages all list the other feeding pages, now including Radiosondes, ACARS and Mesh Nodes; the new ACARS and Mesh pages follow the same form as the others",
       "Radiosonde Flights: a Heard by list filters the flights by receiving station",
       "Radiosonde Flights: Heard by is a box you type in, with the receiving stations to pick from",
-      "Upload addresses and servers on the weather, ACARS, radiosonde and mesh pages use the Feed Hostname (feed.arksignal.allisononline.org), so feeds can move to more hosts later; older addresses keep working",
+      "Upload addresses and servers on the weather, ACARS, radiosonde and mesh pages use the Feed Hostname, so feeds can move to more hosts later",
       "Mesh nodes: Arkansas nodes already uplinking to Meshtastic's public server appear without doing anything (the public server's Arkansas topic is read by default; switch it off in Settings > Mesh Nodes)",
       "Radiosonde Map: Show These Flights becomes Hide These Flights once the history is shown",
       "Radiosonde Map: forecast flights are numbered in the order they launch",
@@ -580,10 +581,10 @@
       "Choose the page you land on after signing in (Profile > After I sign in, take me to), with a site default set by an administrator in Settings > Accounts. A page you were heading to still wins",
       "The How to Feed section is split into pages with a sub-menu: ADS-B, MLAT, UAT (978 MHz) and Am I Feeding?. Old links keep working",
       "Settings are grouped into tabs (General, Accounts and Security, Map and Data, Feeders and Alerts, Updates and Backups) with a search box that finds a setting by name",
-      "The network is now called ArkSignal. The header wordmark, page titles (Page | ArkSignal), About, emails and the Feed and Support wording follow it; the name, accent part and tagline are settings (Admin > Settings > General), and adsb.allisononline.org keeps working",
+      "The network is now called ArkSignal. The header wordmark, page titles (Page | ArkSignal), About, emails and the Feed and Support wording follow it; the name, accent part and tagline are settings (Admin > Settings > General)",
       "A rewritten About page: what the network is, who runs it (a hobby project run by two volunteers), what you can do here today, where it is going, and credits for the MLAT server, Planefence and rclone",
       "A new home page: ArkSignal at a glance, with a live strip (aircraft overhead, stations online, MLAT, service status), a map preview, one search box for a callsign, tail number, airport, city or station, a card for each service and the latest release. The previous home page is now Aircraft Tracking (/aircraft, also in the menu)",
-      "Moving to arksignal.allisononline.org: an administrator can set a Main Address and a list of Old Addresses (Settings > General) so page requests on the old address are sent to the new one with a permanent redirect; it stays off until it is filled in",
+      "Moving to a new web address: an administrator can set a Main Address and a list of Old Addresses (Settings > General) so page requests on the old address are sent to the new one with a permanent redirect; it stays off until it is filled in",
       "Search the live map by place: type a city, ZIP code or county in the map search box and pick it from the list (or press Enter) to jump there. The places come from the US Census Bureau and are loaded by an administrator under Admin > Places",
       "Hospitals: a public Hospitals list and a page for each hospital (address, emergency care, trauma level and services where known, and the heliport it uses), a Hospitals layer on the live map coloured by trauma level, and an Admin > Hospitals page that loads the list from the Centers for Medicare & Medicaid Services and finds each hospital with the Census Bureau geocoder. Trauma levels, services and heliport links are entered by an administrator and kept by every update",
       "Air ambulance helicopters: an Air ambulance entry in the live map's Aircraft Type filter (count, chip, and a line on the aircraft card naming the operator). They are found from the aircraft database tar1090 uses (helicopters owned by Air Evac, Air Methods, Med-Trans, Life Flight Network, REACH, hospitals and similar) plus a tail number list an administrator keeps in Admin > Air Ambulance",
@@ -597,14 +598,14 @@
       "The top menu and a slim bottom bar (About, Status, Release Notes, Roadmap, Contact) stay in view while you scroll long pages, on phones too",
       "Search boxes on the admin Users, Feeders, MLAT and Map Layers lists, and on the public Feeders page; click a column heading to sort",
       "Flights, Flight History and Airports can be sorted by any column",
-      "New stations are shown feed.arksignal.allisononline.org on the How to Feed page; stations already using feed.adsb.allisononline.org keep working and the page says so",
+      "New stations are shown the feed address on the How to Feed page",
       "The top menu is grouped by service: Aircraft (map, flights, history, airports, MLAT, tools), Network (coverage, stations, statistics, status) and Feed, with the part of the site you are in highlighted; new services get their own group as they arrive",
       "Inside Aircraft, Network or Feed a second bar under the top menu lists that service's pages with the current one marked; clicking a group name goes to that section, and resting the mouse on it opens its menu",
       "Live map: every filter that is on shows as a small chip you can click to switch it off, with a Clear All button",
       "The top menu and the section bar now run the full width of the window and fold into a menu button on narrow screens instead of being cut off",
       "Hospitals on the live map are square badges instead of dots: the trauma level number on a colour for trauma centres, a red plus for an emergency department, grey for none, and a blue H where a heliport is linked, so they stand apart from airports",
       "Airport weather on the live map now refreshes by itself every few minutes (the weather refresh setting) instead of only when the map is moved",
-      "adsb.allisononline.org now sends visitors to arksignal.allisononline.org (page requests only; the feed and MLAT addresses are untouched). The Main Address and the list of old addresses are in Settings > General"
+      "Old site addresses now send visitors to the main address (page requests only; the feed and MLAT addresses are untouched). The Main Address and the list of old addresses are in Settings > General"
     ],
     "fixed": [
       "Hospital markers on the live map can be clicked, like the airports",
