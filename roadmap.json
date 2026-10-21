@@ -1000,7 +1000,7 @@
     },
     {
       "title": "Matrix and the Element app for chat",
-      "summary": "Use a real, premade chat app (Element, on Android and iPhone) with the site's chat, friends and messages through a Matrix server the site runs, with sign-in by the site's own accounts and push notifications. Chosen as the way to get end-to-end encryption; next big project after the current release; open questions: replace or run alongside the built-in chat, which Matrix server.",
+      "summary": "Chat and messages move to Matrix so conversations are end-to-end encrypted, with read receipts, typing notices, reactions and notifications. Element Web, themed and framed to look like the site's own chat, signs members in with their site accounts; the built-in chat is replaced. Next big project; needs a host name for Element and the Matrix server.",
       "status": "planned",
       "area": "Community"
     },
