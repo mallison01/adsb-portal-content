@@ -4,6 +4,11 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [
+      "Chat and messages move to Matrix: end-to-end encrypted direct messages, group chats and rooms in the Element app and inside the site (Chat in the Community menu), signed in with your account. Reactions, replies, edits, pictures, files, voice messages, read receipts and typing notices all work. Old chats and messages stay where they are (closed); nothing was copied over",
+      "Notifications for chat: Element's own notices while the chat page is open (allow them once in its own window), and, from My Account > Community Settings, notifications on a phone or computer even when the site is closed (a new chat message shows who wrote it and, in a room that is not encrypted, the words)",
+      "Chat rules you control: who may start a room or a chat (everyone, friends or moderators), each member's own choice of who may contact them, blocks that hide a member's messages and invitations, moderators of the standing rooms (General, Aircraft, Weather, Radio and Help), reports and locks on Admin > Matrix Chat",
+      "The radio bridge works with chat rooms that are not encrypted (APRS and mesh nodes), and a standing room can be mirrored one way to a Discord channel",
+      "The Backups page opens at once however many backups there are (it no longer unpacks each one to count its rows); the chat database, keys and pictures are in the off-site backup",
       "Admin has the same left side menu as My Account: groups that open and close, the page you are on marked, one button on a phone, and moving between admin pages without reloading everything",
       "The first part of Matrix chat: the site can now sign members in to a Matrix server (Admin > Matrix Chat), so chat can move to end-to-end encrypted rooms that members reach with the Element app; nothing changes for members until it is switched on",
       "Fixed: the page for one of your weather stations or sonde stations (My Account) could show an error",
