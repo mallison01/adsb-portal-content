@@ -1005,6 +1005,12 @@
       "area": "Community"
     },
     {
+      "title": "Mesh Channels with QR codes",
+      "summary": "Make a private Meshtastic channel with a random key, then share its QR code and address with members, friends or a chat group.",
+      "status": "done",
+      "area": "Stations"
+    },
+    {
       "title": "Mesh owner alerts",
       "summary": "Tell a node's owner when a router goes quiet or its battery is low.",
       "status": "planned",
@@ -1101,8 +1107,8 @@
       "area": "Platform"
     },
     {
-      "title": "Easy off-site backup to a Synology",
-      "summary": "A Synology NAS choice in Off-Site Copy with step-by-step setup (SFTP, a backup-only user, a protected port or VPN) and a connection test.",
+      "title": "Easy off-site backup to a NAS",
+      "summary": "A NAS choice in Off-Site Copy with step-by-step setup (SFTP, a backup-only user, a protected port or VPN) and a connection test.",
       "status": "done",
       "area": "Platform"
     },
