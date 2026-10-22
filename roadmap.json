@@ -1,6 +1,18 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-22",
   "items": [
+    {
+      "title": "Matrix chat with Element",
+      "summary": "Chat and direct messages move to a Matrix server of our own with end-to-end encryption, signed in with your ArkSignal account, in the site's own pages and in the Element phone app. The sign-in and the server service are built; the Element page, friends and blocks, and moving old conversations come next.",
+      "status": "progress",
+      "area": "Community"
+    },
+    {
+      "title": "Admin side menu",
+      "summary": "The Admin section has the same left side menu as My Account.",
+      "status": "done",
+      "area": "Admin"
+    },
     {
       "title": "Air ambulances on the Trauma Map",
       "summary": "A single switch on the Trauma Map draws every air ambulance helicopter and airplane the network hears, with a details card.",

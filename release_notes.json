@@ -4,6 +4,9 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [
+      "Admin has the same left side menu as My Account: groups that open and close, the page you are on marked, one button on a phone, and moving between admin pages without reloading everything",
+      "The first part of Matrix chat: the site can now sign members in to a Matrix server (Admin > Matrix Chat), so chat can move to end-to-end encrypted rooms that members reach with the Element app; nothing changes for members until it is switched on",
+      "Fixed: the page for one of your weather stations or sonde stations (My Account) could show an error",
       "Search engines can find the site: robots.txt, a sitemap, descriptions and canonical addresses on the public pages, noindex on private pages, and boxes for the Google Search Console and Bing verification codes (Settings > Public Pages)",
       "My Account opens on a new Overview page: what needs your attention, your profile, security, community and alerts at a glance, and a card for each kind of station you have",
       "Mesh Channels can be combined: tick the default channel and any of your channels and get one QR code that adds them all to the Meshtastic app at once; the default channel has its own code, and each position choice shows about how far the position is blurred",
