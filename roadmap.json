@@ -1083,6 +1083,18 @@
       "area": "Platform"
     },
     {
+      "title": "Faster Backups page",
+      "summary": "The Admin backups page no longer opens every backup file each time it loads, so it stays fast as backups grow.",
+      "status": "done",
+      "area": "Platform"
+    },
+    {
+      "title": "Easy off-site backup to a Synology",
+      "summary": "A Synology NAS choice in Off-Site Copy with step-by-step setup (SFTP, a backup-only user, a protected port or VPN) and a connection test.",
+      "status": "done",
+      "area": "Platform"
+    },
+    {
       "title": "Radio bridge in the profile and in every chat",
       "summary": "A Verified Amateur badge and call sign on the profile, a new member page, chats and messages, a Radio panel inside every chat to link it to APRS or the mesh, a how-it-works box on the Chat page, and a clearer Radio page in My Account.",
       "status": "done",
