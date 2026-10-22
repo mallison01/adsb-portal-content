@@ -13,6 +13,7 @@
       "Radio panel inside every chat (under People and Settings) to link the chat to an APRS call sign or a mesh node, turn the link on or off and remove it, and a how-it-works box on the Chat page"
     ],
     "improved": [
+      "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
       "Chat, Messages and Friends are their own Community section; in My Account they are only settings and information (Community Settings: who can contact you, being found, blocked members)",
       "Passkey errors now say what went wrong and what to check on a phone",
       "My Account's pages are in a left side menu (a drop-down button on a phone), in collapsible groups (Account, Security, My Stations, Community Settings; the group you are in stays open, one open at a time) under one steady My Account header, and moving between them no longer reloads the page, instead of one long horizontal bar",
