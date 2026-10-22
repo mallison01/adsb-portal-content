@@ -1095,6 +1095,30 @@
       "area": "Stations"
     },
     {
+      "title": "My Account overview and side menu",
+      "summary": "An Overview page where My Account opens, and one left side menu (a drop-down on phones) in groups: Account, Security, My Stations and Community Settings.",
+      "status": "done",
+      "area": "Accounts"
+    },
+    {
+      "title": "Community Settings",
+      "summary": "Chat, Messages and Friends are their own Community section; their settings (who can contact you, being found, blocked members) are one page in My Account.",
+      "status": "done",
+      "area": "Community"
+    },
+    {
+      "title": "Private name for the license check",
+      "summary": "Private first and last name on the Profile, kept encrypted and shown to nobody, used to check your amateur license.",
+      "status": "done",
+      "area": "Accounts"
+    },
+    {
+      "title": "Mesh broker keeps its logins",
+      "summary": "The mesh broker now saves the logins it is given, so nodes are no longer refused after the broker restarts.",
+      "status": "done",
+      "area": "Stations"
+    },
+    {
       "title": "Phone menu scrolls anywhere",
       "summary": "In the open phone menu, long sections such as Aircraft scroll with the whole menu wherever you swipe.",
       "status": "done",
