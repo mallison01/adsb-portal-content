@@ -1083,6 +1083,12 @@
       "area": "Platform"
     },
     {
+      "title": "Mesh owner alerts",
+      "summary": "Owners of mesh nodes hear (email, webhook and a list on My Mesh Nodes) when a router goes quiet or a battery is low, and when it recovers.",
+      "status": "done",
+      "area": "Stations"
+    },
+    {
       "title": "Phone menu scrolls anywhere",
       "summary": "In the open phone menu, long sections such as Aircraft scroll with the whole menu wherever you swipe.",
       "status": "done",
