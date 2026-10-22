@@ -12,7 +12,9 @@
       "Radio panel inside every chat (under People and Settings) to link the chat to an APRS call sign or a mesh node, turn the link on or off and remove it, and a how-it-works box on the Chat page"
     ],
     "improved": [
-      "My Account's pages are in a left side menu (a drop-down button on a phone), in collapsible groups (My Account, Security, My Stations, Community; all closed to start, one open at a time), instead of one long horizontal bar",
+      "Chat, Messages and Friends are their own Community section; in My Account they are only settings and information (Community Settings: who can contact you, being found, blocked members)",
+      "Passkey errors now say what went wrong and what to check on a phone",
+      "My Account's pages are in a left side menu (a drop-down button on a phone), in collapsible groups (Account, Security, My Stations, Community Settings; the group you are in stays open, one open at a time) under one steady My Account header, and moving between them no longer reloads the page, instead of one long horizontal bar",
       "Profile has private First name and Last name fields (kept encrypted, separate from the display name, never shown to anyone, not even administrators); your amateur license is now checked against them instead of the display name",
       "Off-site backups: a NAS choice in Admin > Backups > Off-Site Copy walks through setting up a network storage box as the destination, step by step (it is sent over SFTP)",
       "Profile shows your amateur license status with a Check Again button; My Account > Radio Bridges is now called Radio"
