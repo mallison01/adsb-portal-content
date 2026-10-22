@@ -14,6 +14,7 @@
       "Profile shows your amateur license status with a Check Again button; My Account > Radio Bridges is now called Radio"
     ],
     "fixed": [
+      "Mesh nodes refused again after the broker restarts (NOT_AUTHORIZED): the broker could not save the logins it was given because its config folder belonged to the wrong user, so they were lost whenever it restarted; the broker now takes ownership of its folder when it starts, and the site's automatic check puts back any login that is missing",
       "Secrets are stored encrypted: the mesh broker password and the mesh gateway token are now sealed in the database, hidden on the Settings page and never written to the audit log; plain secrets left by older versions are sealed when the site starts (this pass had not been saving its work before)",
       "Phone menu: a long section such as Aircraft now scrolls with the rest of the menu wherever you swipe, instead of only at the edge",
       "The Admin backups page loads quickly again: it no longer opens and decrypts every backup file on each visit",
