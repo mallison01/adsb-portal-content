@@ -4,7 +4,9 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [],
-    "improved": [],
+    "improved": [
+      "Updates now come from the GitHub Container Registry (ghcr.io/arksignal/arksignal-*) as well as Docker Hub: the services' bundled compose files, the installer script and the update check use the new names, and the update check can read either registry (Settings > Scheduled Updates)"
+    ],
     "fixed": [],
     "security": []
   },
