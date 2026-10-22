@@ -12,6 +12,7 @@
       "Profile shows your amateur license status with a Check Again button; My Account > Radio Bridges is now called Radio"
     ],
     "fixed": [
+      "Phone menu: a long section such as Aircraft now scrolls with the rest of the menu wherever you swipe, instead of only at the edge",
       "The Admin backups page loads quickly again: it no longer opens and decrypts every backup file on each visit",
       "Mesh broker logins no longer need pressing Apply after an update: the site checks every couple of minutes that the broker holds every member's login and sends any that are missing, so a rebuilt or reset broker never leaves your node refused (NOT_AUTHORIZED)"
     ],
