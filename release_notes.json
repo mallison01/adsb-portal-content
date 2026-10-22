@@ -4,6 +4,7 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [
+      "Search engines can find the site: robots.txt, a sitemap, descriptions and canonical addresses on the public pages, noindex on private pages, and boxes for the Google Search Console and Bing verification codes (Settings > Public Pages)",
       "My Account opens on a new Overview page: what needs your attention, your profile, security, community and alerts at a glance, and a card for each kind of station you have",
       "Mesh Channels can be combined: tick the default channel and any of your channels and get one QR code that adds them all to the Meshtastic app at once; the default channel has its own code, and each position choice shows about how far the position is blurred",
       "Mesh Channels (Mesh menu > Mesh Channels, or My Account > Mesh Channels): make a private Meshtastic channel with a random key, get a QR code and an address for the Meshtastic app, and share it with chosen members, your friends or a chat group; they see the same QR code, and you can replace the key at any time",

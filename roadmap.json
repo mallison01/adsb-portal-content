@@ -1095,6 +1095,12 @@
       "area": "Stations"
     },
     {
+      "title": "Found on Google",
+      "summary": "A sitemap, robots.txt, descriptions and canonical addresses on public pages, noindex on private ones, and Search Console and Bing verification codes in Settings.",
+      "status": "done",
+      "area": "Platform"
+    },
+    {
       "title": "My Account overview and side menu",
       "summary": "An Overview page where My Account opens, and one left side menu (a drop-down on phones) in groups: Account, Security, My Stations and Community Settings.",
       "status": "done",
