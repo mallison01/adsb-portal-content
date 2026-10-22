@@ -1105,6 +1105,12 @@
       "summary": "A public copy of the portal's code under the AGPL on a GitHub organization, published at each release with private infrastructure details left out.",
       "status": "planned",
       "area": "Platform"
+    },
+    {
+      "title": "Mesh broker logins stay in step by themselves",
+      "summary": "The site checks every couple of minutes that the mesh broker holds every member's login and sends any that are missing, so an update or a rebuilt broker never leaves a node refused.",
+      "status": "done",
+      "area": "Stations"
     }
   ]
 }
