@@ -5,7 +5,9 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "Mesh broker logins no longer need pressing Apply after an update: the site checks every couple of minutes that the broker holds every member's login and sends any that are missing, so a rebuilt or reset broker never leaves your node refused (NOT_AUTHORIZED)"
+    ],
     "security": []
   },
   {
