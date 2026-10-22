@@ -1084,8 +1084,8 @@
     },
     {
       "title": "Radio bridge in the profile and in every chat",
-      "summary": "Show the verified call sign on the profile, a Send to APRS or Mesh button in chats and messages, and a Radio section in My Account.",
-      "status": "planned",
+      "summary": "A Verified Amateur badge and call sign on the profile, a new member page, chats and messages, a Radio panel inside every chat to link it to APRS or the mesh, a how-it-works box on the Chat page, and a clearer Radio page in My Account.",
+      "status": "done",
       "area": "Community"
     },
     {
