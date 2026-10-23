@@ -1048,8 +1048,8 @@
     },
     {
       "title": "Mesh node history and coverage planning",
-      "summary": "Charts of battery, voltage and channel use are done (see Mesh node telemetry). Still planned: who hears a node over weeks, and where the next router would help most.",
-      "status": "planned",
+      "summary": "Charts of battery, voltage and channel use are on each node page, and Mesh Router Planning suggests where one more router would help the most poorly served nodes (a guess from what was heard, not a terrain prediction). Ships with the next release.",
+      "status": "done",
       "area": "Stations"
     },
     {
