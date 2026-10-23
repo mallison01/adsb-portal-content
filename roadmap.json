@@ -1078,8 +1078,8 @@
     },
     {
       "title": "Remote administration of mesh nodes",
-      "summary": "Queue configuration commands for a group's nodes from the site, run by a small bridge program beside a gateway node, with approval and a full audit log; tracks new Meshtastic releases.",
-      "status": "planned",
+      "summary": "A community's Manager queues rename, role, channel name, reboot and read commands for its nodes; a small program on the group's own computer, next to a gateway node, carries them out so the node's admin key never reaches the site. Changes wait for approval and everything is logged. The site also watches the Meshtastic firmware and protobuf releases. Ships with the next release.",
+      "status": "done",
       "area": "Stations"
     },
     {
