@@ -39,7 +39,10 @@
       "The Flights list and Flight History now show the same things: airline, aircraft make and model and the route, with the flight number and registration as links to every logged flight",
       "My Flights fills in the airline, aircraft and the usual route from a flight number or registration as you type it",
       "The radiosonde page replays on its own map with the same controls as the aircraft flight page",
-      "Guests no longer see the My pages, Mesh Channels or the sign-in-only parts of the About page, and every flight and balloon download needs a sign-in"
+      "Guests no longer see the My pages, Mesh Channels or the sign-in-only parts of the About page, and every flight and balloon download needs a sign-in",
+      "Satellite Passes: Show on Map opens a map of just the satellites you ticked, with their paths and the part of the earth each can see",
+      "Planefence, Plane-Alert and the repeater code plug exports are for signed-in members only",
+      "The map selector no longer offers maps of services that are off or hidden from the viewer"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
