@@ -30,7 +30,8 @@
       "Download flight data when signed in: the flights on Flight History as CSV, KML or GeoJSON, and the track of one flight as CSV, GPX, KML or GeoJSON from its Flight Progress page",
       "Mesh node pages and lists have a Where to Buy link for the node's hardware (an Amazon search); the administrator can add an Amazon Associates tag and exact product links later",
       "Replay from the history pages: a Replay button on every Flight History row (and for the whole period) plays the flight back on the live map, and balloon flights can be replayed on the Radiosonde Map from the Balloon Flights list and each balloon's page, one at a time or several together",
-      "My Flights: a private diary of the flights you took (My Account > My Flights): pick the airports, write the times in each airport's own time (scheduled and actual for gate departure, takeoff, landing and gate arrival, or just a departure and an arrival), see taxi, air and total time and the distance worked out, and list who was on board with their seats"
+      "My Flights: a private diary of the flights you took (My Account > My Flights): pick the airports, write the times in each airport's own time (scheduled and actual for gate departure, takeoff, landing and gate arrival, or just a departure and an arrival), see taxi, air and total time and the distance worked out, and list who was on board with their seats",
+      "My Flights map and statistics: every route you flew on one map with airport circles sized by visits, and a statistics page with distance, time in the air, favorite airports, airlines and aircraft, longest and shortest flights and a year-by-year table"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
