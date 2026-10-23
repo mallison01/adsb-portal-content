@@ -1186,8 +1186,8 @@
     },
     {
       "title": "Flight diary and flight data exports",
-      "summary": "Signed-in members can download the flights shown on Flight History (CSV, KML, GeoJSON), and keep a diary of their own flights with imports from CSV, KML and GPX, in the spirit of AirTrail. Planned; to decide whether to run AirTrail itself or build the features into the site.",
-      "status": "planned",
+      "summary": "Downloads are built: signed-in members can export the flights Flight History shows (CSV, KML, GeoJSON) and the track of one flight (CSV, GPX, KML, GeoJSON). Still planned: a diary of a member's own flights with imports from CSV, KML and GPX, in the spirit of AirTrail (to decide whether to run AirTrail itself or build its features into the site).",
+      "status": "progress",
       "area": "Data"
     }
   ]
