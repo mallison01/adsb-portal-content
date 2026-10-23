@@ -42,7 +42,8 @@
       "Guests no longer see the My pages, Mesh Channels or the sign-in-only parts of the About page, and every flight and balloon download needs a sign-in",
       "Satellite Passes: Show on Map opens a map of just the satellites you ticked, with their paths and the part of the earth each can see",
       "Planefence, Plane-Alert and the repeater code plug exports are for signed-in members only",
-      "The map selector no longer offers maps of services that are off or hidden from the viewer"
+      "The map selector no longer offers maps of services that are off or hidden from the viewer",
+      "The satellite map shows the place you entered and every pass of the ticked satellites over it in your look-ahead, with the rise, peak and set times"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
