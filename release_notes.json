@@ -34,7 +34,8 @@
       "My Flights map and statistics: every route you flew on one map with airport circles sized by visits, and a statistics page with distance, time in the air, favorite airports, airlines and aircraft, longest and shortest flights and a year-by-year table",
       "Replay on the flight page's own map (the aircraft's own icon, a trail, speed and slider) and on each balloon's page (balloon, launch flag, burst, parachute and landing icons)",
       "The registration and flight number on a flight are links to every logged flight with them",
-      "Mesh communities can choose to show their nodes on the public mesh map and, if the site allows it, forward what their gateways send to the public Meshtastic server"
+      "Mesh communities can choose to show their nodes on the public mesh map and, if the site allows it, forward what their gateways send to the public Meshtastic server",
+      "My Flights: import and export as CSV, and Look It Up on the Add a Flight form, which finds the flight your site's receivers heard by flight number or registration and fills in the airports, aircraft and times"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
