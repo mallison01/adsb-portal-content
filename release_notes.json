@@ -38,7 +38,8 @@
       "My Flights: import and export as CSV, and Look It Up on the Add a Flight form, which finds the flight your site's receivers heard by flight number or registration and fills in the airports, aircraft and times",
       "The Flights list and Flight History now show the same things: airline, aircraft make and model and the route, with the flight number and registration as links to every logged flight",
       "My Flights fills in the airline, aircraft and the usual route from a flight number or registration as you type it",
-      "The radiosonde page replays on its own map with the same controls as the aircraft flight page"
+      "The radiosonde page replays on its own map with the same controls as the aircraft flight page",
+      "Guests no longer see the My pages, Mesh Channels or the sign-in-only parts of the About page, and every flight and balloon download needs a sign-in"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
