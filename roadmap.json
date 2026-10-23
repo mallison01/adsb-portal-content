@@ -1189,6 +1189,12 @@
       "summary": "Downloads are built: signed-in members can export the flights Flight History shows (CSV, KML, GeoJSON) and the track of one flight (CSV, GPX, KML, GeoJSON). Still planned: a diary of a member's own flights with imports from CSV, KML and GPX, in the spirit of AirTrail (to decide whether to run AirTrail itself or build its features into the site).",
       "status": "progress",
       "area": "Data"
+    },
+    {
+      "title": "Replay of flights and balloons",
+      "summary": "Play back a recorded aircraft flight (or a whole period) on the live map from Flight History, and recorded balloon flights on the Radiosonde Map from the Balloon Flights list, with speed, pause and a slider. Ships with the next release.",
+      "status": "done",
+      "area": "Data"
     }
   ]
 }
