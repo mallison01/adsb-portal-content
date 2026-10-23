@@ -1054,7 +1054,7 @@
     },
     {
       "title": "Mesh Communities",
-      "summary": "A page, a map, a node list, news and events and a team for each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others), run by its own Owner and managers, with broker logins for the group's gateways. Ships with the next release.",
+      "summary": "A page with its own menu, a drawn area, a map, nodes placed by hand, news and events, channels with QR codes, a team and its own broker topic with plain steps for each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others). Ships with the next release.",
       "status": "done",
       "area": "Stations"
     },

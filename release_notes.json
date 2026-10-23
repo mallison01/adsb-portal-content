@@ -37,7 +37,8 @@
       "Profile has private First name and Last name fields (kept encrypted, separate from the display name, never shown to anyone, not even administrators); your amateur license is now checked against them instead of the display name",
       "Off-site backups: a NAS choice in Admin > Backups > Off-Site Copy walks through setting up a network storage box as the destination, step by step (it is sent over SFTP)",
       "Profile shows your amateur license status with a Check Again button; My Account > Radio Bridges is now called Radio",
-      "Matrix sign-in no longer needs a return address typed in: it is worked out from the Matrix address"
+      "Matrix sign-in no longer needs a return address typed in: it is worked out from the Matrix address",
+      "Mesh Communities: its own side menu with a page for each part (not one long page), an area drawn as a shape on a map and changed any time, a map for each mesh with nodes the team places by hand, its own topic on the broker with plain steps for connecting a gateway (uplink or uplink and downlink), and channels with QR codes that are public or only for chosen team roles"
     ],
     "fixed": [
       "Mesh nodes refused again after the broker restarts (NOT_AUTHORIZED): the broker could not save the logins it was given because its config folder belonged to the wrong user, so they were lost whenever it restarted; the broker now takes ownership of its folder when it starts, and the site's automatic check puts back any login that is missing",
