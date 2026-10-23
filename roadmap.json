@@ -1083,9 +1083,9 @@
       "area": "Stations"
     },
     {
-      "title": "Chat and message notifications",
-      "summary": "Browser notifications for new chats, messages and friend requests, even when the site is closed (Web Push), with per-member choices and an installable app.",
-      "status": "planned",
+      "title": "Notifications on your phone or computer",
+      "summary": "Chat notifications while the site is open (Element's own) and, from My Account > Community Settings, on a phone or computer when it is closed (the site's own Web Push). Aircraft alerts can use the same notifications, next to email and webhooks. Built and tested; ships with the next release. Notices for friend requests and mesh node alerts are still to come.",
+      "status": "done",
       "area": "Community"
     },
     {
