@@ -1048,7 +1048,7 @@
     },
     {
       "title": "Mesh node history and coverage planning",
-      "summary": "Charts of battery, channel use and who hears a node, and where the next router would help most.",
+      "summary": "Charts of battery, voltage and channel use are done (see Mesh node telemetry). Still planned: who hears a node over weeks, and where the next router would help most.",
       "status": "planned",
       "area": "Stations"
     },
@@ -1060,8 +1060,8 @@
     },
     {
       "title": "Mesh node telemetry",
-      "summary": "Show and list temperature, humidity, pressure and other readings from mesh nodes that share them, with charts on the node page.",
-      "status": "planned",
+      "summary": "Mesh nodes that share battery, voltage, channel use or sensor readings (temperature, humidity, pressure, wind, rain, light) get charts on their page in the site's own chart style, and Mesh Weather lists every node with sensors. Ships with the next release.",
+      "status": "done",
       "area": "Stations"
     },
     {
