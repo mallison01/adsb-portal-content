@@ -1054,8 +1054,8 @@
     },
     {
       "title": "Mesh Communities",
-      "summary": "A page, a map and a small site for each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others), edited by its own managers.",
-      "status": "planned",
+      "summary": "A page, a map, a node list, news and events and a team for each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others), run by its own Owner and managers, with broker logins for the group's gateways. Ships with the next release.",
+      "status": "done",
       "area": "Stations"
     },
     {
@@ -1066,8 +1066,8 @@
     },
     {
       "title": "Scoped roles for communities",
-      "summary": "Roles and permissions that apply inside one community only (a mesh, an APRS group, a repeater club), so each group manages its own page and resources.",
-      "status": "planned",
+      "summary": "Roles and permissions that apply inside one community only (Viewer, Node Operator, Editor, Manager, Owner), with invitations. Built for mesh communities; APRS groups and repeater clubs can use the same roles later. Ships with the next release.",
+      "status": "done",
       "area": "Stations"
     },
     {

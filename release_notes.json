@@ -23,7 +23,8 @@
       "Mesh node alerts and friend requests can notify your phone or computer too (Node Alerts on My Mesh Nodes, and Community Settings; each is your choice)",
       "Admin > Data Retention: every kind of stored data with its size and what happens as it ages, thinning of old weather readings, and removal of old chat pictures and files, with a dry run, a run log and a nightly run (nothing is thinned until you choose)",
       "Mesh node pages chart the readings a node reports (battery, voltage, channel use, and any sensors: temperature, humidity, pressure, wind, rain, light), and Mesh Weather lists every node with sensors and its newest values",
-      "Mesh Router Planning: where one more router would help the most nodes that are poorly served today, worked out from what the network heard (a guide, not a coverage prediction)"
+      "Mesh Router Planning: where one more router would help the most nodes that are poorly served today, worked out from what the network heard (a guide, not a coverage prediction)",
+      "Mesh Communities: each local mesh (Little Rock, Northwest Arkansas, Hot Springs and others) can have a page with how to join, its nodes on a map, news and events, and a team that runs it (Owner, Manager, Editor, Node Operator, Viewer, by invitation), with broker logins for its gateways"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
