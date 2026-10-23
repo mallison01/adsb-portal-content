@@ -1090,14 +1090,14 @@
     },
     {
       "title": "Share files in chats and messages",
-      "summary": "Send pictures and files in chats and messages, with size and type limits, private to the conversation and covered by backup.",
-      "status": "planned",
+      "summary": "Pictures, files and voice messages in chat (Matrix), with a size limit you set, private to the conversation, covered by the off-site backup, and removed after a set time if the administrator chooses. Ships with the next release.",
+      "status": "done",
       "area": "Community"
     },
     {
       "title": "Data retention and thinning",
-      "summary": "Admin > Storage: for every growing table, keep full detail for a time, then thin to coarser points, then delete; attachments pruned after a set time; dry run, run log and audit.",
-      "status": "planned",
+      "summary": "Admin > Data Retention shows every store that grows with its size and what happens as it ages, thins old weather readings and removes old chat files on a schedule, with a dry run, Run Now, a run log and audit entries. Ships with the next release. Later: rollups with minimum and maximum, and more stores.",
+      "status": "done",
       "area": "Platform"
     },
     {
@@ -1183,6 +1183,12 @@
       "summary": "The site checks every couple of minutes that the mesh broker holds every member's login and sends any that are missing, so an update or a rebuilt broker never leaves a node refused.",
       "status": "done",
       "area": "Stations"
+    },
+    {
+      "title": "Flight diary and flight data exports",
+      "summary": "Signed-in members can download the flights shown on Flight History (CSV, KML, GeoJSON), and keep a diary of their own flights with imports from CSV, KML and GPX, in the spirit of AirTrail. Planned; to decide whether to run AirTrail itself or build the features into the site.",
+      "status": "planned",
+      "area": "Data"
     }
   ]
 }
