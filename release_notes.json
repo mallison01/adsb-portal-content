@@ -19,7 +19,8 @@
       "Mesh owner alerts: if you own a mesh node (a claim you completed, or a node on your mesh login) you are told when your router has gone quiet or its battery is low, and when it is back, by email, by your webhook and in a list on My Mesh Nodes; you choose what you hear about under Node Alerts",
       "Verified Amateur badge: a member whose call sign was checked against the FCC records shows a badge and the call sign on their Profile, on a new member page (click a name in a chat or message), next to their name in chats and in messages",
       "Radio panel inside every chat (under People and Settings) to link the chat to an APRS call sign or a mesh node, turn the link on or off and remove it, and a how-it-works box on the Chat page",
-      "Aircraft alerts can notify your phone or computer: tick Also Notify My Phone or Computer on an alert (turn notifications on first at My Account > Community Settings). Matches are combined into one notification, within limits the administrator sets"
+      "Aircraft alerts can notify your phone or computer: tick Also Notify My Phone or Computer on an alert (turn notifications on first at My Account > Community Settings). Matches are combined into one notification, within limits the administrator sets",
+      "Mesh node alerts and friend requests can notify your phone or computer too (Node Alerts on My Mesh Nodes, and Community Settings; each is your choice)"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
