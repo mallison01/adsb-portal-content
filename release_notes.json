@@ -44,7 +44,8 @@
       "Planefence, Plane-Alert and the repeater code plug exports are for signed-in members only",
       "The map selector no longer offers maps of services that are off or hidden from the viewer",
       "The satellite map shows the place you entered and every pass of the ticked satellites over it in your look-ahead, with the rise, peak and set times",
-      "Feature Access: features that belong to a signed-in member (My Flights, chat, messages, friends, Matrix, radio bridges) now start as signed-in members only with wording that fits, and the Super Admin role always has access"
+      "Feature Access: features that belong to a signed-in member (My Flights, chat, messages, friends, Matrix, radio bridges) now start as signed-in members only with wording that fits, and the Super Admin role always has access",
+      "My Flights can import a flight from a GPX or KML track with times"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",

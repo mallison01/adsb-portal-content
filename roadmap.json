@@ -1186,7 +1186,7 @@
     },
     {
       "title": "My Flights diary and flight data exports",
-      "summary": "Downloads, the private diary (detailed times, people, seats), a route map, statistics, CSV import and export and a look-up from what the receivers heard are built. Still planned: KML and GPX import, sharing a diary.",
+      "summary": "Downloads, the private diary (detailed times, people, seats), a route map, statistics, CSV, GPX and KML import, CSV export and look-ups are built. Still planned: sharing a diary.",
       "status": "progress",
       "area": "Data"
     },
