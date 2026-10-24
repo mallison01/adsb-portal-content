@@ -1,6 +1,36 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "items": [
+    {
+      "title": "Linking islanded mesh areas",
+      "summary": "Two mesh areas with no radio path between them can be joined through the broker, with rules for what crosses and how often.",
+      "status": "planned",
+      "area": "Mesh"
+    },
+    {
+      "title": "Airline schedules for My Flights",
+      "summary": "Look up the scheduled times and aircraft of a flight number and date from an airline schedule source, to fill in your diary.",
+      "status": "planned",
+      "area": "My Flights"
+    },
+    {
+      "title": "Browser notifications for every alert",
+      "summary": "Every kind of alert (aircraft, mesh nodes, community requests, weather and more) can reach your phone or browser, each with its own switch.",
+      "status": "planned",
+      "area": "Community"
+    },
+    {
+      "title": "Sharing My Flights",
+      "summary": "Share one flight or your whole diary with a link, choosing what shows, and switch it off again at any time.",
+      "status": "planned",
+      "area": "My Flights"
+    },
+    {
+      "title": "Real flight tracks on the My Flights map",
+      "summary": "The Flight Map will draw each flight's recorded track (when it has one) instead of a straight line.",
+      "status": "planned",
+      "area": "My Flights"
+    },
     {
       "title": "Matrix chat with Element",
       "summary": "Chat and direct messages are on a Matrix server of our own with end-to-end encryption, signed in with your ArkSignal account, in the site's own pages and in the Element phone app, with notifications (also when the site is closed), moderation, friends and blocks, and a bridge for amateur radio and Discord. Built and tested; ships with the next release. Calls (they need a relay server) and moving old conversations are not planned yet.",
