@@ -22,13 +22,13 @@
     {
       "title": "Sharing My Flights",
       "summary": "Share one flight or your whole diary with a link, choosing what shows, and switch it off again at any time.",
-      "status": "planned",
+      "status": "done",
       "area": "My Flights"
     },
     {
       "title": "Real flight tracks on the My Flights map",
       "summary": "The Flight Map will draw each flight's recorded track (when it has one) instead of a straight line.",
-      "status": "planned",
+      "status": "done",
       "area": "My Flights"
     },
     {
