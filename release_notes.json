@@ -52,7 +52,8 @@
       "The Mesh Map shows a crowd of nodes at one spot as one dot with a count, and spreads them out with their names in a column when you zoom in",
       "My Flights imports an AirTrail CSV export",
       "My Flights: every flight has its own page with its times, people and track; tracks (Flightradar24 KML, GPX) can be added to a flight, or imported in bulk where they attach to the matching flight; the flight map's airports and routes link to the flights",
-      "My Flights can pull everything (all the people and the tracks) straight from an AirTrail instance with an API key, or from an AirTrail JSON export"
+      "My Flights can pull everything (all the people and the tracks) straight from an AirTrail instance with an API key, or from an AirTrail JSON export",
+      "My Flights Flight Map draws the real recorded path of every flight that has a track, colored by height, and keeps the straight line for the others"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
@@ -71,7 +72,8 @@
       "Phone menu: a long section such as Aircraft now scrolls with the rest of the menu wherever you swipe, instead of only at the edge",
       "The Admin backups page loads quickly again: it no longer opens and decrypts every backup file on each visit",
       "Mesh broker logins no longer need pressing Apply after an update: the site checks every couple of minutes that the broker holds every member's login and sends any that are missing, so a rebuilt or reset broker never leaves your node refused (NOT_AUTHORIZED)",
-      "Mesh nodes whose hardware showed only as a number now show its name; the mesh service also reads the Meshtastic project's list of hardware once a day so new models name themselves"
+      "Mesh nodes whose hardware showed only as a number now show its name; the mesh service also reads the Meshtastic project's list of hardware once a day so new models name themselves",
+      "My Flights: importing an AirTrail export whose tracks carry numeric times no longer ends in an error"
     ],
     "security": []
   },
