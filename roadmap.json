@@ -850,7 +850,7 @@
     {
       "title": "Read-only production access",
       "summary": "A locked-down login that lets Claude read logs and container state on the hub, and nothing else.",
-      "status": "progress",
+      "status": "done",
       "area": "Hub",
       "audience": "admin"
     },
@@ -1043,7 +1043,7 @@
     {
       "title": "Matrix and the Element app for chat",
       "summary": "Chat and messages move to Matrix so conversations are end-to-end encrypted, with read receipts, typing notices, reactions and notifications. Element Web, themed and framed to look like the site's own chat, signs members in with their site accounts; the built-in chat is replaced. Next big project; needs a host name for Element and the Matrix server.",
-      "status": "planned",
+      "status": "done",
       "area": "Community"
     },
     {
@@ -1055,19 +1055,19 @@
     {
       "title": "Mesh owner alerts",
       "summary": "Tell a node's owner when a router goes quiet or its battery is low.",
-      "status": "planned",
+      "status": "done",
       "area": "Stations"
     },
     {
       "title": "Mesh channels and QR codes",
       "summary": "A channel configurator for the Meshtastic app: create private channels, share them with members and groups, with a QR code to scan.",
-      "status": "planned",
+      "status": "done",
       "area": "Stations"
     },
     {
       "title": "Extend the mesh through our broker",
-      "summary": "Link separate mesh areas (for example Little Rock and Sheridan) through the site's MQTT broker, without loops; first proved with two real nodes.",
-      "status": "planned",
+      "summary": "Two separate mesh areas (for example Little Rock and Sheridan) can share one channel through the site's broker without loops; built as Linked Areas. Waiting for a test with two real nodes.",
+      "status": "done",
       "area": "Stations"
     },
     {
@@ -1103,7 +1103,7 @@
     {
       "title": "Mesh group self-management",
       "summary": "A mesh group sets up its own gateway logins, uplinks and downlinks, and sees its own statistics, charts and nodes.",
-      "status": "planned",
+      "status": "done",
       "area": "Stations"
     },
     {
@@ -1192,14 +1192,14 @@
     },
     {
       "title": "Forward mesh data to the public Meshtastic server",
-      "summary": "Members who opt in can have their node's data also shared on the public Meshtastic MQTT server, under its rules, without loops.",
-      "status": "planned",
+      "summary": "A community can choose to have what its gateways send also forwarded to the public Meshtastic server, under its rules. Off until the site and the community turn it on; waiting for a test with one real node.",
+      "status": "done",
       "area": "Stations"
     },
     {
       "title": "End-to-end encryption for chats and messages",
       "summary": "Encrypted conversations that only the people in them can read, through Matrix and the Element app (decided), with sign-in by the site's own accounts.",
-      "status": "planned",
+      "status": "done",
       "area": "Community"
     },
     {
@@ -1216,8 +1216,8 @@
     },
     {
       "title": "My Flights diary and flight data exports",
-      "summary": "Downloads, the private diary (detailed times, people, seats), a route map, statistics, CSV, GPX and KML import, CSV export and look-ups are built. Still planned: sharing a diary.",
-      "status": "progress",
+      "summary": "Downloads, the private diary (detailed times, people, seats), route map with recorded tracks, statistics, CSV, GPX, KML and AirTrail import, export, look-ups, flight pages and sharing by link are built.",
+      "status": "done",
       "area": "Data"
     },
     {
