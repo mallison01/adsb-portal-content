@@ -15,8 +15,8 @@
     },
     {
       "title": "Browser notifications for every alert",
-      "summary": "Every kind of alert (aircraft, mesh nodes, community requests, weather and more) can reach your phone or browser, each with its own switch.",
-      "status": "planned",
+      "summary": "One Notifications page with a switch for every kind: chat, friends, communities, aircraft alerts, mesh nodes, shared flight links, weather warnings, earthquakes, rivers, satellite passes and landed balloons for your places, and items needing attention for administrators.",
+      "status": "done",
       "area": "Community"
     },
     {
