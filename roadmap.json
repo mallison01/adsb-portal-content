@@ -1072,8 +1072,8 @@
     },
     {
       "title": "Mesh alert and weather channel",
-      "summary": "Warnings and weather station readings pushed to a mesh channel.",
-      "status": "planned",
+      "summary": "A community can carry National Weather Service warnings for its area and a regular weather summary out over its mesh on a channel it chooses, within daily limits, with a log of everything sent.",
+      "status": "done",
       "area": "Stations"
     },
     {
