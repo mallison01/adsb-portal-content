@@ -9,8 +9,8 @@
     },
     {
       "title": "Airline schedules for My Flights",
-      "summary": "Look up the scheduled times and aircraft of a flight number and date from an airline schedule source, to fill in your diary.",
-      "status": "planned",
+      "summary": "Look up the scheduled times, terminals and aircraft of a flight number and date from AeroDataBox to fill your diary. Built; it switches on when the site's administrator adds a key.",
+      "status": "progress",
       "area": "My Flights"
     },
     {
