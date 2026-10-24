@@ -47,7 +47,8 @@
       "Feature Access: features that belong to a signed-in member (My Flights, chat, messages, friends, Matrix, radio bridges) now start as signed-in members only with wording that fits, and the Super Admin role always has access",
       "My Flights can import a flight from a GPX or KML track with times",
       "My Flights links a diary flight to the track and replay of the same aircraft when the site's receivers heard it",
-      "How to Feed is now an overview of everything you can feed the network, and the ADS-B instructions have their own page under the Feed menu"
+      "How to Feed is now an overview of everything you can feed the network, and the ADS-B instructions have their own page under the Feed menu",
+      "Mesh communities: members can ask to join a community's team, and its Managers approve or decline"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
