@@ -50,7 +50,9 @@
       "How to Feed is now an overview of everything you can feed the network, and the ADS-B instructions have their own page under the Feed menu",
       "Mesh communities: members can ask to join a community's team, and its Managers approve or decline",
       "The Mesh Map shows a crowd of nodes at one spot as one dot with a count, and spreads them out with their names in a column when you zoom in",
-      "My Flights imports an AirTrail CSV export"
+      "My Flights imports an AirTrail CSV export",
+      "My Flights: every flight has its own page with its times, people and track; tracks (Flightradar24 KML, GPX) can be added to a flight, or imported in bulk where they attach to the matching flight; the flight map's airports and routes link to the flights",
+      "My Flights can pull everything (all the people and the tracks) straight from an AirTrail instance with an API key, or from an AirTrail JSON export"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
