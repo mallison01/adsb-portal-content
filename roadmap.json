@@ -3,8 +3,8 @@
   "items": [
     {
       "title": "Linking islanded mesh areas",
-      "summary": "Two mesh areas with no radio path between them can be joined through the broker, with rules for what crosses and how often.",
-      "status": "planned",
+      "summary": "Two mesh communities with no radio path between them can share one channel: the site carries its packets between their topics (still encrypted), with hop, duplicate and rate limits, agreement by both communities and an administrator's approval.",
+      "status": "done",
       "area": "Mesh"
     },
     {
