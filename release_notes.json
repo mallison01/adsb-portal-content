@@ -1,8 +1,8 @@
 [
   {
-    "version": "next",
-    "released": null,
-    "title": "Coming in the next release",
+    "version": "1.8.2",
+    "released": "2026-10-25T15:57:59",
+    "title": "Matrix chat, My Flights (maps, sharing, schedules, tracks), a notification for every alert kind, mesh alert channel and linked areas, and a full security hardening",
     "added": [
       "Chat and messages move to Matrix: end-to-end encrypted direct messages, group chats and rooms in the Element app and inside the site (Chat in the Community menu), signed in with your account. Reactions, replies, edits, pictures, files, voice messages, read receipts and typing notices all work. Old chats and messages stay where they are (closed); nothing was copied over",
       "Notifications for chat: Element's own notices while the chat page is open (allow them once in its own window), and, from My Account > Community Settings, notifications on a phone or computer even when the site is closed (a new chat message shows who wrote it and, in a room that is not encrypted, the words)",
@@ -91,7 +91,8 @@
       "Requests from visitors and receivers are limited to 10 MB (a member's flight import 40 MB, the admin area more); the web server's log no longer holds secret addresses (receiver upload addresses, reset and invitation links); signed-in pages are not cached by browsers",
       "Webhook and AirTrail addresses are connected to only after one check of where they point (no changing answers), including shared 100.64 addresses; email passwords are never sent unencrypted and plain email only goes to a server on your own network",
       "The mesh, ACARS, APRS, prediction and Matrix helper services can require a shared token (SERVICE_TOKEN in the stack's .env), and Admin > Overview tells you when it is not set or the SECRET_KEY is short; the public-server mesh password is stored sealed",
-      "Private message text (the old messages and chats) is stored sealed, backup files and the backup folder are private to the portal's user from the first byte, and the mesh service keeps its broker passwords sealed"
+      "Private message text (the old messages and chats) is stored sealed, backup files and the backup folder are private to the portal's user from the first byte, and the mesh service keeps its broker passwords sealed",
+      "The private flight diary is stored sealed too: the notes on a flight and the names of the people who flew are encrypted in the database and opened only for you, a person a flight is shared with, or your own export"
     ]
   },
   {
