@@ -90,7 +90,8 @@
       "Password reset, community invitation and shared flight links are built from the site's own address, not from the address a request claims",
       "Requests from visitors and receivers are limited to 10 MB (a member's flight import 40 MB, the admin area more); the web server's log no longer holds secret addresses (receiver upload addresses, reset and invitation links); signed-in pages are not cached by browsers",
       "Webhook and AirTrail addresses are connected to only after one check of where they point (no changing answers), including shared 100.64 addresses; email passwords are never sent unencrypted and plain email only goes to a server on your own network",
-      "The mesh, ACARS, APRS, prediction and Matrix helper services can require a shared token (SERVICE_TOKEN in the stack's .env), and Admin > Overview tells you when it is not set or the SECRET_KEY is short; the public-server mesh password is stored sealed"
+      "The mesh, ACARS, APRS, prediction and Matrix helper services can require a shared token (SERVICE_TOKEN in the stack's .env), and Admin > Overview tells you when it is not set or the SECRET_KEY is short; the public-server mesh password is stored sealed",
+      "Private message text (the old messages and chats) is stored sealed, backup files and the backup folder are private to the portal's user from the first byte, and the mesh service keeps its broker passwords sealed"
     ]
   },
   {
