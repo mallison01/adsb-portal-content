@@ -60,7 +60,8 @@
       "Airline schedules for My Flights: on the Add a Flight form, Look Up the Airline Schedule fetches the scheduled times, airports, airline and aircraft of a flight number on a date and fills the Scheduled column (needs the administrator to add an AeroDataBox key in Settings > Aircraft Lookups; answers are kept for a few days and every member and the site have limits)",
       "Mesh alert and weather channel: a mesh community can choose one of its channels to carry National Weather Service warnings for its area and a weather summary from the weather stations inside it, out over the mesh to nodes that have downlink on (Alert Channel page of the community; the administrator switches it on for the site). The channel key stays in the site and the messages are encrypted before they reach the mesh service; there is a daily limit, a gap between messages, a test button and a log of everything sent",
       "Linking mesh areas that no radio can join: a Manager of one community proposes a link on a shared channel, a Manager of the other accepts, a site administrator approves (Linked Areas page); the site then carries the channel's packets between the two communities' topics, still encrypted, once only, with a hop limit and a rate limit, and either side can pause or remove the link",
-      "Quiet hours for notifications: choose the hours when notifications are held back (urgent warnings can still come through if you allow it), on My Account > Notifications"
+      "Quiet hours for notifications: choose the hours when notifications are held back (urgent warnings can still come through if you allow it), on My Account > Notifications",
+      "The home page's Services section has a card for every service that is on (Repeaters, Mesh Nodes, ACARS, APRS, River Traffic, Drones, Satellites, Nets, the County and Trauma maps, and Chat for signed-in members), with its numbers and a link"
     ],
     "improved": [
       "The Release Notes and Roadmap now come from the ArkSignal organization on GitHub (ArkSignal/ArkSignal-Content)",
@@ -80,7 +81,8 @@
       "The Admin backups page loads quickly again: it no longer opens and decrypts every backup file on each visit",
       "Mesh broker logins no longer need pressing Apply after an update: the site checks every couple of minutes that the broker holds every member's login and sends any that are missing, so a rebuilt or reset broker never leaves your node refused (NOT_AUTHORIZED)",
       "Mesh nodes whose hardware showed only as a number now show its name; the mesh service also reads the Meshtastic project's list of hardware once a day so new models name themselves",
-      "My Flights: importing an AirTrail export whose tracks carry numeric times no longer ends in an error"
+      "My Flights: importing an AirTrail export whose tracks carry numeric times no longer ends in an error",
+      "Moving to the Flight Map (or another My Account page that loads a library) with the side menu no longer says the map library did not load until the page is refreshed"
     ],
     "security": []
   },
