@@ -1,8 +1,8 @@
 [
   {
-    "version": "next",
-    "released": null,
-    "title": "Coming in the next release",
+    "version": "1.8.5",
+    "released": "2026-10-26T11:52:15",
+    "title": "Find members in chat by call sign, the Chat button works for members who never opened chat, and radio bridges only on a member's own room",
     "added": [
       "Chat finds members by call sign: every active member has a chat account (made ahead of time), and a member who allows being found by call sign carries it after their name in chat, so a search for the call sign finds them (Settings > Matrix Chat > Make a Chat Account for Every Member)"
     ],
