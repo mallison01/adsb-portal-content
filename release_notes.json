@@ -1,5 +1,14 @@
 [
   {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
     "version": "1.8.7",
     "released": "2026-10-26T18:17:29",
     "title": "Off-site copy right after the nightly backup (no extra backups), stuck copies close themselves, schedule look-up without a date, and clearer settings menu",
