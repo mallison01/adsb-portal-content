@@ -12,7 +12,8 @@
     "fixed": [
       "Off-site copy: a run that never reported back no longer shows as running forever (it is closed when the backup service restarts, after a few hours, or when you start another copy), and the database snapshot a small copy makes is removed when the copy ends instead of staying in Available Backups",
       "Airline schedule look-ups say what went wrong (key refused, plan limit used, flight number or date not accepted, service unreachable) instead of one message for everything",
-      "Airline schedule look-up works without a date: it uses today's date"
+      "Airline schedule look-up works without a date: it uses today's date",
+      "Flight Map: a flight with a recorded track is drawn only along its real path; the estimated straight line under it is gone (it stays only for flights without a track)"
     ],
     "security": []
   },
