@@ -1,5 +1,16 @@
 [
   {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [
+      "Planefence and Plane-Alert show their table again: the script policy added in 1.8.2 had blocked the libraries those pages load, and they reported a stream error"
+    ],
+    "security": []
+  },
+  {
     "version": "1.8.3",
     "released": "2026-10-25T21:52:21",
     "title": "Code scanning review: tighter checks on the site address, track files, backups and typed input, and a two-factor QR code drawn by the site",
