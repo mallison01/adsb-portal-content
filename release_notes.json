@@ -1,5 +1,16 @@
 [
   {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [
+      "Off-site copy: a run that never reported back no longer shows as running forever (it is closed when the backup service restarts, after a few hours, or when you start another copy), and the database snapshot a small copy makes is removed when the copy ends instead of staying in Available Backups"
+    ],
+    "security": []
+  },
+  {
     "version": "1.8.6",
     "released": "2026-10-26T15:10:43",
     "title": "Off-site copy to a NAS over HTTPS (WebDAV) proven end to end, and the two-minute timeout on the first copy fixed",
