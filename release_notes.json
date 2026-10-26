@@ -6,7 +6,8 @@
     "added": [],
     "improved": [],
     "fixed": [
-      "Planefence and Plane-Alert show their table again: the script policy added in 1.8.2 had blocked the libraries those pages load, and they reported a stream error"
+      "Planefence and Plane-Alert show their table again: the script policy added in 1.8.2 had blocked the libraries those pages load, and they reported a stream error",
+      "Chat on a phone: the Chat page now names the Element Classic app (the newer Element X cannot sign in with a site account yet) and says how to sign in, and the chat web app no longer offers the phone app downloads"
     ],
     "security": []
   },
