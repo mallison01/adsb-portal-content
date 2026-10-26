@@ -1,6 +1,24 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "items": [
+    {
+      "title": "Off-site copy to a NAS over HTTPS",
+      "summary": "The off-site copy can go to a NAS over WebDAV with HTTPS only (no port 22), proven end to end; the small copy starts right after the nightly backup and sends that same backup so nothing is dumped twice; copies that never reported back close themselves.",
+      "status": "done",
+      "area": "Hub"
+    },
+    {
+      "title": "Clearer My Flights look-ups",
+      "summary": "Look It Up shows airport names (with the code beside them), the airline schedule look-up works without a date and says in plain words what went wrong, and the Flight Map draws only the real path for flights with a recorded track.",
+      "status": "done",
+      "area": "My Flights"
+    },
+    {
+      "title": "Admin settings names",
+      "summary": "Site Settings is now General Settings and All Settings is All Settings (Everything), each with a line saying what it holds.",
+      "status": "done",
+      "area": "Platform"
+    },
     {
       "title": "Find members in chat by call sign",
       "summary": "Every member has a chat account before they open chat, and a member who allows being found by call sign carries it after their name, so a chat search finds them by call sign. Radio bridges now work only on a room the member made themselves.",
