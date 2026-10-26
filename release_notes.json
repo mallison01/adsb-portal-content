@@ -4,9 +4,12 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [],
-    "improved": [],
+    "improved": [
+      "Admin menu: Site Settings is now General Settings and All Settings is All Settings (Everything), with a line on each page saying what it holds"
+    ],
     "fixed": [
-      "Off-site copy: a run that never reported back no longer shows as running forever (it is closed when the backup service restarts, after a few hours, or when you start another copy), and the database snapshot a small copy makes is removed when the copy ends instead of staying in Available Backups"
+      "Off-site copy: a run that never reported back no longer shows as running forever (it is closed when the backup service restarts, after a few hours, or when you start another copy), and the database snapshot a small copy makes is removed when the copy ends instead of staying in Available Backups",
+      "Airline schedule look-ups say what went wrong (key refused, plan limit used, flight number or date not accepted, service unreachable) instead of one message for everything"
     ],
     "security": []
   },
