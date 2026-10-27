@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "items": [
     {
       "title": "Off-site copy to a NAS over HTTPS",
@@ -45,8 +45,8 @@
     },
     {
       "title": "Airline schedules for My Flights",
-      "summary": "Look up the scheduled times, terminals and aircraft of a flight number and date from AeroDataBox to fill your diary. Built; it switches on when the site's administrator adds a key.",
-      "status": "progress",
+      "summary": "Look up the scheduled times, terminals and aircraft of a flight number from AeroDataBox on the Add a Flight form (today's date if none is typed) to fill your diary. Switched on with the site's key; answers are kept a few days and every member and the site have limits.",
+      "status": "done",
       "area": "My Flights"
     },
     {
@@ -531,8 +531,8 @@
     },
     {
       "title": "Phone polish",
-      "summary": "The first pass from your phone screenshots is built: full-screen Layers and Filters with an easy Close, a short footer, smaller labels and icons, readable panels and a handful of page fixes.",
-      "status": "next",
+      "summary": "The first passes from your phone screenshots are released: full-screen Layers and Filters with an easy Close, a short footer, smaller labels and icons, readable panels and many page fixes. More follow as new screenshots arrive.",
+      "status": "progress",
       "area": "Map"
     },
     {
@@ -627,7 +627,7 @@
     },
     {
       "title": "Radio bridges for chats",
-      "summary": "Link a chat to an APRS call sign (messages out from your own call sign, replies in) or to a Meshtastic node. APRS is built and opt in with licensing notes; the mesh side is ready on the portal and waits for the mesh gateway. APRS needs a verified license: the call sign is checked against the FCC amateur license data, re-checked weekly, with administrator review and override.",
+      "summary": "Link a chat room to an APRS call sign (messages out from your own call sign, replies in) or to a Meshtastic node. Only the person who made a room can bridge it: the standing rooms and other people's rooms cannot be bridged. APRS needs a verified license (checked against the FCC records, re-checked weekly). The mesh side is built and waits for a test on a real mesh gateway.",
       "status": "progress",
       "area": "Community"
     },
@@ -1246,8 +1246,8 @@
     },
     {
       "title": "Public source code (AGPL)",
-      "summary": "A public copy of the portal's code under the AGPL on a GitHub organization, published at each release with private infrastructure details left out.",
-      "status": "planned",
+      "summary": "The portal's code is public under the AGPL on the ArkSignal GitHub organization (ArkSignal-Portal), updated at each release with private infrastructure details left out; the images are built there too.",
+      "status": "done",
       "area": "Platform"
     },
     {
