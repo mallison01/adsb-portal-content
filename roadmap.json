@@ -1267,6 +1267,12 @@
       "summary": "Play back a recorded aircraft flight (or a whole period) on the live map from Flight History, and recorded balloon flights on the Radiosonde Map from the Balloon Flights list, with speed, pause and a slider. Ships with the next release.",
       "status": "done",
       "area": "Data"
+    },
+    {
+      "title": "Security update check (October 2026)",
+      "summary": "PHP in Planefence is on the patched 8.4.27; the chat server and Element web app move to newer releases in the next release. The hub, Nginx Proxy Manager, Portainer and Proxmox update steps are listed in SECURITY_UPDATES_2026-10.md.",
+      "status": "done",
+      "area": "Security"
     }
   ]
 }

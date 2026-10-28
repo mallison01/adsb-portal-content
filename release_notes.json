@@ -6,7 +6,9 @@
     "added": [],
     "improved": [],
     "fixed": [],
-    "security": []
+    "security": [
+      "Chat server (Synapse) moved to 1.164.0 and the Element web app to 1.12.33, which bring in newer image libraries (Pillow, certifi and others) with published security fixes."
+    ]
   },
   {
     "version": "1.8.7",
