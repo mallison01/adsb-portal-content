@@ -1270,7 +1270,7 @@
     },
     {
       "title": "Security update check (October 2026)",
-      "summary": "PHP in Planefence is on the patched 8.4.27; the chat server and Element web app move to newer releases in the next release. The hub, Nginx Proxy Manager, Portainer and Proxmox update steps are listed in SECURITY_UPDATES_2026-10.md.",
+      "summary": "PHP in Planefence is on the patched 8.4.27; the chat server, Element web app and address search (Photon 1.3.0) move to newer releases in the next release. The hub, Nginx Proxy Manager, Portainer and Proxmox update steps are listed in SECURITY_UPDATES_2026-10.md.",
       "status": "done",
       "area": "Security"
     }
