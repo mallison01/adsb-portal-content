@@ -1,8 +1,8 @@
 [
   {
-    "version": "next",
-    "released": null,
-    "title": "Coming in the next release",
+    "version": "1.8.8",
+    "released": "2026-10-28T12:00:00",
+    "title": "Security update check: newer chat server, Element web app and address search",
     "added": [],
     "improved": [],
     "fixed": [],
