@@ -1294,8 +1294,8 @@
     },
     {
       "title": "Mesh weather on the weather map",
-      "summary": "Show the readings from mesh nodes with weather sensors as a layer on the weather map, like the other weather stations.",
-      "status": "planned",
+      "summary": "Mesh nodes with weather sensors are a source on the weather map (Show > Weather Sources > Mesh Nodes), drawn like the other stations and included in the heat map and wind streams.",
+      "status": "done",
       "area": "Mesh"
     }
   ]
