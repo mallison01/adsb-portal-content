@@ -1279,6 +1279,12 @@
       "summary": "The Join Page Server Address setting looks unset when empty, but the pages then use the Feed host name. Reword the help text and show the fallback address as placeholder text.",
       "status": "planned",
       "area": "Mesh"
+    },
+    {
+      "title": "Define the Public channel in admin and add it to communities",
+      "summary": "Define the public (default-key) channel once in admin, then add it to mesh communities with one click instead of typing it in each one.",
+      "status": "planned",
+      "area": "Mesh"
     }
   ]
 }
