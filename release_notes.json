@@ -4,9 +4,12 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [
-      "Public channel presets for mesh communities: the open Meshtastic channels in wide use (LongFast, MediumFast and the rest, plus the 500 kHz LongTurbo, MediumTurbo and ShortTurbo that the FCC's 902 to 928 MHz rule points to), listed on all or chosen communities from Admin > Mesh Communities, or one at a time by a community manager. Ham-band and MeshCore rows are shown for their radio settings."
+      "Public channel presets for mesh communities: the open Meshtastic channels in wide use (LongFast, MediumFast and the rest, plus the 500 kHz LongTurbo, MediumTurbo and ShortTurbo that the FCC's 902 to 928 MHz rule points to), listed on all or chosen communities from Admin > Mesh Communities, or one at a time by a community manager. Ham-band and MeshCore rows are shown for their radio settings.",
+      "A Current Public Channel setting (Settings > Mesh Nodes): the channel the site recommends is marked on Admin > Mesh Communities, can be listed on every community with one click, and is chosen first in each community's List a Public Channel box."
     ],
-    "improved": [],
+    "improved": [
+      "The Join Page server address setting now says that an empty box uses the Feed host name, and shows that name in grey in the box."
+    ],
     "fixed": [],
     "security": []
   },

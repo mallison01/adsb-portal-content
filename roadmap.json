@@ -1277,19 +1277,25 @@
     {
       "title": "Join page address box: clearer when empty",
       "summary": "The Join Page Server Address setting looks unset when empty, but the pages then use the Feed host name. Reword the help text and show the fallback address as placeholder text.",
-      "status": "planned",
+      "status": "done",
       "area": "Mesh"
     },
     {
       "title": "Define the Public channel in admin and add it to communities",
       "summary": "Define the public (default-key) channel once in admin, then add it to mesh communities with one click instead of typing it in each one.",
-      "status": "planned",
+      "status": "done",
       "area": "Mesh"
     },
     {
       "title": "Presets for the public mesh channels",
       "summary": "A list of the public Meshtastic and MeshCore channels in wide use, including the 500 kHz presets (LongTurbo, MediumTurbo, ShortTurbo), to list on all or chosen mesh communities from Admin > Mesh Communities, or one at a time from a community's Channels page.",
       "status": "done",
+      "area": "Mesh"
+    },
+    {
+      "title": "Mesh weather on the weather map",
+      "summary": "Show the readings from mesh nodes with weather sensors as a layer on the weather map, like the other weather stations.",
+      "status": "planned",
       "area": "Mesh"
     }
   ]
