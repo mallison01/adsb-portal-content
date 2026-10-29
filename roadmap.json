@@ -1285,6 +1285,12 @@
       "summary": "Define the public (default-key) channel once in admin, then add it to mesh communities with one click instead of typing it in each one.",
       "status": "planned",
       "area": "Mesh"
+    },
+    {
+      "title": "Presets for the public mesh channels",
+      "summary": "A list of the public Meshtastic and MeshCore channels in wide use, including the 500 kHz presets (LongTurbo, MediumTurbo, ShortTurbo), to list on all or chosen mesh communities from Admin > Mesh Communities, or one at a time from a community's Channels page.",
+      "status": "done",
+      "area": "Mesh"
     }
   ]
 }
