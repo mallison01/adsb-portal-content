@@ -1297,6 +1297,30 @@
       "summary": "Mesh nodes with weather sensors are a source on the weather map (Show > Weather Sources > Mesh Nodes), drawn like the other stations and included in the heat map and wind streams.",
       "status": "done",
       "area": "Mesh"
+    },
+    {
+      "title": "Friendly names in Heard By",
+      "summary": "Gateways in a node's Heard By table show the node's name, like the rest of the site.",
+      "status": "done",
+      "area": "Mesh"
+    },
+    {
+      "title": "User name goes to My Account",
+      "summary": "Clicking the user name in the top bar opens My Account.",
+      "status": "done",
+      "area": "Navigation"
+    },
+    {
+      "title": "Notifications in the account group",
+      "summary": "My Account lists Notifications with the account pages, not under Community.",
+      "status": "done",
+      "area": "Navigation"
+    },
+    {
+      "title": "Address and ZIP search in My Places",
+      "summary": "Find a place by address or ZIP when location sharing is not available.",
+      "status": "done",
+      "area": "Account"
     }
   ]
 }
