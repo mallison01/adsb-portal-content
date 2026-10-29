@@ -15,7 +15,8 @@
       "Notifications moved out of Community Settings into a new Alerts and Notifications group in the My Account menu, with Aircraft Alerts."
     ],
     "fixed": [
-      "A mesh node's Heard By table now shows each gateway's friendly name instead of its raw id."
+      "A mesh node's Heard By table now shows each gateway's friendly name instead of its raw id.",
+      "APRS stations that were wrongly shown as ambulances, fire trucks, police or repeaters (an ARES, RACES or WinLink symbol uses the same letter in another symbol table) are shown as ordinary stations."
     ],
     "security": []
   },

@@ -1321,6 +1321,12 @@
       "summary": "Find a place by address or ZIP when location sharing is not available.",
       "status": "done",
       "area": "Account"
+    },
+    {
+      "title": "APRS stations wrongly shown as ambulances",
+      "summary": "A station's kind now follows its symbol table as well as its symbol letter, so ARES, RACES and WinLink stations are no longer drawn as ambulances, fire trucks, police or repeaters.",
+      "status": "done",
+      "area": "APRS"
     }
   ]
 }
