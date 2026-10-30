@@ -1,5 +1,14 @@
 [
   {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
     "version": "1.8.11",
     "released": "2026-10-29T21:00:00",
     "title": "UAT (978 MHz) shown per station",
