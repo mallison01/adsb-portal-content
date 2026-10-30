@@ -5,7 +5,9 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "Station and node labels were checked against the published lists. APRS: small aircraft and helicopters are shown as aircraft, IGates are recognized from their real symbol, symbols that only mean a vehicle or a repeater in the primary table are no longer read as one in the alternate table, and other stations are \"Other station\". River traffic (AIS): reserved ship types no longer show a neighbor's name, high speed craft and noncombatant ships are named, and military is not grouped as service. Mesh: seven hardware models that were missing are named."
+    ],
     "security": []
   },
   {
