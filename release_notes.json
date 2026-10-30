@@ -1,5 +1,14 @@
 [
   {
+    "version": "next",
+    "released": null,
+    "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
     "version": "1.8.9",
     "released": "2026-10-29T12:00:00",
     "title": "Public channel presets, mesh weather on the weather map, My Places address search, and account menu and APRS fixes",
