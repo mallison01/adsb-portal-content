@@ -1,8 +1,8 @@
 [
   {
-    "version": "next",
-    "released": null,
-    "title": "Coming in the next release",
+    "version": "1.8.10",
+    "released": "2026-10-29T18:00:00",
+    "title": "Station and node labels checked against the published lists (APRS, river traffic, mesh)",
     "added": [],
     "improved": [],
     "fixed": [
