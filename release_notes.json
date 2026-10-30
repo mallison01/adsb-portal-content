@@ -3,7 +3,9 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
-    "added": [],
+    "added": [
+      "Private mesh feed: a community can have gateways that send to a private broker through a WireGuard tunnel. The community's team sees every node those gateways hear on a private map (the site's administrators see all communities), whatever the nodes' OK to MQTT setting says. What the public Meshtastic server would have accepted still goes on to the public maps. It is off until an administrator switches it on."
+    ],
     "improved": [],
     "fixed": [],
     "security": []
