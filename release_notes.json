@@ -8,7 +8,9 @@
       "Mesh traffic can be sent on to other MQTT brokers: administrators make connectors, each with its own filters (public or private feed, communities, channels, message types, position accuracy, a mimic-public preset) and a rate cap. It is off until the site switch is turned on."
     ],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "Weather Map: stations (above all the airports) no longer blink out and back, and the combined labels no longer merge and split again by themselves, when the kept airport weather expires."
+    ],
     "security": []
   },
   {
