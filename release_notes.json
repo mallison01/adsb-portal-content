@@ -5,7 +5,8 @@
     "title": "Coming in the next release",
     "added": [
       "Private mesh feed: a community can have gateways that send to a private broker through a WireGuard tunnel. The community's team sees every node those gateways hear on a private map (the site's administrators see all communities), whatever the nodes' OK to MQTT setting says. What the public Meshtastic server would have accepted still goes on to the public maps. It is off until an administrator switches it on.",
-      "Mesh traffic can be sent on to other MQTT brokers: administrators make connectors, each with its own filters (public or private feed, communities, channels, message types, position accuracy, a mimic-public preset) and a rate cap. It is off until the site switch is turned on."
+      "Mesh traffic can be sent on to other MQTT brokers: administrators make connectors, each with its own filters (public or private feed, communities, channels, message types, position accuracy, a mimic-public preset) and a rate cap. It is off until the site switch is turned on.",
+      "Community teams can open a broker login or a tunnel peer again at any time to see its password, address, configuration and QR code (every opening is logged), like a member can with their own login. A tunnel peer made before this can be given a New Key."
     ],
     "improved": [],
     "fixed": [
