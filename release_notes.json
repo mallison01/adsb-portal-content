@@ -4,7 +4,9 @@
     "released": null,
     "title": "Coming in the next release",
     "added": [],
-    "improved": [],
+    "improved": [
+      "Every Grafana panel now follows the dashboard's time range (the UAT farthest, list and by-station panels used a fixed hour), except panels whose title names their own period. New UAT Aircraft by Station, Selected Range panel counts the different UAT aircraft each station delivered; the count starts with this release."
+    ],
     "fixed": [],
     "security": []
   },
