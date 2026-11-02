@@ -3,7 +3,9 @@
     "version": "next",
     "released": null,
     "title": "Coming in the next release",
-    "added": [],
+    "added": [
+      "The private maps (a community's and the administrators' all-communities map) have an Include public nodes choice that adds the public map's nodes, drawn with a dashed outline, for a more complete picture."
+    ],
     "improved": [
       "Every Grafana panel now follows the dashboard's time range (the UAT farthest, list and by-station panels used a fixed hour), except panels whose title names their own period. New UAT Aircraft by Station, Selected Range panel counts the different UAT aircraft each station delivered; the count starts with this release."
     ],
