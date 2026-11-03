@@ -5,7 +5,9 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "Nodes on the Site Private Feed that are passed on to the public map now also show on the public Mesh Nodes list and map (they were hidden because the feed was never shared with the site's pages)."
+    ],
     "security": []
   },
   {
