@@ -2,7 +2,7 @@
   {
     "version": "next",
     "released": "",
-    "title": "",
+    "title": "Coming in the next release",
     "added": [],
     "improved": [],
     "fixed": [],
@@ -11,7 +11,7 @@
   {
     "version": "1.9.4",
     "released": "2026-11-07",
-    "title": "Coming in the next release",
+    "title": "Gateway Status and the Public Meshtastic Server",
     "added": [
       "Gateway status: every broker login shows Connected, last packet, packets in the last hour and what became of them (kept, encrypted, private, passed on); a Test My Connection button watches a login for a minute and says why nothing arrives; Admin > Mesh Gateways lists every login; an owner is told when a gateway that sent before has been silent for the Gateway Gone Silent time.",
       "Admin > Public Meshtastic Server: what is sent to the public Meshtastic server (counts, why packets were held back, by channel and type, the last packets, the connection) and what is read from it (messages by region, what became of them), with a line on Service Status.",
