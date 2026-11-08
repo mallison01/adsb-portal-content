@@ -1381,6 +1381,12 @@
       "summary": "A community's sharing and forwarding choices are one page, with the administrators' limits shown below; the community's own team makes it public or private; site role access is one table in Admin.",
       "status": "done",
       "area": "Mesh"
+    },
+    {
+      "title": "Private pages as complete as the public ones, with every packet heard",
+      "summary": "The private map and Private Nodes list fill in names, hardware and last-heard times from the public record; neighbor reports from private gateways are kept; each node's private page lists every kind of packet the private gateways heard, read as far as possible (never the words of a text message).",
+      "status": "done",
+      "area": "Mesh"
     }
   ]
 }
