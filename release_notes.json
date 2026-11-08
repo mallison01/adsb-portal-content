@@ -3,6 +3,15 @@
     "version": "next",
     "released": "",
     "title": "Coming in the next release",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.9.5",
+    "released": "2026-11-08",
+    "title": "Private Pages as Complete as the Public Ones",
     "added": [
       "A node's private page has Everything Heard From This Node: every kind of packet the private gateways heard (counts, last heard, signal, gateway and the last one read as far as it can be, including telemetry groups, every position field and fields of kinds the site does not know), with the gateways' JSON copies and online or offline status. The words of text messages are never kept.",
       "Neighbor reports from nodes on the private feed are kept (privately) and shown on the node's page, so a node that reports only to the private broker lists its neighbors."
