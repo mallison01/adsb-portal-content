@@ -2,6 +2,15 @@
   {
     "version": "next",
     "released": "",
+    "title": "",
+    "added": [],
+    "improved": [],
+    "fixed": [],
+    "security": []
+  },
+  {
+    "version": "1.9.4",
+    "released": "2026-11-07",
     "title": "Coming in the next release",
     "added": [
       "Gateway status: every broker login shows Connected, last packet, packets in the last hour and what became of them (kept, encrypted, private, passed on); a Test My Connection button watches a login for a minute and says why nothing arrives; Admin > Mesh Gateways lists every login; an owner is told when a gateway that sent before has been silent for the Gateway Gone Silent time.",
@@ -19,7 +28,8 @@
       "Service Status lists the Public Meshtastic Server, APRS-IS and MeshCore Observers under the outside data sources, not under our own services.",
       "Admin has a Mesh group: Mesh Nodes, Mesh Communities, Mesh Gateways, Public Meshtastic Server, MeshCore, Mesh MQTT Export, Mesh Mirror Logins and Mesh Settings (the Mesh Nodes settings moved out of Radio Settings).",
       "In a community, Sharing and Public Map Forwarding are one page, Public Sharing: the community's choices on top, the administrators' limits below.",
-      "Site Role Access is now part of Public or Private and is shown to administrators only; community managers see the community's own public/private control instead."
+      "Site Role Access is now part of Public or Private and is shown to administrators only; community managers see the community's own public/private control instead.",
+      "Admin has a Mesh group (nodes, communities, gateways, the public Meshtastic server, MeshCore, MQTT export, mirror logins and Mesh Settings); APRS-IS and MeshCore have status pages and show under Outside Data Sources on Service Status; Private Nodes is in the Mesh menu; a community has one Public Sharing page and its own Public or Private control; site role access is set on Admin, Mesh Communities."
     ],
     "fixed": [
       "The sonde page's Download CSV and Download GeoJSON buttons no longer break out of the button row."
