@@ -3,7 +3,9 @@
     "version": "next",
     "released": "",
     "title": "Coming in the next release",
-    "added": [],
+    "added": [
+      "Weather for a Place has an Hourly Forecast with icons (temperature, sky, wind and rain chance for every hour, in the place's own time). It opens on today; click another day of the forecast above it to see that day's hours. It scrolls sideways on a computer and lists down the page on a phone."
+    ],
     "improved": [],
     "fixed": [],
     "security": []
