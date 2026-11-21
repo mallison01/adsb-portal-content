@@ -3,9 +3,14 @@
     "version": "next",
     "released": "",
     "title": "Coming in the next release",
-    "added": [],
+    "added": [
+      "Satellite Passes lists all of the space station's radios (the voice repeater, the VHF and UHF APRS digipeaters, school contact voice, SSTV and Ham TV) with their frequencies, mode, tone and license need, and the newest reports from operators on whether each one is working (Heard, Not heard, Telemetry only, Crew active), read from AMSAT's status service. The amateur radio satellites show their reports too, the Satellites map card lists the radios, and the pass list shows the station's other downlinks.",
+      "Admin > Settings > Satellites can switch the operator reports off, change the address, the hours counted and how long an answer is kept; the source is on Service Status and credited on About."
+    ],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "The wind and gust lines on the weather station graphs (and the mesh weather graphs) are different colors: wind green, gust orange."
+    ],
     "security": []
   },
   {
