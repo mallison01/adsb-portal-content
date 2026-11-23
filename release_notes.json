@@ -5,7 +5,9 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "Satellites added to the chosen list (for example the new amateur satellites and GOES) show up on Satellite Passes soon after, because the Satellite Orbits update now runs by itself when a chosen satellite has no orbit data yet, instead of waiting for its daily time."
+    ],
     "security": []
   },
   {

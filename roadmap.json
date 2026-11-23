@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "items": [
     {
       "title": "Off-site copy to a NAS over HTTPS",
@@ -1411,6 +1411,18 @@
       "summary": "A feeder's location must be inside an allowed area (default North America); feeders outside are left off the public pages; a feeder's website link waits for an administrator's approval before it is shown.",
       "status": "done",
       "area": "Feeders"
+    },
+    {
+      "title": "Satellite orbit data fetched as soon as a satellite is added",
+      "summary": "The Satellite Orbits update now runs by itself when a chosen satellite has no orbit data yet, so newly added satellites appear on Satellite Passes without waiting for the next daily run.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "Doppler shift for every satellite radio",
+      "summary": "One shift per radio at its own uplink and downlink, and a short table of frequencies through each pass.",
+      "status": "planned",
+      "area": "Radio"
     }
   ]
 }
