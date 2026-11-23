@@ -1420,9 +1420,15 @@
     },
     {
       "title": "Doppler shift for every satellite radio",
-      "summary": "One shift per radio at its own uplink and downlink, and a short table of frequencies through each pass.",
-      "status": "planned",
+      "summary": "Every pass lists the frequencies to dial for each radio, nine steps from rise to set: what to listen on and, for radios you transmit to, what to send on.",
+      "status": "done",
       "area": "Radio"
+    },
+    {
+      "title": "Different colors for the two lines on mesh and weather charts",
+      "summary": "Channel use and airtime on the mesh node page, and temperature and dew point on weather station pages, keep two distinct colors in every theme.",
+      "status": "done",
+      "area": "Mesh"
     }
   ]
 }
