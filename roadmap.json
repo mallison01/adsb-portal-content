@@ -1405,6 +1405,12 @@
       "summary": "Satellite Passes adds AO-123, CAS-3H, JO-97, AO-73, SONATE-2 and NO-44 with frequencies and operator reports, and GOES-19 and GOES-18 with where to aim from the chosen place.",
       "status": "done",
       "area": "Radio"
+    },
+    {
+      "title": "Feeders limited to North America and website links approved",
+      "summary": "A feeder's location must be inside an allowed area (default North America); feeders outside are left off the public pages; a feeder's website link waits for an administrator's approval before it is shown.",
+      "status": "done",
+      "area": "Feeders"
     }
   ]
 }
