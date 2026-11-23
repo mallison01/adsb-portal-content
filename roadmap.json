@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "items": [
     {
       "title": "Off-site copy to a NAS over HTTPS",
@@ -1397,6 +1397,12 @@
     {
       "title": "Space station radios and their status on Satellite Passes",
       "summary": "The space station's six amateur radios (voice repeater, two APRS digipeaters, school contacts, SSTV, Ham TV) with their frequencies, and the newest operator reports on whether each is working, from AMSAT's status service; the amateur radio satellites show their reports too.",
+      "status": "done",
+      "area": "Radio"
+    },
+    {
+      "title": "More amateur satellites and the GOES weather satellites",
+      "summary": "Satellite Passes adds AO-123, CAS-3H, JO-97, AO-73, SONATE-2 and NO-44 with frequencies and operator reports, and GOES-19 and GOES-18 with where to aim from the chosen place.",
       "status": "done",
       "area": "Radio"
     }
