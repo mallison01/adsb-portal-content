@@ -5,7 +5,9 @@
     "title": "Coming in the next release",
     "added": [],
     "improved": [],
-    "fixed": [],
+    "fixed": [
+      "On admin and account pages with the side menu, the footer no longer covers the menu: it sits below the menu instead of floating over it, and two admin pages (Feeders and Weather Stations) that left a section unclosed no longer pull the footer into the page body."
+    ],
     "security": []
   },
   {
